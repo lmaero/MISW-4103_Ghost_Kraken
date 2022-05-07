@@ -1,0 +1,14 @@
+{
+  "name": "ghost-kraken",
+  "version": "1.0.0",
+  "description": "Kraken tests for Ghost 3.41.1 local instance",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Luis Miguel Guzman Perez",
+  "license": "ISC",
+  "dependencies": {
+    "kraken-node": "^1.0.24"
+  }
+}
