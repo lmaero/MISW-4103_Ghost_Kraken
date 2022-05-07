@@ -1,7 +1,7 @@
-Feature: Update Page
+Feature: Delete Page
 
   @user1 @web
-  Scenario: As a registered admin I can update a previously created page
+  Scenario: As a registered admin I can delete a previously created page
   successfully
     Given I navigate to page "<SIGN_IN_PAGE>"
     And I wait for 1 seconds
@@ -10,9 +10,10 @@ Feature: Update Page
     When I click in "[type='submit']"
     And I click in "[href='#/pages/']"
     When I click in "[title='Edit this page']"
-    And I type "<PAGE_NEW_TITLE>" into "[placeholder='Page Title']"
-    And I click in "div.gh-publishmenu-trigger"
-    And I click in "button.gh-publishmenu-button"
+    And I click in "[title='Settings']"
+    And I click in "button.settings-menu-delete-button"
+    And I click in "button.gh-btn-red"
+    And I wait for 1 seconds
     Then I navigate to page "<NEW_PAGE>"
     And I wait for 5 seconds
-    And I take a screenshot as evidence "b_update-page.feature"
+    And I take a screenshot as evidence "c_delete-page.feature"

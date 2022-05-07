@@ -20,4 +20,5 @@ Feature: Create Page
     And I click in "div.gh-publishmenu-trigger"
     And I click in "button.gh-publishmenu-button"
     Then I navigate to page "<NEW_PAGE>"
+    And I wait for 5 seconds
     And I take a screenshot as evidence "a_create-page.feature"
