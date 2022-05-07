@@ -6,5 +6,7 @@
   "BLOG_PASS": "c14v3-3nCr1t4d4",
   "PAGE_TITLE": "Awesome Automation",
   "PAGE_CONTENT": "Kraken in action",
-  "NEW_PAGE": "http://localhost:2368/awesome-automation/"
+  "PAGE_NEW_TITLE": "Awesome Automation Krakenized",
+  "NEW_PAGE": "http://localhost:2368/awesome-automation/",
+  "SIGN_IN_PAGE": "http://localhost:2368/ghost/#/signin"
 }
