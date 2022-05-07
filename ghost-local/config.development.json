@@ -1,0 +1,26 @@
+{
+  "url": "http://localhost:2368/",
+  "server": {
+    "port": 2368,
+    "host": "127.0.0.1"
+  },
+  "database": {
+    "client": "sqlite3",
+    "connection": {
+      "filename": "/home/lmaero/Documents/13-UniAndes-Maestria/05-Materias/03-PruebasAutomatizadas/Semana5/ghost-kraken/ghost-local/content/data/ghost-local.db"
+    }
+  },
+  "mail": {
+    "transport": "Direct"
+  },
+  "logging": {
+    "transports": [
+      "file",
+      "stdout"
+    ]
+  },
+  "process": "local",
+  "paths": {
+    "contentPath": "/home/lmaero/Documents/13-UniAndes-Maestria/05-Materias/03-PruebasAutomatizadas/Semana5/ghost-kraken/ghost-local/content"
+  }
+}
