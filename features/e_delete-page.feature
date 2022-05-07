@@ -14,6 +14,6 @@ Feature: Delete Page
     And I click in "button.settings-menu-delete-button"
     And I click in "button.gh-btn-red"
     And I wait for 1 seconds
-    Then I navigate to page "<NEW_PAGE>"
+    Then I navigate to page "<NEW_URL>"
     And I wait for 5 seconds
-    And I take a screenshot as evidence "d_delete-page.feature"
+    And I take a screenshot as evidence "e_delete-page.feature"
