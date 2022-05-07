@@ -1,0 +1,10 @@
+{
+  "SETUP_PAGE_ONE": "http://localhost:2368/ghost/#/setup/one",
+  "BLOG_TITLE": "Kraken & Ghost",
+  "BLOG_NAME": "Luis Miguel Guzman Perez",
+  "BLOG_EMAIL": "lm.guzmanp1@uniandes.edu.co",
+  "BLOG_PASS": "c14v3-3nCr1t4d4",
+  "PAGE_TITLE": "Awesome Automation",
+  "PAGE_CONTENT": "Kraken in action",
+  "NEW_PAGE": "http://localhost:2368/awesome-automation/"
+}
