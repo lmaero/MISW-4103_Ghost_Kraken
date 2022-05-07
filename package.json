@@ -6,7 +6,7 @@
   "scripts": {
     "ghost-start": "ghost start --no-setup-linux-user -d ghost-local/",
     "ghost-stop": "ghost stop --no-setup-linux-user -d ghost-local/",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "kraken-node run"
   },
   "author": "Luis Miguel Guzman Perez",
   "license": "ISC",
