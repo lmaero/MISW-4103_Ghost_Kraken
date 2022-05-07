@@ -10,5 +10,9 @@
   "license": "ISC",
   "dependencies": {
     "kraken-node": "^1.0.24"
+  },
+  "engines" : {
+    "npm" : "6.14.17",
+    "node" : "14.19.2"
   }
 }
