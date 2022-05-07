@@ -8,5 +8,7 @@
   "PAGE_CONTENT": "Kraken in action",
   "PAGE_NEW_TITLE": "Awesome Automation Krakenized",
   "NEW_PAGE": "http://localhost:2368/awesome-automation/",
+  "NEW_ENDPOINT": "awesome-automation-krakenized",
+  "NEW_URL": "http://localhost:2368/awesome-automation-krakenized/",
   "SIGN_IN_PAGE": "http://localhost:2368/ghost/#/signin"
 }

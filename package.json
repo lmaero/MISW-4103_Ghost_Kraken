@@ -7,7 +7,7 @@
     "ghost-start": "npm run ghost-remove-db && ghost start --no-setup-linux-user -d ghost-local/",
     "ghost-stop": "ghost stop --no-setup-linux-user -d ghost-local/ && npm run ghost-remove-db",
     "ghost-remove-db": "rm -rf ghost-local/content/data/ghost-local.db",
-    "test": "npm run ghost-start && kraken-node run || npm run ghost-stop && rm -rf reports/ .kraken"
+    "test": "npm run ghost-start && kraken-node run && npm run ghost-stop || npm run ghost-stop && rm -rf reports/ .kraken"
   },
   "author": "Luis Miguel Guzman Perez",
   "license": "ISC",

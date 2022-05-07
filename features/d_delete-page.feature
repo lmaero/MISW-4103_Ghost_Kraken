@@ -16,4 +16,4 @@ Feature: Delete Page
     And I wait for 1 seconds
     Then I navigate to page "<NEW_PAGE>"
     And I wait for 5 seconds
-    And I take a screenshot as evidence "c_delete-page.feature"
+    And I take a screenshot as evidence "d_delete-page.feature"
