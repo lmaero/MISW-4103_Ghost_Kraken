@@ -1,4 +1,4 @@
-# MISW-4103 Ghost and Kraken
+# MISW-4103 Kraken and Cypress testing for Ghost 3.41.1
 
 ----
 
@@ -12,6 +12,7 @@ Used Technologies:
 
 - [Ghost](https://github.com/TryGhost/Ghost)
 - [Kraken](https://github.com/TheSoftwareDesignLab/Kraken)
+- [Cypress](https://github.com/cypress-io/cypress)
 
 ----
 
