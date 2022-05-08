@@ -35,7 +35,7 @@ Used Technologies:
      cd MISW-4103_Ghost_Kraken/
      ```
 3. Make sure you have the `node` and `npm` engine specified versions. Please
-   review [package.json](https://github.com/lmguzmanp/MISW-4103_Ghost_Kraken/blob/bc09c72bae2083199ef5148fe9d9fe1d3e95048f/package.json#L20-L23)
+   review [package.json](https://github.com/lmguzmanp/MISW-4103_Ghost_Kraken/blob/bc09c72bae2083199ef5148fe9d9fe1d3e95048f/package.json#L18-L21)
 
     - You can use [nvm](https://github.com/nvm-sh/nvm), please follow their
       updated instructions
