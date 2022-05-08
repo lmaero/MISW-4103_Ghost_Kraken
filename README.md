@@ -56,13 +56,25 @@ Used Technologies:
     ```
 
 6. This repository executes Ghost over port 2368, so expects no running
-   instances over mentioned port. Please verify your running instances
-   before proceeding.
+   instances over the mentioned port. Please verify your running instances
+   before proceeding. **If the port is being used by any application, all tests
+   will fail.**
     ```shell
-    ghost ls
+    npx ghost ls
     ```
    **Note: this repository includes ghost-cli as dependency, so running the
    above-mentioned command should not generate any conflict**
+
+   If you still need to run the application in another port, please modify the
+   following lines:
+   - Line 2
+     inside [properties.json](https://github.com/lmguzmanp/MISW-4103_Ghost_Kraken/blob/5c58e732c643b2222d492e962ad716c37718c2f9/properties.json#L2)
+   - Line 10
+     inside [properties.json](https://github.com/lmguzmanp/MISW-4103_Ghost_Kraken/blob/5c58e732c643b2222d492e962ad716c37718c2f9/properties.json#L10)
+   - Lines 12 and 13
+     inside [properties.json](https://github.com/lmguzmanp/MISW-4103_Ghost_Kraken/blob/5c58e732c643b2222d492e962ad716c37718c2f9/properties.json#L12-L13)
+   - Line 8
+     inside [package.json](https://github.com/lmguzmanp/MISW-4103_Ghost_Kraken/blob/5c58e732c643b2222d492e962ad716c37718c2f9/package.json#L8)
 
 ### Instructions for Kraken
 
