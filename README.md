@@ -85,7 +85,7 @@ Used Technologies:
     ```
 
     - Headless mode (it won't open a browser, all tests will be executed
-      inside the terminal. Please allow 40-50 seconds to finish)
+      inside the terminal. Please allow 60-70 seconds to finish)
     ```shell
     npm run cypress-headless
     ```

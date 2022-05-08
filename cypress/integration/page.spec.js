@@ -1,8 +1,10 @@
 const props = require('../../properties.json');
+const pkg = require('/package.json');
+const scripts = pkg.scripts;
 
 describe('Feature: Page', () => {
     before(() => {
-        cy.exec('npm run ghost-stop && npm run ghost-start', {timeout: 10000}).its('stdout')
+        cy.exec(`${scripts['gh-stop']} && ${scripts['gh-start']}`, {timeout: 10000}).its('stdout')
             .should('contain', 'http://localhost:2368/ghost/');
         cy.wait(2000);
     });
@@ -213,7 +215,7 @@ describe('Feature: Page', () => {
     });
 
     after(() => {
-        cy.exec('npm run ghost-stop', {timeout: 10000}).its('stdout')
+        cy.exec(`${scripts['gh-stop']}`, {timeout: 10000}).its('stdout')
             .should('contain', 'rm -f ghost-local/content/data/ghost-local.db');
     });
 });
