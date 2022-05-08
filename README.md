@@ -35,7 +35,7 @@ Used Technologies:
      cd MISW-4103_Ghost_Kraken/
      ```
 3. Make sure you have the `node` and `npm` engine specified versions. Please
-   review [package.json](https://github.com/lmguzmanp/MISW-4103_Ghost_Kraken/blob/bc09c72bae2083199ef5148fe9d9fe1d3e95048f/package.json#L18-L21)
+   review [package.json](https://github.com/lmguzmanp/MISW-4103_Ghost_Kraken/blob/bc09c72bae2083199ef5148fe9d9fe1d3e95048f/package.json#L20-L23)
 
     - You can use [nvm](https://github.com/nvm-sh/nvm), please follow their
       updated instructions
@@ -55,45 +55,38 @@ Used Technologies:
     npm i
     ```
 
+6. This repository executes Ghost over port 2368, so expects no running
+   instances over mentioned port. Please verify your running instances
+   before proceeding.
+    ```shell
+    ghost ls
+    ```
+   **Note: this repository includes ghost-cli as dependency, so running the
+   above-mentioned command should not generate any conflict**
+
 ### Instructions for Kraken
 
 1. Run automated Kraken tests. This command will generate five screenshots
    in the root folder, each corresponding to a successfully tested scenario.
     ```shell
-    npm test
-    ```
-
-2. Known issues
-
-- Make sure you're not running any Ghost instance inside this folder, there
-  is a prepared script for this task
-    ```shell
-    npm run ghost-stop
+    npm run kk-test
     ```
 
 ### Instructions for Cypress
 
-1. Run automated Cypress tests by any of the following options. This command
-   will generate five screenshots in the `cypress/screenshots/`, each
-   corresponding to a successfully tested scenario. Additionally, a video
-   will be produced inside the `cypress/videos/` folder.
+1. Run automated Cypress tests by any of the following options. Following
+   commands will generate five screenshots in the `cypress/screenshots/`,
+   each corresponding to a successfully tested scenario. Additionally, a
+   video will be produced inside the `cypress/videos/` folder.
 
-    - Headed mode (it will open a browser where you can interactively see
-      the progress)
+   - Headed mode (it will open a browser where you can interactively see
+     the progress)
     ```shell
-    npm run cypress-headed
+    npm run cy-headed
     ```
 
-    - Headless mode (it won't open a browser, all tests will be executed
-      inside the terminal. Please allow 60-70 seconds to finish)
+   - Headless mode (it won't open a browser, all tests will be executed
+     inside the terminal. Please allow 60-70 seconds to finish)
     ```shell
-    npm run cypress-headless
-    ```
-
-4. Known issues
-
-- Make sure you're not running any Ghost instance inside this folder, there
-  is a prepared script for this task
-    ```shell
-    npm run ghost-stop
+    npm run cy-headless
     ```

@@ -4,12 +4,11 @@
   "description": "Kraken tests for Ghost 3.41.1 local instance",
   "main": "index.js",
   "scripts": {
-    "test": "npm run gh-start && kraken-node run && npm run gh-stop || npm run gh-stop && rm -rf reports/ .kraken",
-    "gh-start": "npm run gh-rm-db && ghost start --no-setup-linux-user -d ghost-local/",
-    "gh-stop": "ghost stop --no-setup-linux-user -d ghost-local/ && npm run gh-rm-db",
-    "gh-rm-db": "test -f ghost-local/content/data/ghost-local.db && rm -f ghost-local/content/data/ghost-local.db || echo 'DB does not exist'",
-    "cy-headed": "cypress run --headed",
-    "cy-headless": "cypress run --headless"
+    "kk-test": "npm run gh-in && kraken-node run && npm run gh-un || npm run gh-un && rm -rf reports/ .kraken",
+    "gh-in": "ghost install 3.41.1 --local --force -d ghost-local && ghost config port 2368 -d ghost-local && ghost restart -d ghost-local",
+    "gh-un": "ghost stop --no-setup-linux-user -d ghost-local && ghost uninstall --no-prompt --force -d ghost-local && rm -rf ghost-local",
+    "cy-headed": "npm run gh-in && cypress run --headed && npm run gh-un || npm run gh-un",
+    "cy-headless": "npm run gh-in && cypress run --headless && npm run gh-un || npm run gh-un"
   },
   "author": "Luis Miguel Guzman Perez",
   "license": "ISC",

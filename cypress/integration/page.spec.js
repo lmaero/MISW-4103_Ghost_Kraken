@@ -1,14 +1,6 @@
 const props = require('../../properties.json');
-const pkg = require('/package.json');
-const scripts = pkg.scripts;
 
 describe('Feature: Page', () => {
-    before(() => {
-        cy.exec(`${scripts['gh-stop']} && ${scripts['gh-start']}`, {timeout: 10000}).its('stdout')
-            .should('contain', 'http://localhost:2368/ghost/');
-        cy.wait(2000);
-    });
-
     it('should create a page successfully', function () {
         // Given I navigate to page "<SETUP_PAGE_ONE>"
         cy.visit(props.SETUP_PAGE_ONE);
@@ -212,10 +204,5 @@ describe('Feature: Page', () => {
                 capture: 'runner', overwrite: true,
             });
         });
-    });
-
-    after(() => {
-        cy.exec(`${scripts['gh-stop']}`, {timeout: 10000}).its('stdout')
-            .should('contain', 'rm -f ghost-local/content/data/ghost-local.db');
     });
 });
