@@ -214,6 +214,6 @@ describe('Feature: Page', () => {
 
     after(() => {
         cy.exec('npm run ghost-stop', {timeout: 10000}).its('stdout')
-            .should('contain', 'rm -rf ghost-local/content/data/ghost-local.db');
+            .should('contain', 'rm -f ghost-local/content/data/ghost-local.db');
     });
 });
