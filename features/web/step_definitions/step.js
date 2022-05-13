@@ -4,8 +4,8 @@ Given('I navigate to page "{kraken-string}"', function (page) {
     return this.driver.url(page);
 });
 
-Then('I wait for {kraken-int} seconds', function (int) {
-    return this.driver.setTimeout(int);
+Then('I wait for {kraken-string} seconds', function (string) {
+    return this.driver.setTimeout(string);
 });
 
 When('I click in {kraken-string}', async function (string) {
@@ -19,5 +19,5 @@ When('I type {kraken-string} into {kraken-string}', async function (stringToType
 });
 
 Then('I take a screenshot as evidence {kraken-string}', async function (string) {
-    await this.driver.saveScreenshot(`./${string}.png`);
+    this.driver.saveScreenshot(`./${string}.png`);
 });

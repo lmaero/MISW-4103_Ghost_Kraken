@@ -1,5 +1,12 @@
 {
-  "SETUP_PAGE_ONE": "http://localhost:2368/ghost/#/setup/one",
+  "SETUP_PAGE_ONE_3": "http://localhost:3001/ghost/#/setup/one",
+  "SIGN_IN_PAGE_3": "http://localhost:3001/ghost/#/signin",
+  "NEW_PAGE_3": "http://localhost:3001/awesome-automation/",
+  "NEW_URL_3": "http://localhost:3001/awesome-automation-krakenized/",
+  "SETUP_PAGE_ONE_4": "http://localhost:3002/ghost/#/setup",
+  "SIGN_IN_PAGE_4": "http://localhost:3002/ghost/#/signin",
+  "NEW_PAGE_4": "http://localhost:3002/awesome-automation/",
+  "NEW_URL_4": "http://localhost:3002/awesome-automation-krakenized/",
   "BLOG_TITLE": "Kraken & Ghost",
   "BLOG_NAME": "Luis Miguel Guzman Perez",
   "BLOG_EMAIL": "lm.guzmanp1@uniandes.edu.co",
@@ -7,8 +14,5 @@
   "PAGE_TITLE": "Awesome Automation",
   "PAGE_CONTENT": "'Finalmente viste la luz mi querido Kraken' - Camilo",
   "PAGE_NEW_TITLE": "Awesome Automation Krakenized",
-  "NEW_PAGE": "http://localhost:2368/awesome-automation/",
-  "NEW_ENDPOINT": "awesome-automation-krakenized",
-  "NEW_URL": "http://localhost:2368/awesome-automation-krakenized/",
-  "SIGN_IN_PAGE": "http://localhost:2368/ghost/#/signin"
+  "NEW_ENDPOINT": "awesome-automation-krakenized"
 }
