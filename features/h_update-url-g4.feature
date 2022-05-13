@@ -4,7 +4,6 @@ Feature: Change URL of a Page
   Scenario: As a registered admin I can change the URL of a previously created
   page successfully
     Given I navigate to page "<SIGN_IN_PAGE_4>"
-    And I wait for 1 seconds
     And I type "<BLOG_EMAIL>" into "[name='identification']"
     And I type "<BLOG_PASS>" into "[name='password']"
     When I click in "[type='submit']"
@@ -17,5 +16,3 @@ Feature: Change URL of a Page
     And I type "<NEW_ENDPOINT>" into "[name='post-setting-slug']"
     And I click in "span.settings-menu-open"
     Then I navigate to page "<NEW_URL_4>"
-    And I wait for 2 seconds
-    And I take a screenshot as evidence "h_update-url-g4.feature"

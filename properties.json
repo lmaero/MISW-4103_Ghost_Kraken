@@ -7,6 +7,8 @@
   "SIGN_IN_PAGE_4": "http://localhost:3002/ghost/#/signin",
   "NEW_PAGE_4": "http://localhost:3002/awesome-automation/",
   "NEW_URL_4": "http://localhost:3002/awesome-automation-krakenized/",
+  "DASHBOARD_URL_4": "http://localhost:3002/ghost/#/dashboard",
+  "PAGES_URL_4": "http://localhost:3002/ghost/#/pages",
   "BLOG_TITLE": "Kraken & Ghost",
   "BLOG_NAME": "Luis Miguel Guzman Perez",
   "BLOG_EMAIL": "lm.guzmanp1@uniandes.edu.co",

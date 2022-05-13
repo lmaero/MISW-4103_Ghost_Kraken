@@ -4,7 +4,7 @@
   "description": "Kraken tests for Ghost 3.41.1 local instance",
   "main": "index.js",
   "scripts": {
-    "kk-test": "npm run rs-gh3 && npm run rs-gh4 && sleep 10s && kraken-node run && rm -rf reports/ .kraken",
+    "kk-test": "npm run rs-gh3 && npm run rs-gh4 && sleep 5s && kraken-node run && rm -rf reports/ .kraken",
     "rs-gh3": "docker exec ghost_3.41.1 rm /var/lib/ghost/content/data/ghost.db && docker restart ghost_3.41.1",
     "rs-gh4": "docker exec ghost_4.44.0 rm /var/lib/ghost/content/data/ghost.db && docker restart ghost_4.44.0",
     "cy-headed": "npm run gh-in && cypress run --headed && npm run gh-un || npm run gh-un",
@@ -22,6 +22,7 @@
     "node": "14.19.2"
   },
   "devDependencies": {
-    "ghost-cli": "^1.19.3"
+    "ghost-cli": "^1.19.3",
+    "prettier": "^2.6.2"
   }
 }
