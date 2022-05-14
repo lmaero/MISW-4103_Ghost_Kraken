@@ -99,7 +99,7 @@ Used Technologies:
    ```
 - Generate `backstop.json` file
    ```shell
-   node genJSON.js http://localhost:8080 screenshots/kraken/ghost-3.41.1 screenshots/kraken/ghost-3.41.1
+   node genJSON.js http://localhost:8080 screenshots/kraken/ghost-3.41.1 screenshots/kraken/ghost-3.41.1 5
    ```
 - Run the first test to create reference images (this is not the final report)
    ```shell
@@ -111,7 +111,7 @@ Used Technologies:
    ```
 - Generate new `backstop.json` file including new version screenshots
    ```shell
-   node genJSON.js http://localhost:8080 screenshots/kraken/ghost-3.41.1 screenshots/kraken/ghost-4.44.0
+   node genJSON.js http://localhost:8080 screenshots/kraken/ghost-3.41.1 screenshots/kraken/ghost-4.44.0 5
    ```
 - Inspect the final report
    ```shell

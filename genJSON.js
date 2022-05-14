@@ -21,7 +21,7 @@ function createRoutes(server, refPath, newPath) {
   return [refRoutes, newRoutes];
 }
 
-function createScenario(refUrl, url, scenarioNumber) {
+function createScenario(refUrl, url, scenarioNumber, threshold) {
   return {
     label: `Ghost 3.41.1 & Ghost 4.44.0 - Scenario ${scenarioNumber}`,
     cookiePath: "backstop_data/engine_scripts/cookies.json",
@@ -38,7 +38,7 @@ function createScenario(refUrl, url, scenarioNumber) {
     selectors: [],
     selectorExpansion: true,
     expect: 0,
-    misMatchThreshold: 0.1,
+    misMatchThreshold: threshold,
     requireSameDimensions: true,
   };
 }
@@ -78,7 +78,7 @@ function createBackstopJSON(scenarios) {
   return backstopObject;
 }
 
-function main(server, refImagesRoute, newImagesRoute) {
+function main(server, refImagesRoute, newImagesRoute, threshold) {
   console.log("Generating backstop.json file, using: ");
   console.log(`Server: ${server}`);
   console.log(`Reference Images Route: ${refImagesRoute}`);
@@ -89,7 +89,9 @@ function main(server, refImagesRoute, newImagesRoute) {
   const routes = createRoutes(server, refImagesRoute, newImagesRoute);
 
   for (let i = 0; i < routes[0].length; i++) {
-    scenarios.push(createScenario(routes[0][i], routes[1][i], i + 1));
+    scenarios.push(
+      createScenario(routes[0][i], routes[1][i], i + 1, threshold)
+    );
   }
 
   const finalObject = JSON.stringify(createBackstopJSON(scenarios));
@@ -98,4 +100,4 @@ function main(server, refImagesRoute, newImagesRoute) {
   console.log("backstop.json generated successfully");
 }
 
-main(process.argv[2], process.argv[3], process.argv[4]);
+main(process.argv[2], process.argv[3], process.argv[4], process.argv[5]);
