@@ -4,11 +4,12 @@
   "description": "Kraken tests for Ghost 3.41.1 local instance",
   "main": "index.js",
   "scripts": {
-    "kk-test": "npm run rs-gh3 && npm run rs-gh4 && sleep 5s && kraken-node run && rm -rf reports/ .kraken",
+    "test": "npm run kk-test && npm run cy-headless && mv ./cypress/screenshots ./screenshots/cypress",
+    "kk-test": "npm run start-containers && kraken-node run && rm -rf reports/ .kraken",
     "rs-gh3": "docker exec ghost_3.41.1 rm /var/lib/ghost/content/data/ghost.db && docker restart ghost_3.41.1",
     "rs-gh4": "docker exec ghost_4.44.0 rm /var/lib/ghost/content/data/ghost.db && docker restart ghost_4.44.0",
-    "cy-headed": "npm run gh-in && cypress run --headed && npm run gh-un || npm run gh-un",
-    "cy-headless": "npm run gh-in && cypress run --headless && npm run gh-un || npm run gh-un"
+    "start-containers": "npm run rs-gh3 && npm run rs-gh4 && sleep 5s",
+    "cy-headless": "npm run start-containers && cypress run --headless"
   },
   "author": "Luis Miguel Guzman Perez",
   "license": "ISC",

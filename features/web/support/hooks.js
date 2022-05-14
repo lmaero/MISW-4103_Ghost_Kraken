@@ -18,6 +18,8 @@ Before(async function () {
 
   this.deviceClient = new WebClient("chrome", {}, this.userId);
   this.driver = await this.deviceClient.startKrakenForUserId(this.userId);
+  this.driver.setWindowSize(1920, 1080);
+  this.driver.setWindowRect(0, 0, 1920, 1080);
 });
 
 After(async function () {
