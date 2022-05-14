@@ -66,7 +66,7 @@ Used Technologies:
     ```
 
     ```shell
-    docker run -d -e url=http://localhost:3002 -p 3001:2368 --name ghost_4.44.0 ghost:4.44.0
+    docker run -d -e url=http://localhost:3002 -p 3002:2368 --name ghost_4.44.0 ghost:4.44.0
     ```
 7. Run all tests
     ```shell
