@@ -1,6 +1,6 @@
 # MISW-4103 Kraken and Cypress testing for Ghost 3.41.1
 
-----
+---
 
 Author: Luis Miguel Guzman Perez
 
@@ -16,52 +16,54 @@ Used Technologies:
 - [Kraken](https://github.com/TheSoftwareDesignLab/Kraken)
 - [Cypress](https://github.com/cypress-io/cypress)
 
-----
+---
 
 ## General Instructions
 
 1. Open a terminal window and clone this repository
 
     - SSH option
-        ```shell
-        git clone git@github.com:lmguzmanp/MISW-4103_Ghost_Kraken.git
-        ```
+
+      ```shell
+      git clone git@github.com:lmguzmanp/MISW-4103_Ghost_Kraken.git
+      ```
 
     - HTTPS option
-        ```shell
-        git clone https://github.com/lmguzmanp/MISW-4103_Ghost_Kraken.git
-        ```
+      ```shell
+      git clone https://github.com/lmguzmanp/MISW-4103_Ghost_Kraken.git
+      ```
 
 2. Navigate to the cloned directory
-     ```shell
-     cd MISW-4103_Ghost_Kraken/
-     ```
+   ```shell
+   cd MISW-4103_Ghost_Kraken/
+   ```
 3. Make sure you have the `node` and `npm` engine specified versions. Please
    review [package.json](https://github.com/lmguzmanp/MISW-4103_Ghost_Kraken/blob/bc09c72bae2083199ef5148fe9d9fe1d3e95048f/package.json#L18-L21)
 
     - You can use [nvm](https://github.com/nvm-sh/nvm), please follow their
       updated usage and installation instructions
 
-
 4. Once you have installed `nvm`, you can use the following command to use the
    right version that this repository needs
-    ```shell
-    nvm install 14
-    ```
-    ```shell
-    nvm use 14
-    ```
+
+   ```shell
+   nvm install 14
+   ```
+
+   ```shell
+   nvm use 14
+   ```
 
 5. Install dependencies
-    ```shell
-    npm i
-    ```
+
+   ```shell
+   npm i
+   ```
 
 6. This repository executes two different versions of Ghost: `3.41.1`
    and `4.44.0` using Docker containers. It is expected that you have docker-cli
    installed on your machine or that you're able to install it following the
    official [Docker installation instructions](https://docs.docker.com/get-docker/)
-
 
 7. Please make sure that ports `3001` and `3002` of your machine are not
    being used, and no containers exist with those names. **If any of the
@@ -69,22 +71,49 @@ Used Technologies:
    <br />
    <br />
    You can inspect all of your containers using:
-    ```shell
-    docker container ls -a
-    ```
 
+   ```shell
+   docker container ls -a
+   ```
 
 8. Once you have verified conditions of step 7. Please create and run the
    needed containers using:
-    ```shell
-    docker run -d -e url=http://localhost:3001 -p 3001:2368 --name ghost_3.41.1 ghost:3.41.1
-    ```
 
-    ```shell
-    docker run -d -e url=http://localhost:3002 -p 3002:2368 --name ghost_4.44.0 ghost:4.44.0
-    ```
+   ```shell
+   docker run -d -e url=http://localhost:3001 -p 3001:2368 --name ghost_3.41.1 ghost:3.41.1
+   ```
+
+   ```shell
+   docker run -d -e url=http://localhost:3002 -p 3002:2368 --name ghost_4.44.0 ghost:4.44.0
+   ```
+
 9. Run all tests
-    ```shell
-    npm test
-    ```
-10. Inspect generated screenshots inside the `screenshots` folder
+   ```shell
+   npm test
+   ```
+10. Inspect generated screenshots inside the `screenshots` folder using backstop
+
+- Create http-server serve the root folder
+   ```shell
+   npx http-server .
+   ```
+- Generate `backstop.json` file
+   ```shell
+   node genJSON.js http://localhost:8080 screenshots/kraken/ghost-3.41.1 screenshots/kraken/ghost-3.41.1 5
+   ```
+- Run the first test to create reference images (this is not the final report)
+   ```shell
+   npx backstop test
+   ```
+- Approve images for reference
+   ```shell
+   npx backstop approve
+   ```
+- Generate new `backstop.json` file including new version screenshots
+   ```shell
+   node genJSON.js http://localhost:8080 screenshots/kraken/ghost-3.41.1 screenshots/kraken/ghost-4.44.0 5
+   ```
+- Inspect the final report
+   ```shell
+   npx backstop test
+   ```

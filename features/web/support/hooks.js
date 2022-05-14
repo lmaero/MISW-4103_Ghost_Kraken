@@ -3,18 +3,26 @@ const { WebClient } = require("kraken-node");
 const path = require("path");
 const fs = require("fs");
 
-let counter = 1;
+let counter = 10;
 
 AfterStep(async function (step) {
   const baseName = path.parse(step.pickle.uri).base;
-  const ssName = `screenshots/kraken/${baseName}-${counter}-${step.testStepId}.png`;
+  let ssName;
 
-  counter++;
-  await this.driver.saveScreenshot(ssName);
+  if (baseName.match(/([abcde]_)+/g)) {
+    ssName = `screenshots/kraken/ghost-3.41.1/${baseName}-${counter}.png`;
+    counter++;
+    await this.driver.saveScreenshot(ssName);
+  } else {
+    ssName = `screenshots/kraken/ghost-4.44.0/${baseName}-${counter}.png`;
+    counter++;
+    await this.driver.saveScreenshot(ssName);
+  }
 });
 
 Before(async function () {
-  fs.mkdirSync("screenshots/kraken/", { recursive: true });
+  fs.mkdirSync("screenshots/kraken/ghost-3.41.1", { recursive: true });
+  fs.mkdirSync("screenshots/kraken/ghost-4.44.0", { recursive: true });
 
   this.deviceClient = new WebClient("chrome", {}, this.userId);
   this.driver = await this.deviceClient.startKrakenForUserId(this.userId);
