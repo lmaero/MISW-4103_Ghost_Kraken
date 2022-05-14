@@ -4,6 +4,8 @@
 
 Author: Luis Miguel Guzman Perez
 
+GitHub: [lmaero](https://github.com/lmaero)
+
 Mail: <lm.guzmanp1@uniandes.edu.co>
 
 AUT: Ghost 3.41.1
@@ -20,15 +22,15 @@ Used Technologies:
 
 1. Open a terminal window and clone this repository
 
-- SSH option
-    ```shell
-    git clone git@github.com:lmguzmanp/MISW-4103_Ghost_Kraken.git
-    ```
+    - SSH option
+        ```shell
+        git clone git@github.com:lmguzmanp/MISW-4103_Ghost_Kraken.git
+        ```
 
-- HTTPS option
-    ```shell
-    git clone https://github.com/lmguzmanp/MISW-4103_Ghost_Kraken.git
-    ```
+    - HTTPS option
+        ```shell
+        git clone https://github.com/lmguzmanp/MISW-4103_Ghost_Kraken.git
+        ```
 
 2. Navigate to the cloned directory
      ```shell
@@ -38,7 +40,7 @@ Used Technologies:
    review [package.json](https://github.com/lmguzmanp/MISW-4103_Ghost_Kraken/blob/bc09c72bae2083199ef5148fe9d9fe1d3e95048f/package.json#L18-L21)
 
     - You can use [nvm](https://github.com/nvm-sh/nvm), please follow their
-      updated instructions
+      updated usage and installation instructions
 
 
 4. Once you have installed `nvm`, you can use the following command to use the
@@ -55,12 +57,25 @@ Used Technologies:
     npm i
     ```
 
-6. This repository executes two different versions of Ghost: 3.41.1 and 4.44.0
-   using Docker containers, please make sure that ports 3001 and 3002 of
-   your machine are not being used, and no containers exist with those names.
+6. This repository executes two different versions of Ghost: `3.41.1`
+   and `4.44.0` using Docker containers. It is expected that you have docker-cli
+   installed on your machine or that you're able to install it following the
+   official [Docker installation instructions](https://docs.docker.com/get-docker/)
 
-   **If any of the mentioned ports are being used by any application, all tests
-   will fail.**
+
+7. Please make sure that ports `3001` and `3002` of your machine are not
+   being used, and no containers exist with those names. **If any of the
+   mentioned ports are being used by any application, all tests will fail.**
+   <br />
+   <br />
+   You can inspect all of your containers using:
+    ```shell
+    docker container ls -a
+    ```
+
+
+8. Once you have verified conditions of step 7. Please create and run the
+   needed containers using:
     ```shell
     docker run -d -e url=http://localhost:3001 -p 3001:2368 --name ghost_3.41.1 ghost:3.41.1
     ```
@@ -68,8 +83,8 @@ Used Technologies:
     ```shell
     docker run -d -e url=http://localhost:3002 -p 3002:2368 --name ghost_4.44.0 ghost:4.44.0
     ```
-7. Run all tests
+9. Run all tests
     ```shell
     npm test
     ```
-8. Inspect generated screenshots inside the `screenshots` folder
+10. Inspect generated screenshots inside the `screenshots` folder
