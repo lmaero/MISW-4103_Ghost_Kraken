@@ -55,50 +55,21 @@ Used Technologies:
     npm i
     ```
 
-6. This repository executes Ghost over port 2368, so expects no running
-   instances over the mentioned port. Please verify your running instances
-   before proceeding. **If the port is being used by any application, all tests
+6. This repository executes two different versions of Ghost: 3.41.1 and 4.44.0
+   using Docker containers, please make sure that ports 3001 and 3002 of
+   your machine are not being used, and no containers exist with those names.
+
+   **If any of the mentioned ports are being used by any application, all tests
    will fail.**
     ```shell
-    npx ghost ls
+    docker run -d -e url=http://localhost:3001 -p 3001:2368 --name ghost_3.41.1 ghost:3.41.1
     ```
-   **Note: this repository includes ghost-cli as dependency, so running the
-   above-mentioned command should not generate any conflict**
 
-   If you still need to run the application in another port, please modify the
-   following lines:
-   - Line 2
-     inside [properties.json](https://github.com/lmguzmanp/MISW-4103_Ghost_Kraken/blob/5c58e732c643b2222d492e962ad716c37718c2f9/properties.json#L2)
-   - Line 10
-     inside [properties.json](https://github.com/lmguzmanp/MISW-4103_Ghost_Kraken/blob/5c58e732c643b2222d492e962ad716c37718c2f9/properties.json#L10)
-   - Lines 12 and 13
-     inside [properties.json](https://github.com/lmguzmanp/MISW-4103_Ghost_Kraken/blob/5c58e732c643b2222d492e962ad716c37718c2f9/properties.json#L12-L13)
-   - Line 8
-     inside [package.json](https://github.com/lmguzmanp/MISW-4103_Ghost_Kraken/blob/5c58e732c643b2222d492e962ad716c37718c2f9/package.json#L8)
-
-### Instructions for Kraken
-
-1. Run automated Kraken tests. This command will generate five screenshots
-   in the root folder, each corresponding to a successfully tested scenario.
     ```shell
-    npm run kk-test
+    docker run -d -e url=http://localhost:3002 -p 3001:2368 --name ghost_4.44.0 ghost:4.44.0
     ```
-
-### Instructions for Cypress
-
-1. Run automated Cypress tests by any of the following options. Following
-   commands will generate five screenshots in the `cypress/screenshots/`,
-   each corresponding to a successfully tested scenario. Additionally, a
-   video will be produced inside the `cypress/videos/` folder.
-
-   - Headed mode (it will open a browser where you can interactively see
-     the progress)
+7. Run all tests
     ```shell
-    npm run cy-headed
+    npm test
     ```
-
-   - Headless mode (it won't open a browser, all tests will be executed
-     inside the terminal. Please allow 60-70 seconds to finish)
-    ```shell
-    npm run cy-headless
-    ```
+8. Inspect generated screenshots inside the `screenshots` folder
