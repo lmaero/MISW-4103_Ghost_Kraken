@@ -98,12 +98,16 @@ Used Technologies:
     the images that it will use for reference to do the comparison. The second
     opened tab is the actual report that you can inspect in detail to find
     differences.
-   ```shell
-   npm run start-kk
-   ```
-
+    ```shell
+    npm run start-kk
+    ```
+    **Note: after the generation of the final report, process will exit with
+    code 1, this is expected because Backstop throws an error where findings
+    exist `Error: Mismatch errors found`**
+    <br />
+    <br />
 11. To run tests and generate the report for Cypress, please first clean the
-    the working directory, running:
+    working directory, running:
     ```shell
     npm run clean
     ```
@@ -114,3 +118,12 @@ Used Technologies:
     ```shell
     npm run start-cy
     ```
+
+12. Optional: you can control several parameters like the mismatch threshold of
+    the backstop.js VRT. By default, the tests are running with 0.2 as
+    mismatch threshold. If you want to change it, modify the following lines
+    inside [package.json](https://github.com/lmguzmanp/MISW-4103_Ghost_Kraken/blob/e16599442a1a25ca73170717e7827615666d942f/package.json#L20-L23)
+    <br />
+    <br />
+    **Note: modifications to package.json file can cause unexpected behavior,
+    so please make sure you know what you're doing**
