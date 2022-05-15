@@ -28,5 +28,19 @@
   "PASSWORD_NOT_VALID": "password",
   "BLOG_TITLE_EMPTY": "",
   "EMAIL": "a.cantu@uniandes.edu.co",
-  "FULL_NAME_EMPTY": ""
+  "FULL_NAME_EMPTY": "",
+  "PAGE": "http://localhost:3001",
+  "HELP_PAGE": "http://ghost.org./docs/",
+  "PAGINA_SETUP_ONE": "http://localhost:3001/ghost/#/setup/one",
+  "PAGINA_SETUP_TWO": "http://localhost:3001/ghost/#/setup/two",
+  "USER": "alberto_alejandro@msn.com",
+  "ADMIN_PAGE": "http://localhost:3001/ghost/#/site",
+  "LOGIN_PAGE": "http://localhost:3001/ghost/#/signin",
+  "EMAIL_INPUT": "ember8",
+  "SIGN_IN_BUTTON": "ember12",
+  "POSTS_PAGE": "http://localhost:3001/ghost/#/editor/post/",
+  "TEXTO_DE_PRUEBA": "Este es un texto para el post",
+  "TAG_NAME": "Tag prueba",
+  "TAG_DESCRIPTION": "Esta es una descripcion",
+  "STAFF_MEMBER": "diegof.eslava@gmail.com"
 }
