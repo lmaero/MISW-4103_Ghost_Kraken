@@ -1,5 +1,5 @@
 export class Actions {
-  static counter = 1;
+  static counter = 10;
 
   static navigateToPage(page) {
     cy.visit(page, { failOnStatusCode: false });

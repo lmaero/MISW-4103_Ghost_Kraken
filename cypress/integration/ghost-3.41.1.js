@@ -4,10 +4,7 @@ import { Actions } from "../support/Actions";
 describe("Feature: Page Ghost 3.41.1", () => {
   it("should create a page successfully", function () {
     // Given I navigate to page "<SETUP_PAGE_ONE_3>"
-    Actions.navigateToPage(props.SETUP_PAGE_ONE_3);
-
-    // When I click in "[href='#/setup/two/']"
-    Actions.clickContains("Create your account");
+    Actions.navigateToPage(props.SETUP_PAGE_TWO_3);
 
     // Then I type "<BLOG_TITLE>" into "#blog-title"
     Actions.getAndType("#blog-title", props.BLOG_TITLE);

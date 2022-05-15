@@ -1,4 +1,4 @@
-const fs = require('fs');
+const fs = require("fs");
 
 module.exports = async (browserContext, scenario) => {
   let cookies = [];
@@ -12,5 +12,5 @@ module.exports = async (browserContext, scenario) => {
   // Add cookies to browser
   browserContext.addCookies(cookies);
 
-  console.log('Cookie state restored with:', JSON.stringify(cookies, null, 2));
+  // console.log('Cookie state restored with:', JSON.stringify(cookies, null, 2));
 };

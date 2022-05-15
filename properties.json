@@ -1,5 +1,5 @@
 {
-  "SETUP_PAGE_ONE_3": "http://localhost:3001/ghost/#/setup/one",
+  "SETUP_PAGE_TWO_3": "http://localhost:3001/ghost/#/setup/two",
   "SIGN_IN_PAGE_3": "http://localhost:3001/ghost/#/signin",
   "NEW_PAGE_3": "http://localhost:3001/awesome-automation/",
   "NEW_URL_3": "http://localhost:3001/awesome-automation-krakenized/",

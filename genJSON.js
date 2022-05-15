@@ -39,7 +39,7 @@ function createScenario(refUrl, url, scenarioNumber, threshold) {
     selectorExpansion: true,
     expect: 0,
     misMatchThreshold: threshold,
-    requireSameDimensions: true,
+    requireSameDimensions: false,
   };
 }
 
