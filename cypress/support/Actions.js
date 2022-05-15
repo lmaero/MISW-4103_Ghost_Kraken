@@ -1,5 +1,6 @@
 export class Actions {
   static counter = 10;
+  static version = "";
 
   static navigateToPage(page) {
     cy.visit(page, { failOnStatusCode: false });
@@ -22,7 +23,7 @@ export class Actions {
   }
 
   static takeScreenshot() {
-    cy.screenshot(`cypress-${this.counter.toString()}`, {
+    cy.screenshot(`cypress-${this.version}-${this.counter.toString()}`, {
       capture: "viewport",
       overwrite: true,
     });

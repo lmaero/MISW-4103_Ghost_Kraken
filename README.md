@@ -87,33 +87,30 @@ Used Technologies:
    docker run -d -e url=http://localhost:3002 -p 3002:2368 --name ghost_4.44.0 ghost:4.44.0
    ```
 
-9. Run all tests
+9. Create http-server to serve the root folder. This script will start a
+   server in `http://localhost:8080`, **please make sure that this port is
+   available on your machine. If that's not the case, everything will fail.**
    ```shell
-   npm test
+   npm run serve
    ```
-10. Inspect generated screenshots inside the `screenshots` folder using backstop
+10. Run tests and generate the report for Kraken. The first tab that is
+    being opened in the browser corresponds to the initial Backstop report with
+    the images that it will use for reference to do the comparison. The second
+    opened tab is the actual report that you can inspect in detail to find
+    differences.
+   ```shell
+   npm run start-kk
+   ```
 
-- Create http-server serve the root folder
-   ```shell
-   npx http-server .
-   ```
-- Generate `backstop.json` file
-   ```shell
-   node genJSON.js http://localhost:8080 screenshots/kraken/ghost-3.41.1 screenshots/kraken/ghost-3.41.1 5
-   ```
-- Run the first test to create reference images (this is not the final report)
-   ```shell
-   npx backstop test
-   ```
-- Approve images for reference
-   ```shell
-   npx backstop approve
-   ```
-- Generate new `backstop.json` file including new version screenshots
-   ```shell
-   node genJSON.js http://localhost:8080 screenshots/kraken/ghost-3.41.1 screenshots/kraken/ghost-4.44.0 5
-   ```
-- Inspect the final report
-   ```shell
-   npx backstop test
-   ```
+11. To run tests and generate the report for Cypress, please first clean the
+    the working directory, running:
+    ```shell
+    npm run clean
+    ```
+
+    **Note: above command will remove the previously generated Kraken report,
+    so please make sure you have finished the review**
+
+    ```shell
+    npm run start-cy
+    ```

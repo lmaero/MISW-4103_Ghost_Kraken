@@ -4,6 +4,8 @@ import { Actions } from "../support/Actions";
 const WAIT_TIME = 2000;
 
 describe("Feature: Page Ghost 4.44.0", () => {
+  Actions.version = "g4";
+
   it("should create a page successfully", function () {
     // Given I navigate to page "<SETUP_PAGE_ONE_4>"
     Actions.navigateToPage(props.SETUP_PAGE_ONE_4);

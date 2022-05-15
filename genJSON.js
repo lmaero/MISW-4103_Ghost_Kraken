@@ -43,9 +43,9 @@ function createScenario(refUrl, url, scenarioNumber, threshold) {
   };
 }
 
-function createBackstopJSON(scenarios) {
+function createBackstopJSON(title, scenarios) {
   let backstopObject = {
-    id: "backstop_default",
+    id: title,
     viewports: [
       {
         label: "default",
@@ -78,7 +78,7 @@ function createBackstopJSON(scenarios) {
   return backstopObject;
 }
 
-function main(server, refImagesRoute, newImagesRoute, threshold) {
+function main(title, server, refImagesRoute, newImagesRoute, threshold) {
   console.log("Generating backstop.json file, using: ");
   console.log(`Server: ${server}`);
   console.log(`Reference Images Route: ${refImagesRoute}`);
@@ -94,10 +94,16 @@ function main(server, refImagesRoute, newImagesRoute, threshold) {
     );
   }
 
-  const finalObject = JSON.stringify(createBackstopJSON(scenarios));
+  const finalObject = JSON.stringify(createBackstopJSON(title, scenarios));
 
   fs.writeFileSync("./backstop.json", finalObject);
   console.log("backstop.json generated successfully");
 }
 
-main(process.argv[2], process.argv[3], process.argv[4], process.argv[5]);
+main(
+  (title = process.argv[2]),
+  (server = process.argv[3]),
+  (refImagesRoute = process.argv[4]),
+  (newImagesRoute = process.argv[5]),
+  (threshold = process.argv[6])
+);

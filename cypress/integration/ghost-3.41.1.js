@@ -2,6 +2,8 @@ const props = require("../../properties.json");
 import { Actions } from "../support/Actions";
 
 describe("Feature: Page Ghost 3.41.1", () => {
+  Actions.version = "g3";
+
   it("should create a page successfully", function () {
     // Given I navigate to page "<SETUP_PAGE_ONE_3>"
     Actions.navigateToPage(props.SETUP_PAGE_TWO_3);
