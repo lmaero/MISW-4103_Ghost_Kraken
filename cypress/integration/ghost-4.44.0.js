@@ -1,7 +1,39 @@
-const props = require("../../properties.json");
 import { Actions } from "../support/Actions";
+import fillSignInForm from "../support/utilities";
+
+const props = require("../../properties.json");
 
 const WAIT_TIME = 2000;
+
+describe("Feature: Login Ghost 4.44.0", () => {
+  Actions.version = "g4";
+
+  beforeEach(() => {
+    Actions.navigateToPage(props.SETUP_PAGE_ONE_4);
+  });
+
+  describe("When the user introduces incorrect data", function () {
+    it("should deny submission with a wrong e-mail", () => {
+      fillSignInForm("email", 4);
+    });
+
+    it("should deny submission with a wrong password", () => {
+      fillSignInForm("password", 4);
+    });
+
+    it("should deny submission with an empty blog title", () => {
+      fillSignInForm("blogTitle", 4);
+    });
+
+    it("should deny submission with an empty name", () => {
+      fillSignInForm("name", 4);
+    });
+
+    it("should deny submission without filling the form", () => {
+      fillSignInForm("empty", 4);
+    });
+  });
+});
 
 describe("Feature: Page Ghost 4.44.0", () => {
   Actions.version = "g4";
