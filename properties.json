@@ -3,6 +3,7 @@
   "SIGN_IN_PAGE_3": "http://localhost:3001/ghost/#/signin",
   "NEW_PAGE_3": "http://localhost:3001/awesome-automation/",
   "NEW_URL_3": "http://localhost:3001/awesome-automation-krakenized/",
+  "ADMIN_PAGE_3": "http://localhost:3001/ghost/#/site",
   "SETUP_PAGE_ONE_4": "http://localhost:3002/ghost/#/setup",
   "SIGN_IN_PAGE_4": "http://localhost:3002/ghost/#/signin",
   "NEW_PAGE_4": "http://localhost:3002/awesome-automation/",
@@ -11,6 +12,9 @@
   "PAGES_URL_4": "http://localhost:3002/ghost/#/pages",
   "BLOG_TITLE": "Kraken & Ghost",
   "BLOG_NAME": "Luis Miguel Guzman Perez",
+  "NEW_BLOG_NAME": "Blog Camilo Gálvez",
+  "NEW_BLOG_DESCRIPTION": "Este Blog es muy bueno",
+  "BLOG_DESCRIPTION": "Thoughts, stories and ideas.",
   "BLOG_EMAIL": "lm.guzmanp1@uniandes.edu.co",
   "BLOG_PASS": "c14v3-3nCr1t4d4",
   "PAGE_TITLE": "Awesome Automation",
@@ -28,5 +32,10 @@
   "PASSWORD_NOT_VALID": "password",
   "BLOG_TITLE_EMPTY": "",
   "EMAIL": "a.cantu@uniandes.edu.co",
-  "FULL_NAME_EMPTY": ""
+  "FULL_NAME_EMPTY": "",
+  "SUBMENU_LABEL": "Test Submenu",
+  "OLD_FB_URL": "https://www.facebook.com/ghost",
+  "OLD_TW_URL": "https://twitter.com/ghost",
+  "FB_URL": "https://www.facebook.com/UniandesCol/",
+  "TW_URL": "https://twitter.com/Uniandes"
 }
