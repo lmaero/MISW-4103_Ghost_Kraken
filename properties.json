@@ -16,5 +16,17 @@
   "PAGE_TITLE": "Awesome Automation",
   "PAGE_CONTENT": "'Finalmente viste la luz mi querido Kraken' - Camilo",
   "PAGE_NEW_TITLE": "Awesome Automation Krakenized",
-  "NEW_ENDPOINT": "awesome-automation-krakenized"
+  "NEW_ENDPOINT": "awesome-automation-krakenized",
+  "PAGINA_SETUP_ONE_3": "http://localhost:3001/ghost/#/setup/one",
+  "PAGINA_SETUP_TWO_3": "http://localhost:3001/ghost/#/setup/two",
+  "PAGINA_SETUP_ONE_4": "http://localhost:3002/ghost/#/setup",
+  "PAGINA_SETUP_TWO_4": "http://localhost:3002/ghost/#/setup/done",
+  "BLOG_NAME_AC": "Ghost Blog",
+  "FULL_NAME": "Alonso Cantu",
+  "EMAIL_NO_VALIDO": "a.cantu#uniandes.edu.co",
+  "PASSWORD": "Micontrasenaestaencriptada1990!",
+  "PASSWORD_NOT_VALID": "password",
+  "BLOG_TITLE_EMPTY": "",
+  "EMAIL": "a.cantu@uniandes.edu.co",
+  "FULL_NAME_EMPTY": ""
 }
