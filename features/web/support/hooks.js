@@ -2,10 +2,12 @@ const { After, Before, AfterStep } = require("@cucumber/cucumber");
 const { WebClient } = require("kraken-node");
 const path = require("path");
 const fs = require("fs");
+const { sleep } = require("../../../genJSON");
 
 let counter = 10;
 
 AfterStep(async function (step) {
+  await sleep(1000);
   const baseName = path.parse(step.pickle.uri).base;
   let ssName;
 
@@ -23,6 +25,8 @@ AfterStep(async function (step) {
 Before(async function () {
   fs.mkdirSync("screenshots/kraken/ghost-3.41.1", { recursive: true });
   fs.mkdirSync("screenshots/kraken/ghost-4.44.0", { recursive: true });
+
+  await sleep(3000);
 
   this.deviceClient = new WebClient("chrome", {}, this.userId);
   this.driver = await this.deviceClient.startKrakenForUserId(this.userId);
