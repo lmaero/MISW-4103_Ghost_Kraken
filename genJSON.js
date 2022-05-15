@@ -1,4 +1,11 @@
 const fs = require("fs");
+const config = require("./config-report.json");
+
+function sleep(ms) {
+  return new Promise((resolve) => {
+    setTimeout(resolve, ms);
+  });
+}
 
 function createRoutes(server, refPath, newPath) {
   const refScreenshots = `${__dirname}/${refPath}`;
@@ -21,7 +28,7 @@ function createRoutes(server, refPath, newPath) {
   return [refRoutes, newRoutes];
 }
 
-function createScenario(refUrl, url, scenarioNumber, threshold) {
+function createScenario(refUrl, url, scenarioNumber) {
   return {
     label: `Ghost 3.41.1 & Ghost 4.44.0 - Scenario ${scenarioNumber}`,
     cookiePath: "backstop_data/engine_scripts/cookies.json",
@@ -38,7 +45,7 @@ function createScenario(refUrl, url, scenarioNumber, threshold) {
     selectors: [],
     selectorExpansion: true,
     expect: 0,
-    misMatchThreshold: threshold,
+    misMatchThreshold: config.threshold,
     requireSameDimensions: false,
   };
 }
@@ -78,20 +85,23 @@ function createBackstopJSON(title, scenarios) {
   return backstopObject;
 }
 
-function main(title, server, refImagesRoute, newImagesRoute, threshold) {
-  console.log("Generating backstop.json file, using: ");
-  console.log(`Server: ${server}`);
+async function main() {
+  const title = process.argv[2];
+  const refImagesRoute = process.argv[3];
+  const newImagesRoute = process.argv[4];
+
+  console.log(`Generating backstop.json file for ${title}, using: `);
+  console.log(`Server: ${config.server}`);
   console.log(`Reference Images Route: ${refImagesRoute}`);
   console.log(`New Images Route: ${newImagesRoute}`);
 
-  const scenarios = [];
+  await sleep(5000);
 
-  const routes = createRoutes(server, refImagesRoute, newImagesRoute);
+  const scenarios = [];
+  const routes = createRoutes(config.server, refImagesRoute, newImagesRoute);
 
   for (let i = 0; i < routes[0].length; i++) {
-    scenarios.push(
-      createScenario(routes[0][i], routes[1][i], i + 1, threshold)
-    );
+    scenarios.push(createScenario(routes[0][i], routes[1][i], i + 1));
   }
 
   const finalObject = JSON.stringify(createBackstopJSON(title, scenarios));
@@ -100,10 +110,8 @@ function main(title, server, refImagesRoute, newImagesRoute, threshold) {
   console.log("backstop.json generated successfully");
 }
 
-main(
-  (title = process.argv[2]),
-  (server = process.argv[3]),
-  (refImagesRoute = process.argv[4]),
-  (newImagesRoute = process.argv[5]),
-  (threshold = process.argv[6])
-);
+main();
+
+module.exports = {
+  sleep,
+};
