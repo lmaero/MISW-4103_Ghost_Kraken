@@ -10,7 +10,7 @@
     "test-cy": "npm run cy-run && mkdir screenshots && mv cypress/screenshots screenshots/cypress",
     "clean": "rm -rf screenshots reports .kraken && npm run clean-report",
     "clean-report": "rm -rf backstop_data/bitmaps_reference backstop_data/bitmaps_test",
-    "start-containers": "npm run rs-gh3 && npm run rs-gh4 && sleep 5s",
+    "start-containers": "npm run rs-gh3 && npm run rs-gh4 && sleep 5",
     "rs-gh3": "docker exec ghost_3.41.1 rm /var/lib/ghost/content/data/ghost.db && docker restart ghost_3.41.1",
     "rs-gh4": "docker exec ghost_4.44.0 rm /var/lib/ghost/content/data/ghost.db && docker restart ghost_4.44.0",
     "kk-run": "npm run start-containers && kraken-node run",
