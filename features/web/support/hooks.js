@@ -9,7 +9,7 @@ AfterStep(async function (step) {
   const baseName = path.parse(step.pickle.uri).base;
   let ssName;
 
-  if (baseName.match(/([abcde]_)+/g)) {
+  if (baseName.match(/([abcde]\d[1-5]_[a-zA-Z-]*3)+/g)) {
     ssName = `screenshots/kraken/ghost-3.41.1/${baseName}-${counter}.png`;
     counter++;
     await this.driver.saveScreenshot(ssName);
