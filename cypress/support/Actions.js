@@ -17,6 +17,11 @@ export class Actions {
     this.takeScreenshot();
   }
 
+  static getAndClear(element) {
+    cy.get(element).clear();
+    this.takeScreenshot();
+  }
+
   static getAndClick(element) {
     cy.get(element).first().click();
     this.takeScreenshot();
