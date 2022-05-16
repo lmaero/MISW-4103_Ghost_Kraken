@@ -2,22 +2,6 @@
 
 ---
 
-Author: Luis Miguel Guzman Perez
-
-GitHub: [lmaero](https://github.com/lmaero)
-
-Mail: <lm.guzmanp1@uniandes.edu.co>
-
-AUT: Ghost 3.41.1
-
-Used Technologies:
-
-- [Ghost](https://github.com/TryGhost/Ghost)
-- [Kraken](https://github.com/TheSoftwareDesignLab/Kraken)
-- [Cypress](https://github.com/cypress-io/cypress)
-
----
-
 ## General Instructions
 
 1. Open a terminal window and clone this repository
