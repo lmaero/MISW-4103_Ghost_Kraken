@@ -44,7 +44,7 @@ Used Technologies:
       updated usage and installation instructions
 
 4. Once you have installed `nvm`, you can use the following command to use the
-   right version that this repository needs
+   right version (`14.19.2`) that this repository needs
 
    ```shell
    nvm install 14
