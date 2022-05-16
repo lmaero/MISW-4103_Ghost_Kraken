@@ -55,6 +55,6 @@
   "GHOST_4_STAFF": "http://localhost:3002/ghost/#/settings/staff",
   "GHOST_4_GENERAL_SETTINGS": "http://localhost:3002/ghost/#/settings/general",
   "GHOST_4_GENERAL_NAVIGATION": "http://localhost:3002/ghost/#/settings/navigation",
-  "GHOST_3_GENERAL_INTEGRATION_AMP": "http://localhost:3001/ghost/#/settings/integration/amp",
-  "GHOST_4_GENERAL_INTEGRATION_AMP": "http://localhost:3002/ghost/#/settings/integration/amp"
+  "GHOST_3_GENERAL_INTEGRATION": "http://localhost:3001/ghost/#/settings/integrations",
+  "GHOST_4_GENERAL_INTEGRATION": "http://localhost:3002/ghost/#/settings/integrations"
 }
