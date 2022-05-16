@@ -1,3 +1,4 @@
+require("cypress-xpath");
 export class Actions {
   static counter = 10;
   static version = "";
@@ -24,6 +25,16 @@ export class Actions {
 
   static getAndClick(element) {
     cy.get(element).first().click();
+    this.takeScreenshot();
+  }
+
+  static getXPathAndClick(element) {
+    cy.xpath(element).first().click();
+    this.takeScreenshot();
+  }
+
+  static getXPathAndType(element, text) {
+    cy.xpath(element).clear().type(text, {force: true});
     this.takeScreenshot();
   }
 
