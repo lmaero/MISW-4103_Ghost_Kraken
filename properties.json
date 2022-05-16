@@ -42,5 +42,6 @@
   "TEXTO_DE_PRUEBA": "Este es un texto para el post",
   "TAG_NAME": "Tag prueba",
   "TAG_DESCRIPTION": "Esta es una descripcion",
-  "STAFF_MEMBER": "diegof.eslava@gmail.com"
+  "STAFF_MEMBER": "diegof.eslava@gmail.com",
+  "GHOST_4_STAFF": "http://localhost:3002/ghost/#/settings/staff"
 }
