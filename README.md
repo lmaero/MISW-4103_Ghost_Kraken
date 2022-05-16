@@ -112,7 +112,7 @@
     ```
 
 13. Optional: by default, backstop report is generated with a `threshold` of
-    2%, if you want to change the value, go to the `config-report.json` file,
+    4%, if you want to change the value, go to the `config-report.json` file,
     change the value and run `npm run clean` before you start the new test.
     <br />
     <br />

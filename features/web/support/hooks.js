@@ -7,7 +7,7 @@ const { sleep } = require("../../../genJSON");
 let counter = 10;
 
 AfterStep(async function (step) {
-  await sleep(1000);
+  await sleep(500);
   const baseName = path.parse(step.pickle.uri).base;
   let ssName;
 

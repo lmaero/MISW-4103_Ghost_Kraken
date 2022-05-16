@@ -1,4 +1,4 @@
 {
-  "threshold": 2,
+  "threshold": 4,
   "server": "http://localhost:8080"
 }

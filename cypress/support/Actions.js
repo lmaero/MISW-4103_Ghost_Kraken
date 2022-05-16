@@ -39,6 +39,7 @@ export class Actions {
   }
 
   static takeScreenshot() {
+    cy.wait(500);
     cy.screenshot(`cypress-${this.version}-${this.counter.toString()}`, {
       capture: "viewport",
       overwrite: true,
