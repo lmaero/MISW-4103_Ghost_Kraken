@@ -85,7 +85,7 @@
    the `config-report.json` file
    <br />
    <br />
-11. Run tests and generate the report for Kraken. The first tab that is
+10. Run tests and generate the report for Kraken. The first tab that is
     being opened in the browser corresponds to the initial Backstop report with
     the images that it will use for reference to do the comparison. The second
     opened tab is the actual report that you can inspect in detail to find
@@ -98,7 +98,7 @@
     exist `Error: Mismatch errors found`**
     <br />
     <br />
-12. To run tests and generate the report for Cypress, please first clean the
+11. To run tests and generate the report for Cypress, please first clean the
     working directory, running:
     ```shell
     npm run clean
@@ -111,10 +111,14 @@
     npm run start-cy
     ```
 
-13. Optional: by default, backstop report is generated with a `threshold` of
+12. Optional: by default, backstop report is generated with a `threshold` of
     4%, if you want to change the value, go to the `config-report.json` file,
     change the value and run `npm run clean` before you start the new test.
     <br />
     <br />
     **Note: modifications to package.json file can cause unexpected behavior,
     so please make sure you know what you're doing**
+
+13. Sign-in as UniAndes user and download the final reports for Cypress and
+    Kraken,
+    from [Sharepoint](https://uniandes-my.sharepoint.com/:f:/g/personal/lm_guzmanp1_uniandes_edu_co/EmWc4MoBATJHt1O9VlwESNsBigSHcetFP-mWIJYON3gLHA?e=2p703m) 
