@@ -221,10 +221,10 @@ describe('Feature: Settings Ghost 4.44.0', () => {
 
         // When I click in "[type='submit']"
         Actions.getAndClick('button[type="submit"]');
-        cy.wait(WAIT_TIME);
+        
         // And I click in "[href='#/settings/']"
         Actions.getAndClick('[href="#/settings/"]');
-        cy.wait(WAIT_TIME);
+        
         // And I click in "[href='#/settings/general/']"
         Actions.getAndClick('[href="#/settings/general/"]');
 
@@ -259,10 +259,10 @@ describe('Feature: Settings Ghost 4.44.0', () => {
 
         // When I click in "[type='submit']"
         Actions.getAndClick('button[type="submit"]');
-        cy.wait(WAIT_TIME);
+        
         // And I click in "[href='#/settings/']"
         Actions.getAndClick('[href="#/settings/"]');
-        cy.wait(WAIT_TIME);
+        
         // And I click in "[href='#/settings/navigation/']"
         Actions.getAndClick('[href="#/settings/navigation/"]');
 
@@ -297,10 +297,10 @@ describe('Feature: Settings Ghost 4.44.0', () => {
 
         // When I click in "[type='submit']"
         Actions.getAndClick('button[type="submit"]');
-        cy.wait(WAIT_TIME);
+        
         // And I click in "[href='#/settings/']"
         Actions.getAndClick('[href="#/settings/"]');
-        cy.wait(WAIT_TIME);
+        
         // And I click in "[href='#/settings/general/']"
         Actions.getAndClick('[href="#/settings/general/"]');
 
@@ -326,7 +326,7 @@ describe('Feature: Settings Ghost 4.44.0', () => {
         Actions.navigateToPage(props.DASHBOARD_URL_4);
         // And I click in "[href='#/settings/']"
         Actions.getAndClick('[href="#/settings/"]');
-        cy.wait(WAIT_TIME);
+        
         // And I click in "[href='#/settings/general/']"
         Actions.getAndClick('[href="#/settings/general/"]');
 
