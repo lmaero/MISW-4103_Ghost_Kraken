@@ -88,12 +88,20 @@ Used Technologies:
    ```
 
 9. Create http-server to serve the root folder. This script will start a
-   server in `http://localhost:8080`, **please make sure that this port is
+   server in:`http://localhost:8080`
+   <br />
+   <br />
+   **Please make sure that this port is
    available on your machine. If that's not the case, everything will fail.**
-   ```shell
-   npm run serve
-   ```
-10. Run tests and generate the report for Kraken. The first tab that is
+     ```shell
+     npm run serve
+     ```
+   **Note:** in the case the above address is not available on your machine, you
+   have to serve the root folder and configure the address of the server in
+   the `config-report.json` file
+   <br />
+   <br />
+11. Run tests and generate the report for Kraken. The first tab that is
     being opened in the browser corresponds to the initial Backstop report with
     the images that it will use for reference to do the comparison. The second
     opened tab is the actual report that you can inspect in detail to find
@@ -106,7 +114,7 @@ Used Technologies:
     exist `Error: Mismatch errors found`**
     <br />
     <br />
-11. To run tests and generate the report for Cypress, please first clean the
+12. To run tests and generate the report for Cypress, please first clean the
     working directory, running:
     ```shell
     npm run clean
@@ -119,10 +127,9 @@ Used Technologies:
     npm run start-cy
     ```
 
-12. Optional: you can control several parameters like the mismatch threshold of
-    the backstop.js VRT. By default, the tests are running with 0.2 as
-    mismatch threshold. If you want to change it, modify the following lines
-    inside [package.json](https://github.com/lmguzmanp/MISW-4103_Ghost_Kraken/blob/e16599442a1a25ca73170717e7827615666d942f/package.json#L20-L23)
+13. Optional: by default, backstop report is generated with a `threshold` of
+    2%, if you want to change the value, go to the `config-report.json` file,
+    change the value and run `npm run clean` before you start the new test.
     <br />
     <br />
     **Note: modifications to package.json file can cause unexpected behavior,
