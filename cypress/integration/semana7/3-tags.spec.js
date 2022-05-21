@@ -1,4 +1,5 @@
 import { faker } from "@faker-js/faker";
+
 require("cypress-xpath");
 
 const email = "diegof.eslava@gmail.com";
