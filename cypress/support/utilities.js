@@ -4,7 +4,7 @@ export default function fillSignInForm(invalidField, ghostVersion = 3) {
   Actions.getAndType('input[id="blog-title"]', "Ghost Blog");
   Actions.getAndType('input[id="name"]', "Alonso Cantu");
   Actions.getAndType('input[id="email"]', "a.cantu@uniandes.edu.co");
-  Actions.getAndType('input[id="password"]', "MISO420899494949494");
+  Actions.getAndType('input[id="password"]', "Micontrasenaestaencriptada1990!");
 
   switch (invalidField) {
     case "email":
