@@ -35,3 +35,12 @@ export default function fillSignInForm(invalidField, ghostVersion = 3) {
     Actions.getAndClick('[type="submit"]');
   }
 }
+
+export function signIn() {
+  Actions.getAndType('input[type="email"]', "a.cantu@uniandes.edu.co");
+  Actions.getAndType(
+    'input[type="password"]',
+    "Micontrasenaestaencriptada1990!"
+  );
+  Actions.getAndClick('button[type="submit"]');
+}

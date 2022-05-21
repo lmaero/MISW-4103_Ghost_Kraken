@@ -4,6 +4,7 @@
   "description": "Kraken tests for Ghost 3.41.1 local instance",
   "main": "index.js",
   "scripts": {
+    "cy7": "npx cypress run --headed --spec cypress/integration/semana7/*.spec.js",
     "start-kk": "npm run test-kk && npm run report-kk",
     "start-cy": "npm run test-cy && npm run report-cy",
     "test-kk": "npm run kk-run && rm -rf reports/ .kraken",
