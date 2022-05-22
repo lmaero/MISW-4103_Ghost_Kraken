@@ -21,7 +21,7 @@ const smallPassword = faker.lorem.sentence(0);
 const passwordWith9Digits = 123456789;
 const emailWithoutValidFormat = 'a.cantu#uniandes.edu.co'
 
-
+/*
 // 1-4
 describe('One empty field', () => {
   beforeEach(()=>{
@@ -274,7 +274,7 @@ describe('Validate description message', () => {
     cy.wait(1000)
   })
 });
-
+*/
 
 // 21-23
 describe('Length bigger than the allowed', () => {
@@ -282,7 +282,7 @@ describe('Length bigger than the allowed', () => {
       cy.visit('http://localhost:3001/ghost/#/setup/two')
       cy.wait(5000)
   })//21
-  it('should reject the account creation if the name is bigger than 100', ()=>{
+  it('should reject the account creation if the name is bigger than 1000', ()=>{
     cy.get('form').within(() => {    
             const jsonObject = getLoginAPrioriDatapool();
             cy.xpath(blogField).type(jsonObject[20].titulo);  
@@ -301,7 +301,7 @@ describe('Length bigger than the allowed', () => {
     })
     cy.wait(1000)
   })//22
-  it('should reject the account creation if the blog title is bigger than 100', ()=>{
+  it('should reject the account creation if the blog title is bigger than 1000', ()=>{
     cy.get('form').within(() => {        
             const jsonObject = getLoginAPrioriDatapool();
             cy.xpath(blogField).type(jsonObject[21].titulo, {force: true, delay:0});  
@@ -316,7 +316,7 @@ describe('Length bigger than the allowed', () => {
     })
     cy.wait(3000);
   })//23
-  it('should reject the account creation if the email is bigger than 100', ()=>{
+  it('should reject the account creation if the email is bigger than 1000', ()=>{
     cy.get('form').within(() => {        
             const jsonObject = getLoginAPrioriDatapool();
             cy.xpath(blogField).type(jsonObject[22].titulo);  
