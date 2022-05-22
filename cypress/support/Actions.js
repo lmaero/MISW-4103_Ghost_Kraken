@@ -5,7 +5,7 @@ export class Actions {
   static version = "";
 
   static navigateToPage(page) {
-    cy.visit(page, { failOnStatusCode: false });
+    cy.visit(page, {failOnStatusCode: false});
   }
 
   static clickContains(text) {
@@ -16,12 +16,22 @@ export class Actions {
     cy.get(element).clear().type(text);
   }
 
+  static getAndTypeNoWait(element, text) {
+    cy.get(element).clear().type(text, {delay: 0});
+  }
+
   static getAndClear(element) {
     cy.get(element).clear();
   }
 
   static getAndClick(element) {
     cy.get(element).first().click();
+    cy.wait(500);
+  }
+
+  static containsAndClick(text) {
+    cy.contains(text).first().click();
+    cy.wait(500)
   }
 
   static getXPathAndClick(element) {
@@ -29,7 +39,7 @@ export class Actions {
   }
 
   static getXPathAndType(element, text) {
-    cy.xpath(element).clear().type(text, { force: true });
+    cy.xpath(element).clear().type(text, {force: true});
   }
 
   static takeScreenshot() {
