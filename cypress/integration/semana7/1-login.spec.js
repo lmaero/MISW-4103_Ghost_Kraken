@@ -287,7 +287,7 @@ describe('Length bigger than the allowed', () => {
             const jsonObject = getLoginAPrioriDatapool();
             cy.xpath(blogField).type(jsonObject[20].titulo);  
             cy.wait(1000);
-            cy.xpath(nameField).clear().type(jsonObject[20].name, {force: true});
+            cy.xpath(nameField).clear().type(jsonObject[20].name, {force: true, delay:0});
             cy.wait(1000);
             cy.on('uncaught:exception', (err, runnable) => {
               expect(err.message).to.include('Request was rejected because it was invalid')
@@ -304,7 +304,7 @@ describe('Length bigger than the allowed', () => {
   it('should reject the account creation if the blog title is bigger than 100', ()=>{
     cy.get('form').within(() => {        
             const jsonObject = getLoginAPrioriDatapool();
-            cy.xpath(blogField).type(jsonObject[21].titulo, {force: true});  
+            cy.xpath(blogField).type(jsonObject[21].titulo, {force: true, delay:0});  
             cy.wait(1000);
             cy.xpath(nameField).type(jsonObject[21].name);
             cy.wait(1000);
@@ -323,7 +323,7 @@ describe('Length bigger than the allowed', () => {
             cy.wait(1000);
             cy.xpath(nameField).type(jsonObject[22].name);
             cy.wait(1000);
-            cy.xpath(emailField).type(jsonObject[22].email, {force: true});
+            cy.xpath(emailField).type(jsonObject[22].email, {force: true, delay:0});
             cy.wait(1000);
             cy.xpath(passwordField).type(jsonObject[22].contrasena);
             cy.wait(1000);
