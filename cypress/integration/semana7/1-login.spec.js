@@ -21,7 +21,7 @@ const smallPassword = faker.lorem.sentence(0);
 const passwordWith9Digits = 123456789;
 const emailWithoutValidFormat = 'a.cantu#uniandes.edu.co'
 
-/*
+
 // 1-4
 describe('One empty field', () => {
   beforeEach(()=>{
@@ -274,7 +274,7 @@ describe('Validate description message', () => {
     cy.wait(1000)
   })
 });
-*/
+
 
 // 21-23
 describe('Length bigger than the allowed', () => {
