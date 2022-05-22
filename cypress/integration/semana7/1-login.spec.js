@@ -3,6 +3,7 @@ import { faker } from "@faker-js/faker";
 require("cypress-xpath");
 
 
+/* Los datos del JSON se generaron de https://generatedata.com/generator */
 
 const getLoginAPrioriDatapool = () => require("../../support/priori_datapool_1-login_spec.json");
 const blogField = '/html/body/div[2]/div/main/div/div/section/form/div[2]/span/input';
