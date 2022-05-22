@@ -5,7 +5,7 @@ export class Actions {
   static version = "";
 
   static navigateToPage(page) {
-    cy.visit(page, {failOnStatusCode: false});
+    cy.visit(page, { failOnStatusCode: false });
   }
 
   static clickContains(text) {
@@ -17,7 +17,7 @@ export class Actions {
   }
 
   static getAndTypeNoWait(element, text) {
-    cy.get(element).clear().type(text, {delay: 0});
+    cy.get(element).clear().type(text, { delay: 0 });
   }
 
   static getAndClear(element) {
@@ -26,12 +26,12 @@ export class Actions {
 
   static getAndClick(element) {
     cy.get(element).first().click();
-    cy.wait(500);
+    cy.wait(200);
   }
 
   static containsAndClick(text) {
     cy.contains(text).first().click();
-    cy.wait(500)
+    cy.wait(200);
   }
 
   static getXPathAndClick(element) {
@@ -39,11 +39,11 @@ export class Actions {
   }
 
   static getXPathAndType(element, text) {
-    cy.xpath(element).clear().type(text, {force: true});
+    cy.xpath(element).clear().type(text, { force: true });
   }
 
   static takeScreenshot() {
-    cy.wait(500);
+    cy.wait(200);
     cy.screenshot(`cypress-${this.version}-${this.counter.toString()}`, {
       capture: "viewport",
       overwrite: true,
