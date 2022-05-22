@@ -2,7 +2,79 @@
 
 ---
 
-## General Instructions
+## General Instructions - Week 7
+
+1. Open a terminal window and clone this repository
+
+    - SSH option
+
+      ```shell
+      git clone git@github.com:lmguzmanp/MISW-4103_Ghost_Kraken.git
+      ```
+
+    - HTTPS option
+      ```shell
+      git clone https://github.com/lmguzmanp/MISW-4103_Ghost_Kraken.git
+      ```
+
+2. Navigate to the cloned directory
+   ```shell
+   cd MISW-4103_Ghost_Kraken/
+   ```
+3. Make sure you have the `node` and `npm` engine specified versions. Please
+   review [package.json](https://github.com/lmguzmanp/MISW-4103_Ghost_Kraken/blob/bc09c72bae2083199ef5148fe9d9fe1d3e95048f/package.json#L18-L21)
+
+    - You can use [nvm](https://github.com/nvm-sh/nvm), please follow their
+      updated usage and installation instructions
+
+4. Once you have installed `nvm`, you can use the following command to use the
+   right version (`14.19.2`) that this repository needs
+
+   ```shell
+   nvm install 14
+   ```
+
+   ```shell
+   nvm use 14
+   ```
+
+5. Install dependencies
+
+   ```shell
+   npm i
+   ```
+
+6. This repository executes over Ghost: `3.41.1` using a Docker container.
+   It is expected that you have docker-cli installed on your machine or that
+   you're able to install it following the official [Docker installation
+   instructions](https://docs.docker.com/get-docker/)
+   <br />
+   <br />
+8. Please make sure that port `3001` of your machine is not being used, and
+   no containers exist with the lines below names. **If any of the mentioned
+   ports are being used by any application, all tests will fail.**
+   <br />
+   <br />
+   You can inspect all of your containers using:
+
+   ```shell
+   docker container ls -a
+   ```
+
+9. Once you have verified conditions of step 7. Please create and run the
+   needed container using:
+
+   ```shell
+   docker run -d -e url=http://localhost:3001 -p 3001:2368 --name ghost_3.41.1 ghost:3.41.1
+   ```
+10. To run tests, use:
+     ```shell
+     npm run cy7
+     ```
+
+---
+
+## General Instructions - Week 6
 
 1. Open a terminal window and clone this repository
 
