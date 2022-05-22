@@ -10,16 +10,10 @@ const nameField = '/html/body/div[2]/div/main/div/div/section/form/div[3]/span/i
 const emailField = '/html/body/div[2]/div/main/div/div/section/form/div[4]/span/input';
 const passwordField = '/html/body/div[2]/div/main/div/div/section/form/div[5]/span/input';
 const createButton = '/html/body/div[2]/div/main/div/div/section/form/button/span';
-const invalidBlogName = faker.lorem.sentence(100);
-const invalidName = faker.lorem.sentence(100);
-const invalidEmail = invalidName + faker.lorem.sentence(100);
-const invalidPassword = faker.lorem.sentence(1000);
 const smallBlogName = faker.lorem.sentence(0);
 const smallName = faker.lorem.sentence(0);
 const smallEmail = faker.lorem.sentence(0);
 const smallPassword = faker.lorem.sentence(0);
-const passwordWith9Digits = 123456789;
-const emailWithoutValidFormat = 'a.cantu#uniandes.edu.co'
 
 
 // 1-4
