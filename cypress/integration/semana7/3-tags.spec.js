@@ -26,7 +26,7 @@ describe(`d1_create_new_public_tag_with_name`, function () {
     //Escribe un nombre en el Tag
     cy.xpath(
       "/html/body/div[2]/div/main/section/form/div/div[1]/div[1]/div[1]/div[1]/input"
-    ).type("Prueba");
+    ).type(faker.lorem.word());
     //Guarda el Tag
     cy.xpath(
       "/html/body/div[2]/div/main/section/form/header/section/button"
@@ -60,7 +60,7 @@ describe(`d2_edit_public_tag_name`, function () {
       "/html/body/div[2]/div/main/section/form/div/div[1]/div[1]/div[1]/div[1]/input"
     )
       .clear()
-      .type("Prueba editada", { force: true });
+      .type(faker.lorem.word(), { force: true });
     cy.wait(200);
 
     //Guarda el Tag
@@ -130,7 +130,7 @@ describe(`d4_edit_public_tag_slug`, function () {
       "/html/body/div[2]/div/main/section/form/div/div[1]/div[1]/div[2]/input"
     )
       .clear()
-      .type("prueba-editada", { force: true });
+      .type(faker.lorem.word(), { force: true });
     cy.wait(200);
 
     //Guarda el Tag
@@ -600,7 +600,7 @@ describe(`d16_create_new_internal_tag_with_name`, function () {
     //Escribe un nombre en el Tag
     cy.xpath(
       "/html/body/div[2]/div/main/section/form/div/div[1]/div[1]/div[1]/div[1]/input"
-    ).type("Prueba");
+    ).type(faker.lorem.word());
     //Guarda el Tag
     cy.xpath(
       "/html/body/div[2]/div/main/section/form/header/section/button"
@@ -634,7 +634,7 @@ describe(`d17_edit_internal_tag_metadata__long_title`, function () {
     //Escribe un nombre en el Tag
     cy.xpath(
       "/html/body/div[2]/div/main/section/form/div/div[1]/div[1]/div[1]/div[1]/input"
-    ).type("Prueba");
+    ).type(faker.lorem.word());
 
     //Dar click en expand metadata
     cy.xpath(
@@ -681,7 +681,7 @@ describe(`d18_edit_internal_tag_color`, function () {
     //Escribe un nombre en el Tag
     cy.xpath(
       "/html/body/div[2]/div/main/section/form/div/div[1]/div[1]/div[1]/div[1]/input"
-    ).type("Prueba");
+    ).type(faker.lorem.word());
 
     //Edita el color en el Tag
     cy.xpath(
@@ -724,7 +724,7 @@ describe(`d19_edit_internal_tag_slug`, function () {
     //Escribe un nombre en el Tag
     cy.xpath(
       "/html/body/div[2]/div/main/section/form/div/div[1]/div[1]/div[1]/div[1]/input"
-    ).type("Prueba");
+    ).type(faker.lorem.word());
     //Edita el slug en el Tag
     cy.xpath(
       "/html/body/div[2]/div/main/section/form/div/div[1]/div[1]/div[2]/input"
@@ -765,7 +765,7 @@ describe(`d20_edit_internal_tag_description`, function () {
     //Escribe un nombre en el Tag
     cy.xpath(
       "/html/body/div[2]/div/main/section/form/div/div[1]/div[1]/div[1]/div[1]/input"
-    ).type("Prueba");
+    ).type(faker.lorem.word());
 
     //Edita la descripcion en el Tag
     cy.xpath(
@@ -807,7 +807,7 @@ describe(`d21_edit_internal_tag_metadata_title`, function () {
     //Escribe un nombre en el Tag
     cy.xpath(
       "/html/body/div[2]/div/main/section/form/div/div[1]/div[1]/div[1]/div[1]/input"
-    ).type("Prueba");
+    ).type(faker.lorem.word());
 
     //Dar click en expand metadata
     cy.xpath(
@@ -854,7 +854,7 @@ describe(`d22_edit_internal_tag_metadata_description`, function () {
     //Escribe un nombre en el Tag
     cy.xpath(
       "/html/body/div[2]/div/main/section/form/div/div[1]/div[1]/div[1]/div[1]/input"
-    ).type("Prueba");
+    ).type(faker.lorem.word());
 
     //Dar click en expand metadata
     cy.xpath(
@@ -901,7 +901,7 @@ describe(`d23_edit_internal_tag_metadata_url_with_email`, function () {
     //Escribe un nombre en el Tag
     cy.xpath(
       "/html/body/div[2]/div/main/section/form/div/div[1]/div[1]/div[1]/div[1]/input"
-    ).type("Prueba");
+    ).type(faker.lorem.word());
 
     //Dar click en expand metadata
     cy.xpath(
@@ -948,7 +948,7 @@ describe(`d24_edit_internal_tag_metadata_url_with_url`, function () {
     //Escribe un nombre en el Tag
     cy.xpath(
       "/html/body/div[2]/div/main/section/form/div/div[1]/div[1]/div[1]/div[1]/input"
-    ).type("Prueba");
+    ).type(faker.lorem.word());
 
     //Dar click en expand metadata
     cy.xpath(
@@ -995,7 +995,7 @@ describe(`d25_edit_internal_tag_twitter_card_title`, function () {
     //Escribe un nombre en el Tag
     cy.xpath(
       "/html/body/div[2]/div/main/section/form/div/div[1]/div[1]/div[1]/div[1]/input"
-    ).type("Prueba");
+    ).type(faker.lorem.word());
 
     //Dar click en expand twitter card
     cy.xpath(
@@ -1042,7 +1042,7 @@ describe(`d26_edit_internal_tag_twitter_card_description`, function () {
     //Escribe un nombre en el Tag
     cy.xpath(
       "/html/body/div[2]/div/main/section/form/div/div[1]/div[1]/div[1]/div[1]/input"
-    ).type("Prueba");
+    ).type(faker.lorem.word());
 
     //Dar click en expand twitter card
     cy.xpath(
@@ -1089,7 +1089,7 @@ describe(`d27_edit_internal_tag_facebook_card_title`, function () {
     //Escribe un nombre en el Tag
     cy.xpath(
       "/html/body/div[2]/div/main/section/form/div/div[1]/div[1]/div[1]/div[1]/input"
-    ).type("Prueba");
+    ).type(faker.lorem.word());
 
     //Dar click en expand Facebook card
     cy.xpath(
@@ -1136,7 +1136,7 @@ describe(`d28_edit_internal_tag_facebook_card_description`, function () {
     //Escribe un nombre en el Tag
     cy.xpath(
       "/html/body/div[2]/div/main/section/form/div/div[1]/div[1]/div[1]/div[1]/input"
-    ).type("Prueba");
+    ).type(faker.lorem.word());
 
     //Dar click en expand Facebook card
     cy.xpath(
@@ -1183,7 +1183,7 @@ describe(`d29_edit_internal_tag_twitter_card_long_title`, function () {
     //Escribe un nombre en el Tag
     cy.xpath(
       "/html/body/div[2]/div/main/section/form/div/div[1]/div[1]/div[1]/div[1]/input"
-    ).type("Prueba");
+    ).type(faker.lorem.word());
 
     //Dar click en expand twitter card
     cy.xpath(
@@ -1230,7 +1230,7 @@ describe(`d30_edit_internal_tag_facebook_card_long_title`, function () {
     //Escribe un nombre en el Tag
     cy.xpath(
       "/html/body/div[2]/div/main/section/form/div/div[1]/div[1]/div[1]/div[1]/input"
-    ).type("Prueba");
+    ).type(faker.lorem.word());
 
     //Dar click en expand Facebook card
     cy.xpath(
