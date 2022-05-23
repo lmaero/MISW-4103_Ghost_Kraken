@@ -31,11 +31,11 @@
    right version (`14.19.2`) that this repository needs
 
    ```shell
-   nvm install 14
+   nvm install 14.19.2
    ```
 
    ```shell
-   nvm use 14
+   nvm use 14.19.2
    ```
 
 5. Install dependencies
