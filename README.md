@@ -71,7 +71,7 @@
      ```shell
      npm run cy7
      ```
-
+11. If you want to manually inspect spec files for this week tests, please go to the [specs folder](https://github.com/lmguzmanp/MISW-4103_Ghost_Kraken/tree/main/cypress/integration/semana7)
 ---
 
 ## General Instructions - Week 6
