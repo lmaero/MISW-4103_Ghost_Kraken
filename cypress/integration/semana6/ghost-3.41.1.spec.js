@@ -1,10 +1,11 @@
-import { Actions } from "../support/Actions";
-import fillSignInForm from "../support/utilities";
+import { Actions } from "../../support/Actions";
+import fillSignInForm from "../../support/utilities";
 
-const props = require("../../properties.json");
+const props = require("../../../properties.json");
 
 describe("Feature: Login Ghost 3.41.1", () => {
   Actions.version = "g3";
+  Actions.week = 6;
 
   beforeEach(() => {
     Actions.navigateToPage(props.SETUP_PAGE_TWO_3);

@@ -90,10 +90,12 @@ async function main() {
   const refImagesRoute = process.argv[3];
   const newImagesRoute = process.argv[4];
 
+  console.log("");
   console.log(`Generating backstop.json file for ${title}, using: `);
   console.log(`Server: ${config.server}`);
   console.log(`Reference Images Route: ${refImagesRoute}`);
   console.log(`New Images Route: ${newImagesRoute}`);
+  console.log("");
 
   await sleep(5000);
 
@@ -107,7 +109,9 @@ async function main() {
   const finalObject = JSON.stringify(createBackstopJSON(title, scenarios));
 
   fs.writeFileSync("./backstop.json", finalObject);
+  console.log("");
   console.log("backstop.json generated successfully");
+  console.log("");
 }
 
 main();
