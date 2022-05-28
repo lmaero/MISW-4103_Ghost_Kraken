@@ -11,6 +11,8 @@
   "dependencies": {
     "@faker-js/faker": "^6.3.1",
     "cypress": "^9.6.0",
+    "cypress-log-to-output": "^1.1.2",
+    "cypress-plugin-tab": "^1.0.5",
     "kraken-node": "^1.0.24",
     "sqlite3": "^5.0.8",
     "xpath": "0.0.32"

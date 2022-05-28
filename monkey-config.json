@@ -1,0 +1,24 @@
+{
+  "projectId": "TSDL-Monkey-with-Cypress",
+  "baseUrl": "http://localhost:3001",
+  "env": {
+    "appName": "Ghost 3.41.1",
+    "events": 50,
+    "delay": 300,
+    "seed": 2000,
+    "pctClicks": 19,
+    "pctScroll": 17,
+    "pctSelectors": 16,
+    "pctKeys": 16,
+    "pctSpKeys": 16,
+    "pctPgNav": 16
+  },
+  "integrationFolder": "./cypress/integration/semana4",
+  "pluginsFile": "./cypress/plugins/index.js",
+  "pageLoadTimeout": 120000,
+  "defaultCommandTimeout": 120000,
+  "testFiles": "monkey.js",
+  "videosFolder": "./results",
+  "screenshotsFolder": "./results",
+  "chromeWebSecurity": false
+}

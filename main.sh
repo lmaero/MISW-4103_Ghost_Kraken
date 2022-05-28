@@ -17,7 +17,7 @@ function printBox() {
   echo "| ${b//?/ } |
  -${b//?/-}-"
   tput sgr 0
-  sleep 5
+  sleep 3
 }
 
 function ask() {
@@ -34,6 +34,7 @@ function ask() {
 
 function vrtCreateRef() {
   printBox "Creating reference images..." "We'll open a browser tab but this is not the final report," "please skip it and wait for the final report."
+  sleep 5
   npx backstop test || npx backstop approve
   sleep 3
 }
@@ -72,6 +73,14 @@ function vrtCypress() {
     printBox "Let's produce the final report for Cypress!" &&
     npx backstop test ||
     printBox "Inspect the final report before continue..."
+}
+
+function randomMonkey() {
+  npx cypress run --headed --config-file "monkey-config.json" --spec "cypress/integration/semana4/monkey.js"
+}
+
+function smartMonkey() {
+  npx cypress run --headed --config-file "smart-monkey-config.json" --spec "cypress/integration/semana4/smart-monkey.js"
 }
 
 function generateBackstopJSON() {
@@ -195,11 +204,13 @@ function main() {
     "" \
     "This script will run the following tests: " \
     "" \
-    "- Week 7 - Data Generation with Cypress over Ghost 3.41.1" \
-    "- Week 6 - Visual Regression Testing using Backstop.js over Ghost 3.41.1 and Ghost 4.44.0 (Kraken version)" \
-    "- Week 6 - Visual Regression Testing using Backstop.js over Ghost 3.41.1 and Ghost 4.44.0 (Cypress version)" \
-    "- Week 5 - E2E testing over Ghost 3.41.1 and Ghost 4.44.0 (Kraken version)" \
-    "- Week 5 - E2E testing over Ghost 3.41.1 and Ghost 4.44.0 (Cypress version)" \
+    "- Week 7 - Data Generation with Cypress over Ghost 3.41.1 (Time: ~10m)" \
+    "- Week 6 - Visual Regression Testing using Backstop.js over Ghost 3.41.1 and Ghost 4.44.0 (Kraken version) (Time: ~3m)" \
+    "- Week 6 - Visual Regression Testing using Backstop.js over Ghost 3.41.1 and Ghost 4.44.0 (Cypress version) (Time: ~3m)" \
+    "- Week 5 - E2E testing over Ghost 3.41.1 and Ghost 4.44.0 (Kraken version) (Time: ~3m)" \
+    "- Week 5 - E2E testing over Ghost 3.41.1 and Ghost 4.44.0 (Cypress version) (Time: ~3m)" \
+    "- Week 4 - Random monkey (Exploratory tests) over Ghost 3.41.1 (Cypress version) (Time: ~1m)" \
+    "- Week 4 - Smart monkey (Exploratory tests) over Ghost 4.44.0 (Cypress version) (Time: ~3m)" \
     "" \
     "Please be patient, you'll need approximately 30 minutes." \
     "Take a beer while we execute everything." \
@@ -219,11 +230,15 @@ function main() {
   createContainers 3001 3002
 
   # Run week 7 tests
-  printBox "Running - Week 7 - Data Generation with Cypress over Ghost 3.41.1"
+  printBox "Week 7 - Data Generation with Cypress over Ghost 3.41.1"
   sleep 2
-  npx cypress run --headed --config video=false --spec "cypress/integration/semana7/*.spec.js"
+  ask "We're about to start Data Generation testing, are you ready to continue?"
+  sleep 2
+  npx cypress run --headed --spec "cypress/integration/semana7/*.spec.js"
 
   # Run week 5 & 6 tests
+  printBox "Week 6 - Visual Regression Testing using Backstop.js" "Week 5 - E2E testing using Kraken" "" "Ghost 3.41.1 and Ghost 4.44.0 (Kraken version)"
+  sleep 2
   ask "We're about to start E2E and VRT testing, are you ready to continue?"
   sleep 2
 
@@ -233,18 +248,27 @@ function main() {
   npx http-server -p 8080 . &
   echo "Server is running over http://localhost:8080"
   sleep 2
-
-  printBox "Running - Week 6 - Visual Regression Testing using Backstop.js" "Running - Week 5 - E2E testing using Kraken" "" "Ghost 3.41.1 and Ghost 4.44.0 (Kraken version)"
-  sleep 2
-
   vrtKraken
 
   printBox "WARNING" "" "Proceeding with Cypress testing will remove Backstop VRT & E2E Kraken report." "Please make sure you finished the revision of the generated report"
-  ask "Are you ready to continue with Backstop VRT & E2E Cypress testing?"
 
-  printBox "Running - Week 6 - Visual Regression Testing using Backstop.js" "Running - Week 5 - E2E testing using Cypress" "" "Ghost 3.41.1 and Ghost 4.44.0 (Cypress version)"
+  printBox "Week 6 - Visual Regression Testing using Backstop.js" "Week 5 - E2E testing using Cypress" "" "Ghost 3.41.1 and Ghost 4.44.0 (Cypress version)"
+  sleep 2
+  ask "Are you ready to continue with Backstop VRT & E2E Cypress testing?"
   sleep 2
   vrtCypress
+
+  printBox "Week 4 - Monkey Testing" "" "Ghost 3.41.1 (Random monkey version)"
+  sleep 2
+  ask "Are you ready to continue with monkey testing?"
+  sleep 2
+  randomMonkey
+
+  printBox "Week 4 - Smart Monkey Testing" "" "Ghost 4.44.0 (Smart monkey version)"
+  sleep 2
+  ask "Are you ready to continue with smart monkey testing?"
+  sleep 2
+  smartMonkey
 
   echo "Successfully finished!"
 }

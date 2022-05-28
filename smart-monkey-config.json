@@ -1,0 +1,25 @@
+{
+  "projectId": "TSDL-Smart-Monkey-with-Cypress",
+  "baseUrl": "http://localhost:3002",
+  "env": {
+    "appName": "Ghost 4.44.0",
+    "events": 200,
+    "delay": 300,
+    "seed": 4000,
+    "pctClicks": 12,
+    "pctScroll": 12,
+    "pctSelectors": 12,
+    "pctKeys": 12,
+    "pctSpKeys": 12,
+    "pctPgNav": 12,
+    "pctBwChaos": 12,
+    "pctActions": 16
+  },
+  "integrationFolder": "./cypress/integration/semana4",
+  "pluginsFile": "./cypress/plugins/index.js",
+  "pageLoadTimeout": 120000,
+  "testFiles": "smart-monkey.js",
+  "videosFolder": "./results",
+  "screenshotsFolder": "./results",
+  "chromeWebSecurity": false
+}
