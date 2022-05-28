@@ -1,11 +1,6 @@
 const fs = require("fs");
 const config = require("./config-report.json");
-
-function sleep(ms) {
-  return new Promise((resolve) => {
-    setTimeout(resolve, ms);
-  });
-}
+const { sleep } = require("./utilities");
 
 function createRoutes(server, refPath, newPath) {
   const refScreenshots = `${__dirname}/${refPath}`;
@@ -109,13 +104,10 @@ async function main() {
   const finalObject = JSON.stringify(createBackstopJSON(title, scenarios));
 
   fs.writeFileSync("./backstop.json", finalObject);
-  console.log("");
   console.log("backstop.json generated successfully");
   console.log("");
 }
 
-main();
-
-module.exports = {
-  sleep,
-};
+main().then(() => {
+  console.log("Finish backstop.json writing");
+});

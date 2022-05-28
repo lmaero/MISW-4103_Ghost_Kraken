@@ -2,12 +2,12 @@ const { After, Before, AfterStep } = require("@cucumber/cucumber");
 const { WebClient } = require("kraken-node");
 const path = require("path");
 const fs = require("fs");
-const { sleep } = require("../../../genJSON");
+const { sleep } = require("../../../utilities");
 
 let counter = 10;
 
 AfterStep(async function (step) {
-  await sleep(500);
+  await sleep(300);
   const baseName = path.parse(step.pickle.uri).base;
   let ssName;
 
@@ -30,7 +30,7 @@ Before(async function () {
 
   this.deviceClient = new WebClient("chrome", {}, this.userId);
   this.driver = await this.deviceClient.startKrakenForUserId(this.userId);
-  this.driver.setWindowSize(1920, 1080);
+  await this.driver.setWindowSize(1920, 1080);
   this.driver.setWindowRect(0, 0, 1920, 1080);
 });
 
