@@ -4,7 +4,7 @@
   "description": "Kraken tests for Ghost 3.41.1 local instance",
   "main": "index.js",
   "scripts": {
-    "test": "bash main.sh"
+    "start": "bash main.sh"
   },
   "author": "Luis Miguel Guzman Perez",
   "license": "ISC",
