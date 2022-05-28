@@ -32,13 +32,13 @@ export class Actions {
 
   static getAndClick(element) {
     cy.get(element).first().click();
-    cy.wait(200);
+    cy.wait(100);
     this.takeScreenshot();
   }
 
   static containsAndClick(text) {
     cy.contains(text).first().click();
-    cy.wait(200);
+    cy.wait(100);
     this.takeScreenshot();
   }
 
@@ -54,7 +54,7 @@ export class Actions {
 
   static takeScreenshot() {
     if (this.week === 6) {
-      cy.wait(200);
+      cy.wait(100);
       cy.screenshot(`cypress-${this.version}-${this.counter.toString()}`, {
         capture: "viewport",
         overwrite: true,
