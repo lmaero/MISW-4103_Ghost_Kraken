@@ -4,7 +4,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_1_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_1_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_1_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_1_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 1",
@@ -20,9 +20,7 @@ report({
             "width": 0,
             "height": 0
           },
-          "rawMisMatchPercentage": 1.589940200617284,
-          "misMatchPercentage": "1.59",
-          "analysisTime": 293
+          "misMatchPercentage": "0.00"
         }
       },
       "status": "pass"
@@ -30,7 +28,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_2_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_2_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_2_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_2_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 2",
@@ -48,16 +46,16 @@ report({
           },
           "rawMisMatchPercentage": 74.17621527777779,
           "misMatchPercentage": "74.18",
-          "analysisTime": 206
+          "analysisTime": 520
         },
-        "diffImage": "../bitmaps_test/20220527-231605/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_2_0_document_0_default.png"
+        "diffImage": "../bitmaps_test/20220528-090643/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_2_0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_3_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_3_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_3_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_3_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 3",
@@ -75,16 +73,16 @@ report({
           },
           "rawMisMatchPercentage": 52.40514081790123,
           "misMatchPercentage": "52.41",
-          "analysisTime": 580
+          "analysisTime": 533
         },
-        "diffImage": "../bitmaps_test/20220527-231605/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_3_0_document_0_default.png"
+        "diffImage": "../bitmaps_test/20220528-090643/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_3_0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_4_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_4_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_4_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_4_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 4",
@@ -102,7 +100,7 @@ report({
           },
           "rawMisMatchPercentage": 3.0604745370370368,
           "misMatchPercentage": "3.06",
-          "analysisTime": 301
+          "analysisTime": 447
         }
       },
       "status": "pass"
@@ -110,7 +108,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_5_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_5_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_5_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_5_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 5",
@@ -128,7 +126,7 @@ report({
           },
           "rawMisMatchPercentage": 3.1567804783950617,
           "misMatchPercentage": "3.16",
-          "analysisTime": 547
+          "analysisTime": 944
         }
       },
       "status": "pass"
@@ -136,7 +134,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_6_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_6_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_6_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_6_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 6",
@@ -154,7 +152,7 @@ report({
           },
           "rawMisMatchPercentage": 3.1290991512345676,
           "misMatchPercentage": "3.13",
-          "analysisTime": 543
+          "analysisTime": 909
         }
       },
       "status": "pass"
@@ -162,7 +160,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_7_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_7_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_7_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_7_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 7",
@@ -178,18 +176,18 @@ report({
             "width": 0,
             "height": 0
           },
-          "rawMisMatchPercentage": 51.84481095679012,
-          "misMatchPercentage": "51.84",
-          "analysisTime": 267
+          "rawMisMatchPercentage": 9.906298225308642,
+          "misMatchPercentage": "9.91",
+          "analysisTime": 244
         },
-        "diffImage": "../bitmaps_test/20220527-231605/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_7_0_document_0_default.png"
+        "diffImage": "../bitmaps_test/20220528-090643/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_7_0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_8_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_8_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_8_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_8_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 8",
@@ -207,16 +205,16 @@ report({
           },
           "rawMisMatchPercentage": 11.093171296296296,
           "misMatchPercentage": "11.09",
-          "analysisTime": 715
+          "analysisTime": 579
         },
-        "diffImage": "../bitmaps_test/20220527-231605/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_8_0_document_0_default.png"
+        "diffImage": "../bitmaps_test/20220528-090643/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_8_0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_9_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_9_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_9_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_9_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 9",
@@ -232,18 +230,18 @@ report({
             "width": 0,
             "height": 0
           },
-          "rawMisMatchPercentage": 11.061005015432098,
-          "misMatchPercentage": "11.06",
-          "analysisTime": 498
+          "rawMisMatchPercentage": 11.148051697530864,
+          "misMatchPercentage": "11.15",
+          "analysisTime": 604
         },
-        "diffImage": "../bitmaps_test/20220527-231605/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_9_0_document_0_default.png"
+        "diffImage": "../bitmaps_test/20220528-090643/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_9_0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_10_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_10_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_10_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_10_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 10",
@@ -261,16 +259,16 @@ report({
           },
           "rawMisMatchPercentage": 11.219618055555555,
           "misMatchPercentage": "11.22",
-          "analysisTime": 721
+          "analysisTime": 609
         },
-        "diffImage": "../bitmaps_test/20220527-231605/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_10_0_document_0_default.png"
+        "diffImage": "../bitmaps_test/20220528-090643/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_10_0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_11_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_11_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_11_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_11_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 11",
@@ -288,16 +286,16 @@ report({
           },
           "rawMisMatchPercentage": 11.318190586419753,
           "misMatchPercentage": "11.32",
-          "analysisTime": 667
+          "analysisTime": 757
         },
-        "diffImage": "../bitmaps_test/20220527-231605/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_11_0_document_0_default.png"
+        "diffImage": "../bitmaps_test/20220528-090643/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_11_0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_12_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_12_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_12_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_12_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 12",
@@ -315,16 +313,16 @@ report({
           },
           "rawMisMatchPercentage": 4.1643036265432105,
           "misMatchPercentage": "4.16",
-          "analysisTime": 954
+          "analysisTime": 781
         },
-        "diffImage": "../bitmaps_test/20220527-231605/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_12_0_document_0_default.png"
+        "diffImage": "../bitmaps_test/20220528-090643/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_12_0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_13_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_13_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_13_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_13_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 13",
@@ -342,16 +340,16 @@ report({
           },
           "rawMisMatchPercentage": 10.968364197530864,
           "misMatchPercentage": "10.97",
-          "analysisTime": 671
+          "analysisTime": 668
         },
-        "diffImage": "../bitmaps_test/20220527-231605/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_13_0_document_0_default.png"
+        "diffImage": "../bitmaps_test/20220528-090643/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_13_0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_14_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_14_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_14_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_14_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 14",
@@ -367,9 +365,9 @@ report({
             "width": 0,
             "height": 0
           },
-          "rawMisMatchPercentage": 3.4399594907407405,
-          "misMatchPercentage": "3.44",
-          "analysisTime": 345
+          "rawMisMatchPercentage": 2.4016685956790123,
+          "misMatchPercentage": "2.40",
+          "analysisTime": 914
         }
       },
       "status": "pass"
@@ -377,7 +375,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_15_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_15_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_15_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_15_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 15",
@@ -395,7 +393,7 @@ report({
           },
           "rawMisMatchPercentage": 3.5312499999999996,
           "misMatchPercentage": "3.53",
-          "analysisTime": 565
+          "analysisTime": 533
         }
       },
       "status": "pass"
@@ -403,7 +401,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_16_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_16_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_16_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_16_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 16",
@@ -421,7 +419,7 @@ report({
           },
           "rawMisMatchPercentage": 3.505111882716049,
           "misMatchPercentage": "3.51",
-          "analysisTime": 844
+          "analysisTime": 681
         }
       },
       "status": "pass"
@@ -429,7 +427,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_17_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_17_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_17_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_17_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 17",
@@ -445,18 +443,18 @@ report({
             "width": 0,
             "height": 0
           },
-          "rawMisMatchPercentage": 51.739583333333336,
-          "misMatchPercentage": "51.74",
-          "analysisTime": 717
+          "rawMisMatchPercentage": 13.169270833333332,
+          "misMatchPercentage": "13.17",
+          "analysisTime": 689
         },
-        "diffImage": "../bitmaps_test/20220527-231605/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_17_0_document_0_default.png"
+        "diffImage": "../bitmaps_test/20220528-090643/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_17_0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_18_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_18_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_18_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_18_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 18",
@@ -472,18 +470,18 @@ report({
             "width": 0,
             "height": 0
           },
-          "rawMisMatchPercentage": 22.90779320987654,
+          "rawMisMatchPercentage": 22.907889660493826,
           "misMatchPercentage": "22.91",
-          "analysisTime": 883
+          "analysisTime": 285
         },
-        "diffImage": "../bitmaps_test/20220527-231605/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_18_0_document_0_default.png"
+        "diffImage": "../bitmaps_test/20220528-090643/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_18_0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_19_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_19_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_19_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_19_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 19",
@@ -499,18 +497,18 @@ report({
             "width": 0,
             "height": 0
           },
-          "rawMisMatchPercentage": 22.898919753086417,
-          "misMatchPercentage": "22.90",
-          "analysisTime": 576
+          "rawMisMatchPercentage": 22.733603395061728,
+          "misMatchPercentage": "22.73",
+          "analysisTime": 768
         },
-        "diffImage": "../bitmaps_test/20220527-231605/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_19_0_document_0_default.png"
+        "diffImage": "../bitmaps_test/20220528-090643/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_19_0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_20_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_20_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_20_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_20_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 20",
@@ -526,18 +524,18 @@ report({
             "width": 0,
             "height": 0
           },
-          "rawMisMatchPercentage": 23.001929012345677,
-          "misMatchPercentage": "23.00",
-          "analysisTime": 514
+          "rawMisMatchPercentage": 22.831163194444446,
+          "misMatchPercentage": "22.83",
+          "analysisTime": 767
         },
-        "diffImage": "../bitmaps_test/20220527-231605/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_20_0_document_0_default.png"
+        "diffImage": "../bitmaps_test/20220528-090643/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_20_0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_21_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_21_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_21_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_21_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 21",
@@ -553,18 +551,18 @@ report({
             "width": 0,
             "height": 0
           },
-          "rawMisMatchPercentage": 23.11747685185185,
-          "misMatchPercentage": "23.12",
-          "analysisTime": 754
+          "rawMisMatchPercentage": 22.682966820987655,
+          "misMatchPercentage": "22.68",
+          "analysisTime": 762
         },
-        "diffImage": "../bitmaps_test/20220527-231605/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_21_0_document_0_default.png"
+        "diffImage": "../bitmaps_test/20220528-090643/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_21_0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_22_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_22_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_22_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_22_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 22",
@@ -580,18 +578,18 @@ report({
             "width": 0,
             "height": 0
           },
-          "rawMisMatchPercentage": 22.625144675925927,
-          "misMatchPercentage": "22.63",
-          "analysisTime": 724
+          "rawMisMatchPercentage": 22.799382716049383,
+          "misMatchPercentage": "22.80",
+          "analysisTime": 585
         },
-        "diffImage": "../bitmaps_test/20220527-231605/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_22_0_document_0_default.png"
+        "diffImage": "../bitmaps_test/20220528-090643/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_22_0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_23_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_23_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_23_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_23_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 23",
@@ -609,16 +607,16 @@ report({
           },
           "rawMisMatchPercentage": 4.2093942901234565,
           "misMatchPercentage": "4.21",
-          "analysisTime": 479
+          "analysisTime": 876
         },
-        "diffImage": "../bitmaps_test/20220527-231605/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_23_0_document_0_default.png"
+        "diffImage": "../bitmaps_test/20220528-090643/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_23_0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_24_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_24_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_24_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_24_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 24",
@@ -636,7 +634,7 @@ report({
           },
           "rawMisMatchPercentage": 3.4399594907407405,
           "misMatchPercentage": "3.44",
-          "analysisTime": 313
+          "analysisTime": 676
         }
       },
       "status": "pass"
@@ -644,7 +642,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_25_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_25_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_25_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_25_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 25",
@@ -662,7 +660,7 @@ report({
           },
           "rawMisMatchPercentage": 3.5312499999999996,
           "misMatchPercentage": "3.53",
-          "analysisTime": 955
+          "analysisTime": 978
         }
       },
       "status": "pass"
@@ -670,7 +668,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_26_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_26_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_26_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_26_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 26",
@@ -688,7 +686,7 @@ report({
           },
           "rawMisMatchPercentage": 3.505111882716049,
           "misMatchPercentage": "3.51",
-          "analysisTime": 908
+          "analysisTime": 666
         }
       },
       "status": "pass"
@@ -696,7 +694,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_27_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_27_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_27_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_27_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 27",
@@ -712,18 +710,18 @@ report({
             "width": 0,
             "height": 0
           },
-          "rawMisMatchPercentage": 51.84394290123456,
-          "misMatchPercentage": "51.84",
-          "analysisTime": 696
+          "rawMisMatchPercentage": 4.285252700617284,
+          "misMatchPercentage": "4.29",
+          "analysisTime": 659
         },
-        "diffImage": "../bitmaps_test/20220527-231605/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_27_0_document_0_default.png"
+        "diffImage": "../bitmaps_test/20220528-090643/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_27_0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_28_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_28_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_28_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_28_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 28",
@@ -739,18 +737,18 @@ report({
             "width": 0,
             "height": 0
           },
-          "rawMisMatchPercentage": 11.110918209876543,
-          "misMatchPercentage": "11.11",
-          "analysisTime": 621
+          "rawMisMatchPercentage": 10.82933063271605,
+          "misMatchPercentage": "10.83",
+          "analysisTime": 609
         },
-        "diffImage": "../bitmaps_test/20220527-231605/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_28_0_document_0_default.png"
+        "diffImage": "../bitmaps_test/20220528-090643/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_28_0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_29_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_29_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_29_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_29_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 29",
@@ -766,18 +764,18 @@ report({
             "width": 0,
             "height": 0
           },
-          "rawMisMatchPercentage": 11.230854552469136,
-          "misMatchPercentage": "11.23",
-          "analysisTime": 839
+          "rawMisMatchPercentage": 11.14699074074074,
+          "misMatchPercentage": "11.15",
+          "analysisTime": 886
         },
-        "diffImage": "../bitmaps_test/20220527-231605/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_29_0_document_0_default.png"
+        "diffImage": "../bitmaps_test/20220528-090643/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_29_0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_30_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_30_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_30_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_30_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 30",
@@ -793,18 +791,18 @@ report({
             "width": 0,
             "height": 0
           },
-          "rawMisMatchPercentage": 10.085021219135802,
-          "misMatchPercentage": "10.09",
-          "analysisTime": 546
+          "rawMisMatchPercentage": 10.24339313271605,
+          "misMatchPercentage": "10.24",
+          "analysisTime": 724
         },
-        "diffImage": "../bitmaps_test/20220527-231605/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_30_0_document_0_default.png"
+        "diffImage": "../bitmaps_test/20220528-090643/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_30_0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_31_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_31_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_31_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_31_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 31",
@@ -820,18 +818,18 @@ report({
             "width": 0,
             "height": 0
           },
-          "rawMisMatchPercentage": 10.084731867283951,
-          "misMatchPercentage": "10.08",
-          "analysisTime": 880
+          "rawMisMatchPercentage": 10.243103780864198,
+          "misMatchPercentage": "10.24",
+          "analysisTime": 754
         },
-        "diffImage": "../bitmaps_test/20220527-231605/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_31_0_document_0_default.png"
+        "diffImage": "../bitmaps_test/20220528-090643/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_31_0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_32_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_32_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_32_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_32_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 32",
@@ -847,18 +845,18 @@ report({
             "width": 0,
             "height": 0
           },
-          "rawMisMatchPercentage": 9.918354552469136,
-          "misMatchPercentage": "9.92",
-          "analysisTime": 710
+          "rawMisMatchPercentage": 10.120949074074074,
+          "misMatchPercentage": "10.12",
+          "analysisTime": 896
         },
-        "diffImage": "../bitmaps_test/20220527-231605/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_32_0_document_0_default.png"
+        "diffImage": "../bitmaps_test/20220528-090643/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_32_0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_33_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_33_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_33_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_33_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 33",
@@ -874,18 +872,18 @@ report({
             "width": 0,
             "height": 0
           },
-          "rawMisMatchPercentage": 55.07388117283951,
-          "misMatchPercentage": "55.07",
-          "analysisTime": 690
+          "rawMisMatchPercentage": 54.49353780864198,
+          "misMatchPercentage": "54.49",
+          "analysisTime": 651
         },
-        "diffImage": "../bitmaps_test/20220527-231605/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_33_0_document_0_default.png"
+        "diffImage": "../bitmaps_test/20220528-090643/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_33_0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_34_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_34_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_34_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_34_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 34",
@@ -903,16 +901,16 @@ report({
           },
           "rawMisMatchPercentage": 4.255208333333333,
           "misMatchPercentage": "4.26",
-          "analysisTime": 1070
+          "analysisTime": 594
         },
-        "diffImage": "../bitmaps_test/20220527-231605/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_34_0_document_0_default.png"
+        "diffImage": "../bitmaps_test/20220528-090643/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_34_0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_35_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_35_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_35_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_35_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 35",
@@ -930,16 +928,16 @@ report({
           },
           "rawMisMatchPercentage": 11.038676697530864,
           "misMatchPercentage": "11.04",
-          "analysisTime": 649
+          "analysisTime": 383
         },
-        "diffImage": "../bitmaps_test/20220527-231605/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_35_0_document_0_default.png"
+        "diffImage": "../bitmaps_test/20220528-090643/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_35_0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_36_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_36_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_36_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_36_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 36",
@@ -957,16 +955,16 @@ report({
           },
           "rawMisMatchPercentage": 10.053578317901234,
           "misMatchPercentage": "10.05",
-          "analysisTime": 396
+          "analysisTime": 928
         },
-        "diffImage": "../bitmaps_test/20220527-231605/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_36_0_document_0_default.png"
+        "diffImage": "../bitmaps_test/20220528-090643/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_36_0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_37_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_37_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_37_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_37_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 37",
@@ -984,16 +982,16 @@ report({
           },
           "rawMisMatchPercentage": 10.037181712962964,
           "misMatchPercentage": "10.04",
-          "analysisTime": 651
+          "analysisTime": 1025
         },
-        "diffImage": "../bitmaps_test/20220527-231605/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_37_0_document_0_default.png"
+        "diffImage": "../bitmaps_test/20220528-090643/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_37_0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_38_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_38_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_38_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_38_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 38",
@@ -1011,16 +1009,16 @@ report({
           },
           "rawMisMatchPercentage": 9.879967206790123,
           "misMatchPercentage": "9.88",
-          "analysisTime": 865
+          "analysisTime": 839
         },
-        "diffImage": "../bitmaps_test/20220527-231605/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_38_0_document_0_default.png"
+        "diffImage": "../bitmaps_test/20220528-090643/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_38_0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_39_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_39_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_39_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_39_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 39",
@@ -1038,7 +1036,7 @@ report({
           },
           "rawMisMatchPercentage": 3.4399594907407405,
           "misMatchPercentage": "3.44",
-          "analysisTime": 869
+          "analysisTime": 1058
         }
       },
       "status": "pass"
@@ -1046,7 +1044,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_40_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_40_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_40_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_40_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 40",
@@ -1064,7 +1062,7 @@ report({
           },
           "rawMisMatchPercentage": 3.5312499999999996,
           "misMatchPercentage": "3.53",
-          "analysisTime": 969
+          "analysisTime": 831
         }
       },
       "status": "pass"
@@ -1072,7 +1070,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_41_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_41_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_41_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_41_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 41",
@@ -1090,7 +1088,7 @@ report({
           },
           "rawMisMatchPercentage": 3.505111882716049,
           "misMatchPercentage": "3.51",
-          "analysisTime": 793
+          "analysisTime": 977
         }
       },
       "status": "pass"
@@ -1098,7 +1096,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_42_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_42_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_42_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_42_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 42",
@@ -1114,18 +1112,17 @@ report({
             "width": 0,
             "height": 0
           },
-          "rawMisMatchPercentage": 51.844087577160494,
-          "misMatchPercentage": "51.84",
-          "analysisTime": 654
-        },
-        "diffImage": "../bitmaps_test/20220527-231605/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_42_0_document_0_default.png"
+          "rawMisMatchPercentage": 2.970727237654321,
+          "misMatchPercentage": "2.97",
+          "analysisTime": 692
+        }
       },
-      "status": "fail"
+      "status": "pass"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_43_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_43_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_43_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_43_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 43",
@@ -1141,18 +1138,18 @@ report({
             "width": 0,
             "height": 0
           },
-          "rawMisMatchPercentage": 10.815345293209877,
-          "misMatchPercentage": "10.82",
-          "analysisTime": 614
+          "rawMisMatchPercentage": 10.918161651234568,
+          "misMatchPercentage": "10.92",
+          "analysisTime": 459
         },
-        "diffImage": "../bitmaps_test/20220527-231605/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_43_0_document_0_default.png"
+        "diffImage": "../bitmaps_test/20220528-090643/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_43_0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_44_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_44_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_44_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_44_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 44",
@@ -1170,16 +1167,16 @@ report({
           },
           "rawMisMatchPercentage": 7.639756944444444,
           "misMatchPercentage": "7.64",
-          "analysisTime": 701
+          "analysisTime": 621
         },
-        "diffImage": "../bitmaps_test/20220527-231605/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_44_0_document_0_default.png"
+        "diffImage": "../bitmaps_test/20220528-090643/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_44_0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_45_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_45_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_45_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_45_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 45",
@@ -1197,16 +1194,16 @@ report({
           },
           "rawMisMatchPercentage": 4.186969521604938,
           "misMatchPercentage": "4.19",
-          "analysisTime": 871
+          "analysisTime": 1185
         },
-        "diffImage": "../bitmaps_test/20220527-231605/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_45_0_document_0_default.png"
+        "diffImage": "../bitmaps_test/20220528-090643/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_45_0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_46_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_46_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_46_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_46_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 46",
@@ -1222,18 +1219,18 @@ report({
             "width": 0,
             "height": 0
           },
-          "rawMisMatchPercentage": 7.40041473765432,
-          "misMatchPercentage": "7.40",
-          "analysisTime": 846
+          "rawMisMatchPercentage": 7.353732638888889,
+          "misMatchPercentage": "7.35",
+          "analysisTime": 825
         },
-        "diffImage": "../bitmaps_test/20220527-231605/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_46_0_document_0_default.png"
+        "diffImage": "../bitmaps_test/20220528-090643/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_46_0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_47_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_47_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_47_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_47_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 47",
@@ -1251,16 +1248,16 @@ report({
           },
           "rawMisMatchPercentage": 7.45481288580247,
           "misMatchPercentage": "7.45",
-          "analysisTime": 883
+          "analysisTime": 1010
         },
-        "diffImage": "../bitmaps_test/20220527-231605/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_47_0_document_0_default.png"
+        "diffImage": "../bitmaps_test/20220528-090643/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_47_0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_48_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_48_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_48_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_48_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 48",
@@ -1278,16 +1275,16 @@ report({
           },
           "rawMisMatchPercentage": 4.236255787037037,
           "misMatchPercentage": "4.24",
-          "analysisTime": 957
+          "analysisTime": 771
         },
-        "diffImage": "../bitmaps_test/20220527-231605/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_48_0_document_0_default.png"
+        "diffImage": "../bitmaps_test/20220528-090643/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_48_0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_49_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_49_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_49_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_49_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 49",
@@ -1305,16 +1302,16 @@ report({
           },
           "rawMisMatchPercentage": 4.383728780864198,
           "misMatchPercentage": "4.38",
-          "analysisTime": 1143
+          "analysisTime": 1229
         },
-        "diffImage": "../bitmaps_test/20220527-231605/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_49_0_document_0_default.png"
+        "diffImage": "../bitmaps_test/20220528-090643/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_49_0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_50_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_50_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_50_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_50_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 50",
@@ -1332,16 +1329,16 @@ report({
           },
           "rawMisMatchPercentage": 4.1928530092592595,
           "misMatchPercentage": "4.19",
-          "analysisTime": 993
+          "analysisTime": 739
         },
-        "diffImage": "../bitmaps_test/20220527-231605/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_50_0_document_0_default.png"
+        "diffImage": "../bitmaps_test/20220528-090643/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_50_0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_51_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_51_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_51_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_51_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 51",
@@ -1359,16 +1356,16 @@ report({
           },
           "rawMisMatchPercentage": 4.1643036265432105,
           "misMatchPercentage": "4.16",
-          "analysisTime": 806
+          "analysisTime": 829
         },
-        "diffImage": "../bitmaps_test/20220527-231605/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_51_0_document_0_default.png"
+        "diffImage": "../bitmaps_test/20220528-090643/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_51_0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_52_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_52_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_52_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_52_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 52",
@@ -1386,16 +1383,16 @@ report({
           },
           "rawMisMatchPercentage": 4.2093942901234565,
           "misMatchPercentage": "4.21",
-          "analysisTime": 1027
+          "analysisTime": 1238
         },
-        "diffImage": "../bitmaps_test/20220527-231605/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_52_0_document_0_default.png"
+        "diffImage": "../bitmaps_test/20220528-090643/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_52_0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_53_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_53_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_53_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_53_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 53",
@@ -1413,16 +1410,16 @@ report({
           },
           "rawMisMatchPercentage": 4.255208333333333,
           "misMatchPercentage": "4.26",
-          "analysisTime": 987
+          "analysisTime": 1022
         },
-        "diffImage": "../bitmaps_test/20220527-231605/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_53_0_document_0_default.png"
+        "diffImage": "../bitmaps_test/20220528-090643/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_53_0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_54_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_54_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_54_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_54_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 54",
@@ -1440,16 +1437,16 @@ report({
           },
           "rawMisMatchPercentage": 4.186969521604938,
           "misMatchPercentage": "4.19",
-          "analysisTime": 792
+          "analysisTime": 1208
         },
-        "diffImage": "../bitmaps_test/20220527-231605/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_54_0_document_0_default.png"
+        "diffImage": "../bitmaps_test/20220528-090643/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_54_0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_55_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_55_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_55_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_55_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 55",
@@ -1467,16 +1464,16 @@ report({
           },
           "rawMisMatchPercentage": 4.155671296296296,
           "misMatchPercentage": "4.16",
-          "analysisTime": 837
+          "analysisTime": 1136
         },
-        "diffImage": "../bitmaps_test/20220527-231605/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_55_0_document_0_default.png"
+        "diffImage": "../bitmaps_test/20220528-090643/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_55_0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_56_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_56_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_56_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_56_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 56",
@@ -1494,16 +1491,16 @@ report({
           },
           "rawMisMatchPercentage": 4.393518518518519,
           "misMatchPercentage": "4.39",
-          "analysisTime": 1001
+          "analysisTime": 856
         },
-        "diffImage": "../bitmaps_test/20220527-231605/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_56_0_document_0_default.png"
+        "diffImage": "../bitmaps_test/20220528-090643/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_56_0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_57_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_57_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_57_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_57_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 57",
@@ -1521,16 +1518,16 @@ report({
           },
           "rawMisMatchPercentage": 4.1928530092592595,
           "misMatchPercentage": "4.19",
-          "analysisTime": 295
+          "analysisTime": 1319
         },
-        "diffImage": "../bitmaps_test/20220527-231605/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_57_0_document_0_default.png"
+        "diffImage": "../bitmaps_test/20220528-090643/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_57_0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_58_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_58_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_58_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_58_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 58",
@@ -1548,16 +1545,16 @@ report({
           },
           "rawMisMatchPercentage": 4.1643036265432105,
           "misMatchPercentage": "4.16",
-          "analysisTime": 557
+          "analysisTime": 834
         },
-        "diffImage": "../bitmaps_test/20220527-231605/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_58_0_document_0_default.png"
+        "diffImage": "../bitmaps_test/20220528-090643/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_58_0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_59_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_59_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_59_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_59_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 59",
@@ -1575,16 +1572,16 @@ report({
           },
           "rawMisMatchPercentage": 4.2093942901234565,
           "misMatchPercentage": "4.21",
-          "analysisTime": 1036
+          "analysisTime": 707
         },
-        "diffImage": "../bitmaps_test/20220527-231605/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_59_0_document_0_default.png"
+        "diffImage": "../bitmaps_test/20220528-090643/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_59_0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_60_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_60_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_60_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_60_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 60",
@@ -1602,16 +1599,16 @@ report({
           },
           "rawMisMatchPercentage": 4.255208333333333,
           "misMatchPercentage": "4.26",
-          "analysisTime": 917
+          "analysisTime": 938
         },
-        "diffImage": "../bitmaps_test/20220527-231605/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_60_0_document_0_default.png"
+        "diffImage": "../bitmaps_test/20220528-090643/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_60_0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_61_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_61_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_61_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_61_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 61",
@@ -1629,16 +1626,16 @@ report({
           },
           "rawMisMatchPercentage": 4.186969521604938,
           "misMatchPercentage": "4.19",
-          "analysisTime": 705
+          "analysisTime": 1033
         },
-        "diffImage": "../bitmaps_test/20220527-231605/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_61_0_document_0_default.png"
+        "diffImage": "../bitmaps_test/20220528-090643/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_61_0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_62_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_62_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_62_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_62_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 62",
@@ -1656,16 +1653,16 @@ report({
           },
           "rawMisMatchPercentage": 4.200761959876543,
           "misMatchPercentage": "4.20",
-          "analysisTime": 472
+          "analysisTime": 850
         },
-        "diffImage": "../bitmaps_test/20220527-231605/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_62_0_document_0_default.png"
+        "diffImage": "../bitmaps_test/20220528-090643/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_62_0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_63_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_63_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_63_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_63_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 63",
@@ -1683,16 +1680,16 @@ report({
           },
           "rawMisMatchPercentage": 4.446903935185185,
           "misMatchPercentage": "4.45",
-          "analysisTime": 1015
+          "analysisTime": 578
         },
-        "diffImage": "../bitmaps_test/20220527-231605/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_63_0_document_0_default.png"
+        "diffImage": "../bitmaps_test/20220528-090643/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_63_0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_64_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_64_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_64_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_64_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 64",
@@ -1710,16 +1707,16 @@ report({
           },
           "rawMisMatchPercentage": 4.1928530092592595,
           "misMatchPercentage": "4.19",
-          "analysisTime": 871
+          "analysisTime": 1064
         },
-        "diffImage": "../bitmaps_test/20220527-231605/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_64_0_document_0_default.png"
+        "diffImage": "../bitmaps_test/20220528-090643/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_64_0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_65_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_65_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_65_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_65_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 65",
@@ -1737,16 +1734,16 @@ report({
           },
           "rawMisMatchPercentage": 4.1643036265432105,
           "misMatchPercentage": "4.16",
-          "analysisTime": 912
+          "analysisTime": 921
         },
-        "diffImage": "../bitmaps_test/20220527-231605/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_65_0_document_0_default.png"
+        "diffImage": "../bitmaps_test/20220528-090643/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_65_0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_66_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_66_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_66_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_66_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 66",
@@ -1764,16 +1761,16 @@ report({
           },
           "rawMisMatchPercentage": 4.2093942901234565,
           "misMatchPercentage": "4.21",
-          "analysisTime": 894
+          "analysisTime": 769
         },
-        "diffImage": "../bitmaps_test/20220527-231605/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_66_0_document_0_default.png"
+        "diffImage": "../bitmaps_test/20220528-090643/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_66_0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_67_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_67_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_67_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_67_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 67",
@@ -1791,16 +1788,16 @@ report({
           },
           "rawMisMatchPercentage": 4.255208333333333,
           "misMatchPercentage": "4.26",
-          "analysisTime": 1084
+          "analysisTime": 1110
         },
-        "diffImage": "../bitmaps_test/20220527-231605/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_67_0_document_0_default.png"
+        "diffImage": "../bitmaps_test/20220528-090643/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_67_0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_68_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_68_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_68_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_68_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 68",
@@ -1818,16 +1815,16 @@ report({
           },
           "rawMisMatchPercentage": 4.186969521604938,
           "misMatchPercentage": "4.19",
-          "analysisTime": 881
+          "analysisTime": 1168
         },
-        "diffImage": "../bitmaps_test/20220527-231605/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_68_0_document_0_default.png"
+        "diffImage": "../bitmaps_test/20220528-090643/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_68_0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_69_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_69_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_69_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_69_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 69",
@@ -1845,16 +1842,16 @@ report({
           },
           "rawMisMatchPercentage": 4.2109857253086425,
           "misMatchPercentage": "4.21",
-          "analysisTime": 1030
+          "analysisTime": 857
         },
-        "diffImage": "../bitmaps_test/20220527-231605/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_69_0_document_0_default.png"
+        "diffImage": "../bitmaps_test/20220528-090643/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_69_0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_70_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_70_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_70_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_70_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 70",
@@ -1872,16 +1869,16 @@ report({
           },
           "rawMisMatchPercentage": 4.398051697530865,
           "misMatchPercentage": "4.40",
-          "analysisTime": 738
+          "analysisTime": 1182
         },
-        "diffImage": "../bitmaps_test/20220527-231605/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_70_0_document_0_default.png"
+        "diffImage": "../bitmaps_test/20220528-090643/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_70_0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_71_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_71_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_71_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_71_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 71",
@@ -1899,16 +1896,16 @@ report({
           },
           "rawMisMatchPercentage": 4.1928530092592595,
           "misMatchPercentage": "4.19",
-          "analysisTime": 1023
+          "analysisTime": 917
         },
-        "diffImage": "../bitmaps_test/20220527-231605/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_71_0_document_0_default.png"
+        "diffImage": "../bitmaps_test/20220528-090643/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_71_0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_72_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_72_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_72_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_72_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 72",
@@ -1926,16 +1923,16 @@ report({
           },
           "rawMisMatchPercentage": 4.1643036265432105,
           "misMatchPercentage": "4.16",
-          "analysisTime": 871
+          "analysisTime": 987
         },
-        "diffImage": "../bitmaps_test/20220527-231605/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_72_0_document_0_default.png"
+        "diffImage": "../bitmaps_test/20220528-090643/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_72_0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_73_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_73_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_73_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_73_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 73",
@@ -1953,16 +1950,16 @@ report({
           },
           "rawMisMatchPercentage": 4.2093942901234565,
           "misMatchPercentage": "4.21",
-          "analysisTime": 771
+          "analysisTime": 993
         },
-        "diffImage": "../bitmaps_test/20220527-231605/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_73_0_document_0_default.png"
+        "diffImage": "../bitmaps_test/20220528-090643/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_73_0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_74_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_74_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_74_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_74_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 74",
@@ -1980,16 +1977,16 @@ report({
           },
           "rawMisMatchPercentage": 4.255208333333333,
           "misMatchPercentage": "4.26",
-          "analysisTime": 856
+          "analysisTime": 1061
         },
-        "diffImage": "../bitmaps_test/20220527-231605/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_74_0_document_0_default.png"
+        "diffImage": "../bitmaps_test/20220528-090643/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_74_0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_75_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_75_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_75_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_75_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 75",
@@ -2007,16 +2004,16 @@ report({
           },
           "rawMisMatchPercentage": 4.186969521604938,
           "misMatchPercentage": "4.19",
-          "analysisTime": 907
+          "analysisTime": 759
         },
-        "diffImage": "../bitmaps_test/20220527-231605/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_75_0_document_0_default.png"
+        "diffImage": "../bitmaps_test/20220528-090643/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_75_0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_76_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_76_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_76_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_76_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 76",
@@ -2034,16 +2031,16 @@ report({
           },
           "rawMisMatchPercentage": 4.200761959876543,
           "misMatchPercentage": "4.20",
-          "analysisTime": 1322
+          "analysisTime": 581
         },
-        "diffImage": "../bitmaps_test/20220527-231605/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_76_0_document_0_default.png"
+        "diffImage": "../bitmaps_test/20220528-090643/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_76_0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_77_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_77_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_77_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_77_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 77",
@@ -2061,16 +2058,16 @@ report({
           },
           "rawMisMatchPercentage": 4.239438657407407,
           "misMatchPercentage": "4.24",
-          "analysisTime": 919
+          "analysisTime": 1049
         },
-        "diffImage": "../bitmaps_test/20220527-231605/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_77_0_document_0_default.png"
+        "diffImage": "../bitmaps_test/20220528-090643/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_77_0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_78_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_78_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_78_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_78_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 78",
@@ -2088,16 +2085,16 @@ report({
           },
           "rawMisMatchPercentage": 4.22583912037037,
           "misMatchPercentage": "4.23",
-          "analysisTime": 908
+          "analysisTime": 914
         },
-        "diffImage": "../bitmaps_test/20220527-231605/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_78_0_document_0_default.png"
+        "diffImage": "../bitmaps_test/20220528-090643/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_78_0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_79_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_79_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_79_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_79_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 79",
@@ -2115,16 +2112,16 @@ report({
           },
           "rawMisMatchPercentage": 4.210358796296297,
           "misMatchPercentage": "4.21",
-          "analysisTime": 470
+          "analysisTime": 1184
         },
-        "diffImage": "../bitmaps_test/20220527-231605/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_79_0_document_0_default.png"
+        "diffImage": "../bitmaps_test/20220528-090643/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_79_0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_80_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_80_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_80_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_80_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 80",
@@ -2142,16 +2139,16 @@ report({
           },
           "rawMisMatchPercentage": 5.122781635802469,
           "misMatchPercentage": "5.12",
-          "analysisTime": 1052
+          "analysisTime": 706
         },
-        "diffImage": "../bitmaps_test/20220527-231605/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_80_0_document_0_default.png"
+        "diffImage": "../bitmaps_test/20220528-090643/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_80_0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_81_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_81_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_81_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_81_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 81",
@@ -2169,16 +2166,16 @@ report({
           },
           "rawMisMatchPercentage": 4.1928530092592595,
           "misMatchPercentage": "4.19",
-          "analysisTime": 885
+          "analysisTime": 1208
         },
-        "diffImage": "../bitmaps_test/20220527-231605/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_81_0_document_0_default.png"
+        "diffImage": "../bitmaps_test/20220528-090643/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_81_0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_82_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_82_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_82_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_82_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 82",
@@ -2196,16 +2193,16 @@ report({
           },
           "rawMisMatchPercentage": 4.185329861111111,
           "misMatchPercentage": "4.19",
-          "analysisTime": 829
+          "analysisTime": 939
         },
-        "diffImage": "../bitmaps_test/20220527-231605/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_82_0_document_0_default.png"
+        "diffImage": "../bitmaps_test/20220528-090643/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_82_0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_83_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_83_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_83_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_83_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 83",
@@ -2223,16 +2220,16 @@ report({
           },
           "rawMisMatchPercentage": 4.260802469135803,
           "misMatchPercentage": "4.26",
-          "analysisTime": 753
+          "analysisTime": 1239
         },
-        "diffImage": "../bitmaps_test/20220527-231605/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_83_0_document_0_default.png"
+        "diffImage": "../bitmaps_test/20220528-090643/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_83_0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_84_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_84_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_84_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_84_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 84",
@@ -2250,16 +2247,16 @@ report({
           },
           "rawMisMatchPercentage": 4.3450038580246915,
           "misMatchPercentage": "4.35",
-          "analysisTime": 953
+          "analysisTime": 1235
         },
-        "diffImage": "../bitmaps_test/20220527-231605/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_84_0_document_0_default.png"
+        "diffImage": "../bitmaps_test/20220528-090643/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_84_0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_85_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_85_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_85_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_85_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 85",
@@ -2277,16 +2274,16 @@ report({
           },
           "rawMisMatchPercentage": 4.258584104938272,
           "misMatchPercentage": "4.26",
-          "analysisTime": 862
+          "analysisTime": 868
         },
-        "diffImage": "../bitmaps_test/20220527-231605/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_85_0_document_0_default.png"
+        "diffImage": "../bitmaps_test/20220528-090643/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_85_0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_86_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_86_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_86_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_86_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 86",
@@ -2302,18 +2299,18 @@ report({
             "width": 0,
             "height": 0
           },
-          "rawMisMatchPercentage": 4.134837962962963,
+          "rawMisMatchPercentage": 4.134789737654321,
           "misMatchPercentage": "4.13",
-          "analysisTime": 709
+          "analysisTime": 1093
         },
-        "diffImage": "../bitmaps_test/20220527-231605/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_86_0_document_0_default.png"
+        "diffImage": "../bitmaps_test/20220528-090643/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_86_0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_87_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_87_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_87_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_87_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 87",
@@ -2329,18 +2326,18 @@ report({
             "width": 0,
             "height": 0
           },
-          "rawMisMatchPercentage": 13.283227237654321,
-          "misMatchPercentage": "13.28",
-          "analysisTime": 799
+          "rawMisMatchPercentage": 10.01808449074074,
+          "misMatchPercentage": "10.02",
+          "analysisTime": 831
         },
-        "diffImage": "../bitmaps_test/20220527-231605/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_87_0_document_0_default.png"
+        "diffImage": "../bitmaps_test/20220528-090643/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_87_0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_88_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_88_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_88_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_88_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 88",
@@ -2358,16 +2355,16 @@ report({
           },
           "rawMisMatchPercentage": 7.669270833333333,
           "misMatchPercentage": "7.67",
-          "analysisTime": 692
+          "analysisTime": 720
         },
-        "diffImage": "../bitmaps_test/20220527-231605/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_88_0_document_0_default.png"
+        "diffImage": "../bitmaps_test/20220528-090643/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_88_0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_89_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_89_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_89_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_89_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 89",
@@ -2385,16 +2382,16 @@ report({
           },
           "rawMisMatchPercentage": 5.04369212962963,
           "misMatchPercentage": "5.04",
-          "analysisTime": 592
+          "analysisTime": 584
         },
-        "diffImage": "../bitmaps_test/20220527-231605/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_89_0_document_0_default.png"
+        "diffImage": "../bitmaps_test/20220528-090643/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_89_0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_90_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_90_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_90_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_90_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 90",
@@ -2412,16 +2409,16 @@ report({
           },
           "rawMisMatchPercentage": 5.330680941358025,
           "misMatchPercentage": "5.33",
-          "analysisTime": 439
+          "analysisTime": 541
         },
-        "diffImage": "../bitmaps_test/20220527-231605/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_90_0_document_0_default.png"
+        "diffImage": "../bitmaps_test/20220528-090643/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_90_0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_91_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_91_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_91_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_91_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 91",
@@ -2437,18 +2434,18 @@ report({
             "width": 0,
             "height": 0
           },
-          "rawMisMatchPercentage": 5.846884645061729,
-          "misMatchPercentage": "5.85",
-          "analysisTime": 331
+          "rawMisMatchPercentage": 5.288290895061729,
+          "misMatchPercentage": "5.29",
+          "analysisTime": 551
         },
-        "diffImage": "../bitmaps_test/20220527-231605/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_91_0_document_0_default.png"
+        "diffImage": "../bitmaps_test/20220528-090643/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_91_0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_92_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_92_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_92_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_92_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 92",
@@ -2464,18 +2461,18 @@ report({
             "width": 0,
             "height": 0
           },
-          "rawMisMatchPercentage": 6.246527777777778,
+          "rawMisMatchPercentage": 6.247926311728396,
           "misMatchPercentage": "6.25",
-          "analysisTime": 358
+          "analysisTime": 278
         },
-        "diffImage": "../bitmaps_test/20220527-231605/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_92_0_document_0_default.png"
+        "diffImage": "../bitmaps_test/20220528-090643/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_92_0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_93_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_93_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_93_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_93_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 93",
@@ -2491,18 +2488,18 @@ report({
             "width": 0,
             "height": 0
           },
-          "rawMisMatchPercentage": 7.148967978395062,
+          "rawMisMatchPercentage": 7.146412037037036,
           "misMatchPercentage": "7.15",
-          "analysisTime": 475
+          "analysisTime": 339
         },
-        "diffImage": "../bitmaps_test/20220527-231605/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_93_0_document_0_default.png"
+        "diffImage": "../bitmaps_test/20220528-090643/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_93_0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_94_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_94_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_94_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_94_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 94",
@@ -2520,16 +2517,16 @@ report({
           },
           "rawMisMatchPercentage": 18.863136574074073,
           "misMatchPercentage": "18.86",
-          "analysisTime": 569
+          "analysisTime": 371
         },
-        "diffImage": "../bitmaps_test/20220527-231605/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_94_0_document_0_default.png"
+        "diffImage": "../bitmaps_test/20220528-090643/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_94_0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_95_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_95_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_95_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_95_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 95",
@@ -2545,9 +2542,9 @@ report({
             "width": 0,
             "height": 0
           },
-          "rawMisMatchPercentage": 2.9692322530864197,
-          "misMatchPercentage": "2.97",
-          "analysisTime": 849
+          "rawMisMatchPercentage": 2.245225694444444,
+          "misMatchPercentage": "2.25",
+          "analysisTime": 922
         }
       },
       "status": "pass"
@@ -2555,7 +2552,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_96_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_96_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_96_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_96_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 96",
@@ -2573,7 +2570,7 @@ report({
           },
           "rawMisMatchPercentage": 3.1567804783950617,
           "misMatchPercentage": "3.16",
-          "analysisTime": 852
+          "analysisTime": 573
         }
       },
       "status": "pass"
@@ -2581,7 +2578,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_97_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_97_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_97_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_97_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 97",
@@ -2599,7 +2596,7 @@ report({
           },
           "rawMisMatchPercentage": 3.1290991512345676,
           "misMatchPercentage": "3.13",
-          "analysisTime": 681
+          "analysisTime": 752
         }
       },
       "status": "pass"
@@ -2607,7 +2604,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_98_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_98_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_98_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_98_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 98",
@@ -2623,18 +2620,17 @@ report({
             "width": 0,
             "height": 0
           },
-          "rawMisMatchPercentage": 52.687837577160494,
-          "misMatchPercentage": "52.69",
-          "analysisTime": 466
-        },
-        "diffImage": "../bitmaps_test/20220527-231605/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_98_0_document_0_default.png"
+          "rawMisMatchPercentage": 2.8994984567901234,
+          "misMatchPercentage": "2.90",
+          "analysisTime": 684
+        }
       },
-      "status": "fail"
+      "status": "pass"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_99_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_99_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_99_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_99_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 99",
@@ -2652,16 +2648,16 @@ report({
           },
           "rawMisMatchPercentage": 7.357011959876543,
           "misMatchPercentage": "7.36",
-          "analysisTime": 613
+          "analysisTime": 677
         },
-        "diffImage": "../bitmaps_test/20220527-231605/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_99_0_document_0_default.png"
+        "diffImage": "../bitmaps_test/20220528-090643/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_99_0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_100_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_100_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_100_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_100_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 100",
@@ -2679,16 +2675,16 @@ report({
           },
           "rawMisMatchPercentage": 5.331693672839506,
           "misMatchPercentage": "5.33",
-          "analysisTime": 452
+          "analysisTime": 586
         },
-        "diffImage": "../bitmaps_test/20220527-231605/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_100_0_document_0_default.png"
+        "diffImage": "../bitmaps_test/20220528-090643/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_100_0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_101_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_101_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_101_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_101_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 101",
@@ -2706,16 +2702,16 @@ report({
           },
           "rawMisMatchPercentage": 5.813657407407407,
           "misMatchPercentage": "5.81",
-          "analysisTime": 379
+          "analysisTime": 456
         },
-        "diffImage": "../bitmaps_test/20220527-231605/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_101_0_document_0_default.png"
+        "diffImage": "../bitmaps_test/20220528-090643/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_101_0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_102_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_102_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_102_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_102_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 102",
@@ -2733,16 +2729,16 @@ report({
           },
           "rawMisMatchPercentage": 6.475694444444445,
           "misMatchPercentage": "6.48",
-          "analysisTime": 244
+          "analysisTime": 441
         },
-        "diffImage": "../bitmaps_test/20220527-231605/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_102_0_document_0_default.png"
+        "diffImage": "../bitmaps_test/20220528-090643/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_102_0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_103_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_103_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_103_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_103_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 103",
@@ -2760,16 +2756,16 @@ report({
           },
           "rawMisMatchPercentage": 7.505015432098766,
           "misMatchPercentage": "7.51",
-          "analysisTime": 445
+          "analysisTime": 599
         },
-        "diffImage": "../bitmaps_test/20220527-231605/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_103_0_document_0_default.png"
+        "diffImage": "../bitmaps_test/20220528-090643/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_103_0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_104_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_104_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_104_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_104_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 104",
@@ -2787,16 +2783,16 @@ report({
           },
           "rawMisMatchPercentage": 19.21440972222222,
           "misMatchPercentage": "19.21",
-          "analysisTime": 175
+          "analysisTime": 433
         },
-        "diffImage": "../bitmaps_test/20220527-231605/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_104_0_document_0_default.png"
+        "diffImage": "../bitmaps_test/20220528-090643/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_104_0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_105_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_105_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_105_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_105_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 105",
@@ -2814,7 +2810,7 @@ report({
           },
           "rawMisMatchPercentage": 3.0604745370370368,
           "misMatchPercentage": "3.06",
-          "analysisTime": 771
+          "analysisTime": 588
         }
       },
       "status": "pass"
@@ -2822,7 +2818,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_106_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_106_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_106_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_106_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 106",
@@ -2840,7 +2836,7 @@ report({
           },
           "rawMisMatchPercentage": 3.1567804783950617,
           "misMatchPercentage": "3.16",
-          "analysisTime": 757
+          "analysisTime": 683
         }
       },
       "status": "pass"
@@ -2848,7 +2844,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_107_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_107_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_107_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_107_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 107",
@@ -2866,7 +2862,7 @@ report({
           },
           "rawMisMatchPercentage": 3.1290991512345676,
           "misMatchPercentage": "3.13",
-          "analysisTime": 671
+          "analysisTime": 729
         }
       },
       "status": "pass"
@@ -2874,7 +2870,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_108_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_108_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_108_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_108_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 108",
@@ -2890,18 +2886,17 @@ report({
             "width": 0,
             "height": 0
           },
-          "rawMisMatchPercentage": 51.844907407407405,
-          "misMatchPercentage": "51.84",
-          "analysisTime": 422
-        },
-        "diffImage": "../bitmaps_test/20220527-231605/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_108_0_document_0_default.png"
+          "rawMisMatchPercentage": 2.8994502314814814,
+          "misMatchPercentage": "2.90",
+          "analysisTime": 628
+        }
       },
-      "status": "fail"
+      "status": "pass"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_109_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_109_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_109_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_109_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 109",
@@ -2919,16 +2914,16 @@ report({
           },
           "rawMisMatchPercentage": 7.413773148148148,
           "misMatchPercentage": "7.41",
-          "analysisTime": 559
+          "analysisTime": 803
         },
-        "diffImage": "../bitmaps_test/20220527-231605/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_109_0_document_0_default.png"
+        "diffImage": "../bitmaps_test/20220528-090643/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_109_0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_110_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_110_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_110_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_110_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 110",
@@ -2946,16 +2941,16 @@ report({
           },
           "rawMisMatchPercentage": 5.785252700617284,
           "misMatchPercentage": "5.79",
-          "analysisTime": 418
+          "analysisTime": 452
         },
-        "diffImage": "../bitmaps_test/20220527-231605/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_110_0_document_0_default.png"
+        "diffImage": "../bitmaps_test/20220528-090643/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_110_0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_111_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_111_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_111_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_111_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 111",
@@ -2973,16 +2968,16 @@ report({
           },
           "rawMisMatchPercentage": 6.51634837962963,
           "misMatchPercentage": "6.52",
-          "analysisTime": 414
+          "analysisTime": 262
         },
-        "diffImage": "../bitmaps_test/20220527-231605/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_111_0_document_0_default.png"
+        "diffImage": "../bitmaps_test/20220528-090643/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_111_0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_112_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_112_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_112_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_112_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 112",
@@ -3000,16 +2995,16 @@ report({
           },
           "rawMisMatchPercentage": 7.212143132716049,
           "misMatchPercentage": "7.21",
-          "analysisTime": 287
+          "analysisTime": 483
         },
-        "diffImage": "../bitmaps_test/20220527-231605/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_112_0_document_0_default.png"
+        "diffImage": "../bitmaps_test/20220528-090643/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_112_0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_113_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_113_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_113_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_113_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 113",
@@ -3027,16 +3022,16 @@ report({
           },
           "rawMisMatchPercentage": 8.24146412037037,
           "misMatchPercentage": "8.24",
-          "analysisTime": 309
+          "analysisTime": 490
         },
-        "diffImage": "../bitmaps_test/20220527-231605/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_113_0_document_0_default.png"
+        "diffImage": "../bitmaps_test/20220528-090643/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_113_0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_114_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_114_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_114_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_114_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 114",
@@ -3052,18 +3047,18 @@ report({
             "width": 0,
             "height": 0
           },
-          "rawMisMatchPercentage": 9.977719907407408,
-          "misMatchPercentage": "9.98",
-          "analysisTime": 403
+          "rawMisMatchPercentage": 9.955005787037036,
+          "misMatchPercentage": "9.96",
+          "analysisTime": 418
         },
-        "diffImage": "../bitmaps_test/20220527-231605/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_114_0_document_0_default.png"
+        "diffImage": "../bitmaps_test/20220528-090643/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_114_0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_115_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_115_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_115_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_115_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 115",
@@ -3079,18 +3074,18 @@ report({
             "width": 0,
             "height": 0
           },
-          "rawMisMatchPercentage": 10.40793788580247,
+          "rawMisMatchPercentage": 10.408275462962962,
           "misMatchPercentage": "10.41",
-          "analysisTime": 277
+          "analysisTime": 358
         },
-        "diffImage": "../bitmaps_test/20220527-231605/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_115_0_document_0_default.png"
+        "diffImage": "../bitmaps_test/20220528-090643/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_115_0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_116_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_116_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_116_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_116_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 116",
@@ -3108,16 +3103,16 @@ report({
           },
           "rawMisMatchPercentage": 7.772087191358025,
           "misMatchPercentage": "7.77",
-          "analysisTime": 368
+          "analysisTime": 281
         },
-        "diffImage": "../bitmaps_test/20220527-231605/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_116_0_document_0_default.png"
+        "diffImage": "../bitmaps_test/20220528-090643/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_116_0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_117_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_117_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_117_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_117_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 117",
@@ -3135,16 +3130,16 @@ report({
           },
           "rawMisMatchPercentage": 20.087480709876544,
           "misMatchPercentage": "20.09",
-          "analysisTime": 344
+          "analysisTime": 462
         },
-        "diffImage": "../bitmaps_test/20220527-231605/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_117_0_document_0_default.png"
+        "diffImage": "../bitmaps_test/20220528-090643/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_117_0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_118_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_118_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_118_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_118_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 118",
@@ -3162,16 +3157,16 @@ report({
           },
           "rawMisMatchPercentage": 20.087480709876544,
           "misMatchPercentage": "20.09",
-          "analysisTime": 314
+          "analysisTime": 300
         },
-        "diffImage": "../bitmaps_test/20220527-231605/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_118_0_document_0_default.png"
+        "diffImage": "../bitmaps_test/20220528-090643/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_118_0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_119_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_119_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_119_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_119_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 119",
@@ -3187,9 +3182,9 @@ report({
             "width": 0,
             "height": 0
           },
-          "rawMisMatchPercentage": 3.0604745370370368,
-          "misMatchPercentage": "3.06",
-          "analysisTime": 248
+          "rawMisMatchPercentage": 2.9692322530864197,
+          "misMatchPercentage": "2.97",
+          "analysisTime": 356
         }
       },
       "status": "pass"
@@ -3197,7 +3192,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_120_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_120_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_120_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_120_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 120",
@@ -3215,7 +3210,7 @@ report({
           },
           "rawMisMatchPercentage": 3.1567804783950617,
           "misMatchPercentage": "3.16",
-          "analysisTime": 469
+          "analysisTime": 364
         }
       },
       "status": "pass"
@@ -3223,7 +3218,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_121_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_121_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_121_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_121_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 121",
@@ -3241,7 +3236,7 @@ report({
           },
           "rawMisMatchPercentage": 3.1290991512345676,
           "misMatchPercentage": "3.13",
-          "analysisTime": 273
+          "analysisTime": 247
         }
       },
       "status": "pass"
@@ -3249,7 +3244,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_122_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_122_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_122_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_122_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 122",
@@ -3265,18 +3260,18 @@ report({
             "width": 0,
             "height": 0
           },
-          "rawMisMatchPercentage": 51.844907407407405,
-          "misMatchPercentage": "51.84",
-          "analysisTime": 199
+          "rawMisMatchPercentage": 4.245563271604938,
+          "misMatchPercentage": "4.25",
+          "analysisTime": 313
         },
-        "diffImage": "../bitmaps_test/20220527-231605/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_122_0_document_0_default.png"
+        "diffImage": "../bitmaps_test/20220528-090643/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_122_0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_123_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_123_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_123_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_123_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 123",
@@ -3294,16 +3289,16 @@ report({
           },
           "rawMisMatchPercentage": 7.531684027777779,
           "misMatchPercentage": "7.53",
-          "analysisTime": 325
+          "analysisTime": 262
         },
-        "diffImage": "../bitmaps_test/20220527-231605/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_123_0_document_0_default.png"
+        "diffImage": "../bitmaps_test/20220528-090643/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_123_0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_124_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_124_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_124_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_124_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 124",
@@ -3321,16 +3316,16 @@ report({
           },
           "rawMisMatchPercentage": 6.479600694444445,
           "misMatchPercentage": "6.48",
-          "analysisTime": 138
+          "analysisTime": 184
         },
-        "diffImage": "../bitmaps_test/20220527-231605/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_124_0_document_0_default.png"
+        "diffImage": "../bitmaps_test/20220528-090643/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_124_0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_125_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_125_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_125_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_125_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 125",
@@ -3346,18 +3341,18 @@ report({
             "width": 0,
             "height": 0
           },
-          "rawMisMatchPercentage": 9.01658950617284,
-          "misMatchPercentage": "9.02",
-          "analysisTime": 158
+          "rawMisMatchPercentage": 8.993875385802468,
+          "misMatchPercentage": "8.99",
+          "analysisTime": 379
         },
-        "diffImage": "../bitmaps_test/20220527-231605/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_125_0_document_0_default.png"
+        "diffImage": "../bitmaps_test/20220528-090643/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_125_0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_126_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_126_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_126_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_126_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 126",
@@ -3373,18 +3368,18 @@ report({
             "width": 0,
             "height": 0
           },
-          "rawMisMatchPercentage": 99.62958140432099,
+          "rawMisMatchPercentage": 99.62977430555556,
           "misMatchPercentage": "99.63",
-          "analysisTime": 211
+          "analysisTime": 396
         },
-        "diffImage": "../bitmaps_test/20220527-231605/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_126_0_document_0_default.png"
+        "diffImage": "../bitmaps_test/20220528-090643/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_126_0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_127_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_127_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_127_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_127_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 127",
@@ -3400,18 +3395,18 @@ report({
             "width": 0,
             "height": 0
           },
-          "rawMisMatchPercentage": 7.67115162037037,
-          "misMatchPercentage": "7.67",
-          "analysisTime": 275
+          "rawMisMatchPercentage": 82.02208719135803,
+          "misMatchPercentage": "82.02",
+          "analysisTime": 354
         },
-        "diffImage": "../bitmaps_test/20220527-231605/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_127_0_document_0_default.png"
+        "diffImage": "../bitmaps_test/20220528-090643/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_127_0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_128_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_128_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_128_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_128_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 128",
@@ -3427,18 +3422,18 @@ report({
             "width": 0,
             "height": 0
           },
-          "rawMisMatchPercentage": 24.48582175925926,
-          "misMatchPercentage": "24.49",
-          "analysisTime": 228
+          "rawMisMatchPercentage": 25.731770833333336,
+          "misMatchPercentage": "25.73",
+          "analysisTime": 138
         },
-        "diffImage": "../bitmaps_test/20220527-231605/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_128_0_document_0_default.png"
+        "diffImage": "../bitmaps_test/20220528-090643/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_128_0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_129_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_129_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_129_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_129_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 129",
@@ -3456,7 +3451,7 @@ report({
           },
           "rawMisMatchPercentage": 3.0604745370370368,
           "misMatchPercentage": "3.06",
-          "analysisTime": 250
+          "analysisTime": 551
         }
       },
       "status": "pass"
@@ -3464,7 +3459,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_130_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_130_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_130_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_130_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 130",
@@ -3482,7 +3477,7 @@ report({
           },
           "rawMisMatchPercentage": 3.1567804783950617,
           "misMatchPercentage": "3.16",
-          "analysisTime": 249
+          "analysisTime": 235
         }
       },
       "status": "pass"
@@ -3490,7 +3485,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_131_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_131_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_131_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_131_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 131",
@@ -3508,7 +3503,7 @@ report({
           },
           "rawMisMatchPercentage": 3.1290991512345676,
           "misMatchPercentage": "3.13",
-          "analysisTime": 169
+          "analysisTime": 330
         }
       },
       "status": "pass"
@@ -3516,7 +3511,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/Cypress_Ghost_3411__Ghost_4440_-_Scenario_132_0_document_0_default.png",
-        "test": "../bitmaps_test/20220527-231605/Cypress_Ghost_3411__Ghost_4440_-_Scenario_132_0_document_0_default.png",
+        "test": "../bitmaps_test/20220528-090643/Cypress_Ghost_3411__Ghost_4440_-_Scenario_132_0_document_0_default.png",
         "selector": "document",
         "fileName": "Cypress_Ghost_3411__Ghost_4440_-_Scenario_132_0_document_0_default.png",
         "label": "Ghost 3.41.1 & Ghost 4.44.0 - Scenario 132",
@@ -3532,11 +3527,11 @@ report({
             "width": 0,
             "height": 0
           },
-          "rawMisMatchPercentage": 51.99676890432099,
-          "misMatchPercentage": "52.00",
-          "analysisTime": 153
+          "rawMisMatchPercentage": 9.870466820987653,
+          "misMatchPercentage": "9.87",
+          "analysisTime": 406
         },
-        "diffImage": "../bitmaps_test/20220527-231605/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_132_0_document_0_default.png"
+        "diffImage": "../bitmaps_test/20220528-090643/failed_diff_Cypress_Ghost_3411__Ghost_4440_-_Scenario_132_0_document_0_default.png"
       },
       "status": "fail"
     }
