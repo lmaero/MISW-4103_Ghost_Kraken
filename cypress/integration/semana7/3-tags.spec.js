@@ -9,18 +9,18 @@ describe(`d1_create_new_public_tag_with_name`, function () {
   it(`should create correctly the tag`, function () {
     //Hace login
     cy.visit("http://localhost:3001/ghost/#/signin");
-    cy.wait(100);
+    cy.wait(200);
     cy.get('input[name="identification"]').type(email);
     cy.get('input[name="password"]').type(password);
     cy.get(
       'button[class="login gh-btn gh-btn-blue gh-btn-block gh-btn-icon ember-view"]'
     ).click();
-    cy.wait(100);
+    cy.wait(200);
     //Va a la pestana Tags
     cy.xpath(
       "/html/body/div[2]/div/nav[1]/section/div[1]/ul[2]/li[4]/a"
     ).click();
-    cy.wait(100);
+    cy.wait(200);
     //Da click en New Tag
     cy.xpath("/html/body/div[2]/div/main/section/header/section/a").click();
     //Escribe un nombre en el Tag
@@ -31,7 +31,7 @@ describe(`d1_create_new_public_tag_with_name`, function () {
     cy.xpath(
       "/html/body/div[2]/div/main/section/form/header/section/button"
     ).click();
-    cy.wait(100);
+    cy.wait(200);
   });
 });
 
@@ -39,18 +39,18 @@ describe(`d2_edit_public_tag_name`, function () {
   it(`should edit correctly the tag`, function () {
     //Hace login
     cy.visit("http://localhost:3001/ghost/#/signin");
-    cy.wait(100);
+    cy.wait(200);
     cy.get('input[name="identification"]').type(email);
     cy.get('input[name="password"]').type(password);
     cy.get(
       'button[class="login gh-btn gh-btn-blue gh-btn-block gh-btn-icon ember-view"]'
     ).click();
-    cy.wait(100);
+    cy.wait(200);
     //Va a la pestana Tags
     cy.xpath(
       "/html/body/div[2]/div/nav[1]/section/div[1]/ul[2]/li[4]/a"
     ).click();
-    cy.wait(100);
+    cy.wait(200);
     //Da click en el primer Tag
     cy.xpath(
       "/html/body/div[2]/div/main/section/section/ol/li[3]/a[1]"
@@ -61,7 +61,7 @@ describe(`d2_edit_public_tag_name`, function () {
     )
       .clear()
       .type(faker.lorem.word(), { force: true });
-    cy.wait(100);
+    cy.wait(200);
 
     //Guarda el Tag
     cy.xpath(
@@ -74,18 +74,18 @@ describe(`d3_edit_public_tag_color`, function () {
   it(`should edit correctly the tag`, function () {
     //Hace login
     cy.visit("http://localhost:3001/ghost/#/signin");
-    cy.wait(100);
+    cy.wait(200);
     cy.get('input[name="identification"]').type(email);
     cy.get('input[name="password"]').type(password);
     cy.get(
       'button[class="login gh-btn gh-btn-blue gh-btn-block gh-btn-icon ember-view"]'
     ).click();
-    cy.wait(100);
+    cy.wait(200);
     //Va a la pestana Tags
     cy.xpath(
       "/html/body/div[2]/div/nav[1]/section/div[1]/ul[2]/li[4]/a"
     ).click();
-    cy.wait(100);
+    cy.wait(200);
     //Da click en el primer Tag
     cy.xpath(
       "/html/body/div[2]/div/main/section/section/ol/li[3]/a[1]"
@@ -96,7 +96,7 @@ describe(`d3_edit_public_tag_color`, function () {
     )
       .clear()
       .type("00FF00", { force: true });
-    cy.wait(100);
+    cy.wait(200);
 
     //Guarda el Tag
     cy.xpath(
@@ -109,18 +109,18 @@ describe(`d4_edit_public_tag_slug`, function () {
   it(`should edit correctly the tag`, function () {
     //Hace login
     cy.visit("http://localhost:3001/ghost/#/signin");
-    cy.wait(100);
+    cy.wait(200);
     cy.get('input[name="identification"]').type(email);
     cy.get('input[name="password"]').type(password);
     cy.get(
       'button[class="login gh-btn gh-btn-blue gh-btn-block gh-btn-icon ember-view"]'
     ).click();
-    cy.wait(100);
+    cy.wait(200);
     //Va a la pestana Tags
     cy.xpath(
       "/html/body/div[2]/div/nav[1]/section/div[1]/ul[2]/li[4]/a"
     ).click();
-    cy.wait(100);
+    cy.wait(200);
     //Da click en el primer Tag
     cy.xpath(
       "/html/body/div[2]/div/main/section/section/ol/li[3]/a[1]"
@@ -131,7 +131,7 @@ describe(`d4_edit_public_tag_slug`, function () {
     )
       .clear()
       .type(faker.lorem.word(), { force: true });
-    cy.wait(100);
+    cy.wait(200);
 
     //Guarda el Tag
     cy.xpath(
@@ -144,18 +144,18 @@ describe(`d5_edit_public_tag_description`, function () {
   it(`should edit correctly the tag`, function () {
     //Hace login
     cy.visit("http://localhost:3001/ghost/#/signin");
-    cy.wait(100);
+    cy.wait(200);
     cy.get('input[name="identification"]').type(email);
     cy.get('input[name="password"]').type(password);
     cy.get(
       'button[class="login gh-btn gh-btn-blue gh-btn-block gh-btn-icon ember-view"]'
     ).click();
-    cy.wait(100);
+    cy.wait(200);
     //Va a la pestana Tags
     cy.xpath(
       "/html/body/div[2]/div/nav[1]/section/div[1]/ul[2]/li[4]/a"
     ).click();
-    cy.wait(100);
+    cy.wait(200);
     //Da click en el primer Tag
     cy.xpath(
       "/html/body/div[2]/div/main/section/section/ol/li[3]/a[1]"
@@ -166,7 +166,7 @@ describe(`d5_edit_public_tag_description`, function () {
     )
       .clear()
       .type(faker.lorem.paragraph(), { force: true });
-    cy.wait(100);
+    cy.wait(200);
 
     //Guarda el Tag
     cy.xpath(
@@ -179,18 +179,18 @@ describe(`d6_edit_public_tag_metadata_title`, function () {
   it(`should edit correctly the tag`, function () {
     //Hace login
     cy.visit("http://localhost:3001/ghost/#/signin");
-    cy.wait(100);
+    cy.wait(200);
     cy.get('input[name="identification"]').type(email);
     cy.get('input[name="password"]').type(password);
     cy.get(
       'button[class="login gh-btn gh-btn-blue gh-btn-block gh-btn-icon ember-view"]'
     ).click();
-    cy.wait(100);
+    cy.wait(200);
     //Va a la pestana Tags
     cy.xpath(
       "/html/body/div[2]/div/nav[1]/section/div[1]/ul[2]/li[4]/a"
     ).click();
-    cy.wait(100);
+    cy.wait(200);
     //Da click en el primer Tag
     cy.xpath(
       "/html/body/div[2]/div/main/section/section/ol/li[3]/a[1]"
@@ -200,7 +200,7 @@ describe(`d6_edit_public_tag_metadata_title`, function () {
       "/html/body/div[2]/div/main/section/form/div/div[2]/section[1]/div[1]/div[2]/button"
     ).click();
 
-    cy.wait(100);
+    cy.wait(200);
     //Edita el titulo de metadata
     cy.xpath(
       "/html/body/div[2]/div/main/section/form/div/div[2]/section[1]/div[2]/div/div/div[1]/div[1]/input"
@@ -219,18 +219,18 @@ describe(`d7_edit_public_tag_metadata_description`, function () {
   it(`should edit correctly the tag`, function () {
     //Hace login
     cy.visit("http://localhost:3001/ghost/#/signin");
-    cy.wait(100);
+    cy.wait(200);
     cy.get('input[name="identification"]').type(email);
     cy.get('input[name="password"]').type(password);
     cy.get(
       'button[class="login gh-btn gh-btn-blue gh-btn-block gh-btn-icon ember-view"]'
     ).click();
-    cy.wait(100);
+    cy.wait(200);
     //Va a la pestana Tags
     cy.xpath(
       "/html/body/div[2]/div/nav[1]/section/div[1]/ul[2]/li[4]/a"
     ).click();
-    cy.wait(100);
+    cy.wait(200);
     //Da click en el primer Tag
     cy.xpath(
       "/html/body/div[2]/div/main/section/section/ol/li[3]/a[1]"
@@ -240,7 +240,7 @@ describe(`d7_edit_public_tag_metadata_description`, function () {
       "/html/body/div[2]/div/main/section/form/div/div[2]/section[1]/div[1]/div[2]/button"
     ).click();
 
-    cy.wait(100);
+    cy.wait(200);
     //Edita la descripcion de metadata
     cy.xpath(
       "/html/body/div[2]/div/main/section/form/div/div[2]/section[1]/div[2]/div/div/div[1]/div[2]/textarea"
@@ -259,18 +259,18 @@ describe(`d8_edit_public_tag_metadata_url_with_email`, function () {
   it(`should not edit correctly the tag`, function () {
     //Hace login
     cy.visit("http://localhost:3001/ghost/#/signin");
-    cy.wait(100);
+    cy.wait(200);
     cy.get('input[name="identification"]').type(email);
     cy.get('input[name="password"]').type(password);
     cy.get(
       'button[class="login gh-btn gh-btn-blue gh-btn-block gh-btn-icon ember-view"]'
     ).click();
-    cy.wait(100);
+    cy.wait(200);
     //Va a la pestana Tags
     cy.xpath(
       "/html/body/div[2]/div/nav[1]/section/div[1]/ul[2]/li[4]/a"
     ).click();
-    cy.wait(100);
+    cy.wait(200);
     //Da click en el primer Tag
     cy.xpath(
       "/html/body/div[2]/div/main/section/section/ol/li[3]/a[1]"
@@ -280,7 +280,7 @@ describe(`d8_edit_public_tag_metadata_url_with_email`, function () {
       "/html/body/div[2]/div/main/section/form/div/div[2]/section[1]/div[1]/div[2]/button"
     ).click();
 
-    cy.wait(100);
+    cy.wait(200);
     //Edita la url de metadata con datos erroneos
     cy.xpath(
       "/html/body/div[2]/div/main/section/form/div/div[2]/section[1]/div[2]/div/div/div[1]/div[3]/input"
@@ -299,18 +299,18 @@ describe(`d9_edit_public_tag_metadata_url_with_url`, function () {
   it(`should edit correctly the tag`, function () {
     //Hace login
     cy.visit("http://localhost:3001/ghost/#/signin");
-    cy.wait(100);
+    cy.wait(200);
     cy.get('input[name="identification"]').type(email);
     cy.get('input[name="password"]').type(password);
     cy.get(
       'button[class="login gh-btn gh-btn-blue gh-btn-block gh-btn-icon ember-view"]'
     ).click();
-    cy.wait(100);
+    cy.wait(200);
     //Va a la pestana Tags
     cy.xpath(
       "/html/body/div[2]/div/nav[1]/section/div[1]/ul[2]/li[4]/a"
     ).click();
-    cy.wait(100);
+    cy.wait(200);
     //Da click en el primer Tag
     cy.xpath(
       "/html/body/div[2]/div/main/section/section/ol/li[3]/a[1]"
@@ -320,7 +320,7 @@ describe(`d9_edit_public_tag_metadata_url_with_url`, function () {
       "/html/body/div[2]/div/main/section/form/div/div[2]/section[1]/div[1]/div[2]/button"
     ).click();
 
-    cy.wait(100);
+    cy.wait(200);
     //Edita la url de metadata con datos correctos
     cy.xpath(
       "/html/body/div[2]/div/main/section/form/div/div[2]/section[1]/div[2]/div/div/div[1]/div[3]/input"
@@ -339,18 +339,18 @@ describe(`d10_edit_public_tag_twitter_card_title`, function () {
   it(`should edit correctly the tag`, function () {
     //Hace login
     cy.visit("http://localhost:3001/ghost/#/signin");
-    cy.wait(100);
+    cy.wait(200);
     cy.get('input[name="identification"]').type(email);
     cy.get('input[name="password"]').type(password);
     cy.get(
       'button[class="login gh-btn gh-btn-blue gh-btn-block gh-btn-icon ember-view"]'
     ).click();
-    cy.wait(100);
+    cy.wait(200);
     //Va a la pestana Tags
     cy.xpath(
       "/html/body/div[2]/div/nav[1]/section/div[1]/ul[2]/li[4]/a"
     ).click();
-    cy.wait(100);
+    cy.wait(200);
     //Da click en el primer Tag
     cy.xpath(
       "/html/body/div[2]/div/main/section/section/ol/li[3]/a[1]"
@@ -360,7 +360,7 @@ describe(`d10_edit_public_tag_twitter_card_title`, function () {
       "/html/body/div[2]/div/main/section/form/div/div[2]/section[2]/div[1]/div[2]/button"
     ).click();
 
-    cy.wait(100);
+    cy.wait(200);
     //Edita el titulo de twitter
     cy.xpath(
       "/html/body/div[2]/div/main/section/form/div/div[2]/section[2]/div[2]/div/div/div[1]/div[2]/input"
@@ -379,18 +379,18 @@ describe(`d11_edit_public_tag_twitter_card_description`, function () {
   it(`should edit correctly the tag`, function () {
     //Hace login
     cy.visit("http://localhost:3001/ghost/#/signin");
-    cy.wait(100);
+    cy.wait(200);
     cy.get('input[name="identification"]').type(email);
     cy.get('input[name="password"]').type(password);
     cy.get(
       'button[class="login gh-btn gh-btn-blue gh-btn-block gh-btn-icon ember-view"]'
     ).click();
-    cy.wait(100);
+    cy.wait(200);
     //Va a la pestana Tags
     cy.xpath(
       "/html/body/div[2]/div/nav[1]/section/div[1]/ul[2]/li[4]/a"
     ).click();
-    cy.wait(100);
+    cy.wait(200);
     //Da click en el primer Tag
     cy.xpath(
       "/html/body/div[2]/div/main/section/section/ol/li[3]/a[1]"
@@ -400,7 +400,7 @@ describe(`d11_edit_public_tag_twitter_card_description`, function () {
       "/html/body/div[2]/div/main/section/form/div/div[2]/section[2]/div[1]/div[2]/button"
     ).click();
 
-    cy.wait(100);
+    cy.wait(200);
     //Edita la descripcion de twitter
     cy.xpath(
       "/html/body/div[2]/div/main/section/form/div/div[2]/section[2]/div[2]/div/div/div[1]/div[3]/textarea"
@@ -419,18 +419,18 @@ describe(`d12_edit_public_tag_facebook_card_title`, function () {
   it(`should edit correctly the tag`, function () {
     //Hace login
     cy.visit("http://localhost:3001/ghost/#/signin");
-    cy.wait(100);
+    cy.wait(200);
     cy.get('input[name="identification"]').type(email);
     cy.get('input[name="password"]').type(password);
     cy.get(
       'button[class="login gh-btn gh-btn-blue gh-btn-block gh-btn-icon ember-view"]'
     ).click();
-    cy.wait(100);
+    cy.wait(200);
     //Va a la pestana Tags
     cy.xpath(
       "/html/body/div[2]/div/nav[1]/section/div[1]/ul[2]/li[4]/a"
     ).click();
-    cy.wait(100);
+    cy.wait(200);
     //Da click en el primer Tag
     cy.xpath(
       "/html/body/div[2]/div/main/section/section/ol/li[3]/a[1]"
@@ -440,7 +440,7 @@ describe(`d12_edit_public_tag_facebook_card_title`, function () {
       "/html/body/div[2]/div/main/section/form/div/div[2]/section[3]/div[1]/div[2]/button"
     ).click();
 
-    cy.wait(100);
+    cy.wait(200);
     //Edita el titulo de Facebook
     cy.xpath(
       "/html/body/div[2]/div/main/section/form/div/div[2]/section[3]/div[2]/div/div/div[1]/div[2]/input"
@@ -459,18 +459,18 @@ describe(`d13_edit_public_tag_facebook_card_description`, function () {
   it(`should edit correctly the tag`, function () {
     //Hace login
     cy.visit("http://localhost:3001/ghost/#/signin");
-    cy.wait(100);
+    cy.wait(200);
     cy.get('input[name="identification"]').type(email);
     cy.get('input[name="password"]').type(password);
     cy.get(
       'button[class="login gh-btn gh-btn-blue gh-btn-block gh-btn-icon ember-view"]'
     ).click();
-    cy.wait(100);
+    cy.wait(200);
     //Va a la pestana Tags
     cy.xpath(
       "/html/body/div[2]/div/nav[1]/section/div[1]/ul[2]/li[4]/a"
     ).click();
-    cy.wait(100);
+    cy.wait(200);
     //Da click en el primer Tag
     cy.xpath(
       "/html/body/div[2]/div/main/section/section/ol/li[3]/a[1]"
@@ -480,7 +480,7 @@ describe(`d13_edit_public_tag_facebook_card_description`, function () {
       "/html/body/div[2]/div/main/section/form/div/div[2]/section[3]/div[1]/div[2]/button"
     ).click();
 
-    cy.wait(100);
+    cy.wait(200);
     //Edita la descripcion de Facebook
     cy.xpath(
       "/html/body/div[2]/div/main/section/form/div/div[2]/section[3]/div[2]/div/div/div[1]/div[3]/textarea"
@@ -499,18 +499,18 @@ describe(`d14_edit_public_tag_twitter_card_long_title`, function () {
   it(`should not edit correctly the tag`, function () {
     //Hace login
     cy.visit("http://localhost:3001/ghost/#/signin");
-    cy.wait(100);
+    cy.wait(200);
     cy.get('input[name="identification"]').type(email);
     cy.get('input[name="password"]').type(password);
     cy.get(
       'button[class="login gh-btn gh-btn-blue gh-btn-block gh-btn-icon ember-view"]'
     ).click();
-    cy.wait(100);
+    cy.wait(200);
     //Va a la pestana Tags
     cy.xpath(
       "/html/body/div[2]/div/nav[1]/section/div[1]/ul[2]/li[4]/a"
     ).click();
-    cy.wait(100);
+    cy.wait(200);
     //Da click en el primer Tag
     cy.xpath(
       "/html/body/div[2]/div/main/section/section/ol/li[3]/a[1]"
@@ -520,7 +520,7 @@ describe(`d14_edit_public_tag_twitter_card_long_title`, function () {
       "/html/body/div[2]/div/main/section/form/div/div[2]/section[2]/div[1]/div[2]/button"
     ).click();
 
-    cy.wait(100);
+    cy.wait(200);
     //Edita el titulo de twitter
     cy.xpath(
       "/html/body/div[2]/div/main/section/form/div/div[2]/section[2]/div[2]/div/div/div[1]/div[2]/input"
@@ -539,18 +539,18 @@ describe(`d15_edit_public_tag_facebook_card_long_title`, function () {
   it(`should not edit correctly the tag`, function () {
     //Hace login
     cy.visit("http://localhost:3001/ghost/#/signin");
-    cy.wait(100);
+    cy.wait(200);
     cy.get('input[name="identification"]').type(email);
     cy.get('input[name="password"]').type(password);
     cy.get(
       'button[class="login gh-btn gh-btn-blue gh-btn-block gh-btn-icon ember-view"]'
     ).click();
-    cy.wait(100);
+    cy.wait(200);
     //Va a la pestana Tags
     cy.xpath(
       "/html/body/div[2]/div/nav[1]/section/div[1]/ul[2]/li[4]/a"
     ).click();
-    cy.wait(100);
+    cy.wait(200);
     //Da click en el primer Tag
     cy.xpath(
       "/html/body/div[2]/div/main/section/section/ol/li[3]/a[1]"
@@ -560,7 +560,7 @@ describe(`d15_edit_public_tag_facebook_card_long_title`, function () {
       "/html/body/div[2]/div/main/section/form/div/div[2]/section[3]/div[1]/div[2]/button"
     ).click();
 
-    cy.wait(100);
+    cy.wait(200);
     //Edita el titulo de Facebook
     cy.xpath(
       "/html/body/div[2]/div/main/section/form/div/div[2]/section[3]/div[2]/div/div/div[1]/div[2]/input"
@@ -579,18 +579,18 @@ describe(`d16_create_new_internal_tag_with_name`, function () {
   it(`should create correctly the tag`, function () {
     //Hace login
     cy.visit("http://localhost:3001/ghost/#/signin");
-    cy.wait(100);
+    cy.wait(200);
     cy.get('input[name="identification"]').type(email);
     cy.get('input[name="password"]').type(password);
     cy.get(
       'button[class="login gh-btn gh-btn-blue gh-btn-block gh-btn-icon ember-view"]'
     ).click();
-    cy.wait(100);
+    cy.wait(200);
     //Va a la pestana Tags
     cy.xpath(
       "/html/body/div[2]/div/nav[1]/section/div[1]/ul[2]/li[4]/a"
     ).click();
-    cy.wait(100);
+    cy.wait(200);
     //Da click en internal tag
     cy.xpath(
       "/html/body/div[2]/div/main/section/header/section/div/button[2]"
@@ -605,7 +605,7 @@ describe(`d16_create_new_internal_tag_with_name`, function () {
     cy.xpath(
       "/html/body/div[2]/div/main/section/form/header/section/button"
     ).click();
-    cy.wait(100);
+    cy.wait(200);
   });
 });
 
@@ -613,18 +613,18 @@ describe(`d17_edit_internal_tag_metadata__long_title`, function () {
   it(`should not edit correctly the tag`, function () {
     //Hace login
     cy.visit("http://localhost:3001/ghost/#/signin");
-    cy.wait(100);
+    cy.wait(200);
     cy.get('input[name="identification"]').type(email);
     cy.get('input[name="password"]').type(password);
     cy.get(
       'button[class="login gh-btn gh-btn-blue gh-btn-block gh-btn-icon ember-view"]'
     ).click();
-    cy.wait(100);
+    cy.wait(200);
     //Va a la pestana Tags
     cy.xpath(
       "/html/body/div[2]/div/nav[1]/section/div[1]/ul[2]/li[4]/a"
     ).click();
-    cy.wait(100);
+    cy.wait(200);
     //Da click en internal tag
     cy.xpath(
       "/html/body/div[2]/div/main/section/header/section/div/button[2]"
@@ -641,7 +641,7 @@ describe(`d17_edit_internal_tag_metadata__long_title`, function () {
       "/html/body/div[2]/div/main/section/form/div/div[2]/section[1]/div[1]/div[2]/button"
     ).click();
 
-    cy.wait(100);
+    cy.wait(200);
     //Edita el titulo de metadata
     cy.xpath(
       "/html/body/div[2]/div/main/section/form/div/div[2]/section[1]/div[2]/div/div/div[1]/div[1]/input"
@@ -660,18 +660,18 @@ describe(`d18_edit_internal_tag_color`, function () {
   it(`should edit correctly the tag`, function () {
     //Hace login
     cy.visit("http://localhost:3001/ghost/#/signin");
-    cy.wait(100);
+    cy.wait(200);
     cy.get('input[name="identification"]').type(email);
     cy.get('input[name="password"]').type(password);
     cy.get(
       'button[class="login gh-btn gh-btn-blue gh-btn-block gh-btn-icon ember-view"]'
     ).click();
-    cy.wait(100);
+    cy.wait(200);
     //Va a la pestana Tags
     cy.xpath(
       "/html/body/div[2]/div/nav[1]/section/div[1]/ul[2]/li[4]/a"
     ).click();
-    cy.wait(100);
+    cy.wait(200);
     //Da click en internal tag
     cy.xpath(
       "/html/body/div[2]/div/main/section/header/section/div/button[2]"
@@ -689,7 +689,7 @@ describe(`d18_edit_internal_tag_color`, function () {
     )
       .clear()
       .type("00FF00", { force: true });
-    cy.wait(100);
+    cy.wait(200);
 
     //Guarda el Tag
     cy.xpath(
@@ -702,19 +702,19 @@ describe(`d19_edit_internal_tag_slug`, function () {
   it(`should edit correctly the tag`, function () {
     //Hace login
     cy.visit("http://localhost:3001/ghost/#/signin");
-    cy.wait(100);
+    cy.wait(200);
     cy.get('input[name="identification"]').type(email);
     cy.get('input[name="password"]').type(password);
     cy.get(
       'button[class="login gh-btn gh-btn-blue gh-btn-block gh-btn-icon ember-view"]'
     ).click();
-    cy.wait(100);
+    cy.wait(200);
 
     //Va a la pestana Tags
     cy.xpath(
       "/html/body/div[2]/div/nav[1]/section/div[1]/ul[2]/li[4]/a"
     ).click();
-    cy.wait(100);
+    cy.wait(200);
     //Da click en internal tag
     cy.xpath(
       "/html/body/div[2]/div/main/section/header/section/div/button[2]"
@@ -731,7 +731,7 @@ describe(`d19_edit_internal_tag_slug`, function () {
     )
       .clear()
       .type(faker.lorem.word(), { force: true });
-    cy.wait(100);
+    cy.wait(200);
 
     //Guarda el Tag
     cy.xpath(
@@ -744,18 +744,18 @@ describe(`d20_edit_internal_tag_description`, function () {
   it(`should edit correctly the tag`, function () {
     //Hace login
     cy.visit("http://localhost:3001/ghost/#/signin");
-    cy.wait(100);
+    cy.wait(200);
     cy.get('input[name="identification"]').type(email);
     cy.get('input[name="password"]').type(password);
     cy.get(
       'button[class="login gh-btn gh-btn-blue gh-btn-block gh-btn-icon ember-view"]'
     ).click();
-    cy.wait(100);
+    cy.wait(200);
     //Va a la pestana Tags
     cy.xpath(
       "/html/body/div[2]/div/nav[1]/section/div[1]/ul[2]/li[4]/a"
     ).click();
-    cy.wait(100);
+    cy.wait(200);
     //Da click en internal tag
     cy.xpath(
       "/html/body/div[2]/div/main/section/header/section/div/button[2]"
@@ -773,7 +773,7 @@ describe(`d20_edit_internal_tag_description`, function () {
     )
       .clear()
       .type(faker.lorem.paragraph(), { force: true });
-    cy.wait(100);
+    cy.wait(200);
 
     //Guarda el Tag
     cy.xpath(
@@ -786,18 +786,18 @@ describe(`d21_edit_internal_tag_metadata_title`, function () {
   it(`should edit correctly the tag`, function () {
     //Hace login
     cy.visit("http://localhost:3001/ghost/#/signin");
-    cy.wait(100);
+    cy.wait(200);
     cy.get('input[name="identification"]').type(email);
     cy.get('input[name="password"]').type(password);
     cy.get(
       'button[class="login gh-btn gh-btn-blue gh-btn-block gh-btn-icon ember-view"]'
     ).click();
-    cy.wait(100);
+    cy.wait(200);
     //Va a la pestana Tags
     cy.xpath(
       "/html/body/div[2]/div/nav[1]/section/div[1]/ul[2]/li[4]/a"
     ).click();
-    cy.wait(100);
+    cy.wait(200);
     //Da click en internal tag
     cy.xpath(
       "/html/body/div[2]/div/main/section/header/section/div/button[2]"
@@ -814,7 +814,7 @@ describe(`d21_edit_internal_tag_metadata_title`, function () {
       "/html/body/div[2]/div/main/section/form/div/div[2]/section[1]/div[1]/div[2]/button"
     ).click();
 
-    cy.wait(100);
+    cy.wait(200);
     //Edita el titulo de metadata
     cy.xpath(
       "/html/body/div[2]/div/main/section/form/div/div[2]/section[1]/div[2]/div/div/div[1]/div[1]/input"
@@ -833,18 +833,18 @@ describe(`d22_edit_internal_tag_metadata_description`, function () {
   it(`should edit correctly the tag`, function () {
     //Hace login
     cy.visit("http://localhost:3001/ghost/#/signin");
-    cy.wait(100);
+    cy.wait(200);
     cy.get('input[name="identification"]').type(email);
     cy.get('input[name="password"]').type(password);
     cy.get(
       'button[class="login gh-btn gh-btn-blue gh-btn-block gh-btn-icon ember-view"]'
     ).click();
-    cy.wait(100);
+    cy.wait(200);
     //Va a la pestana Tags
     cy.xpath(
       "/html/body/div[2]/div/nav[1]/section/div[1]/ul[2]/li[4]/a"
     ).click();
-    cy.wait(100);
+    cy.wait(200);
     //Da click en internal tag
     cy.xpath(
       "/html/body/div[2]/div/main/section/header/section/div/button[2]"
@@ -861,7 +861,7 @@ describe(`d22_edit_internal_tag_metadata_description`, function () {
       "/html/body/div[2]/div/main/section/form/div/div[2]/section[1]/div[1]/div[2]/button"
     ).click();
 
-    cy.wait(100);
+    cy.wait(200);
     //Edita la descripcion de metadata
     cy.xpath(
       "/html/body/div[2]/div/main/section/form/div/div[2]/section[1]/div[2]/div/div/div[1]/div[2]/textarea"
@@ -880,18 +880,18 @@ describe(`d23_edit_internal_tag_metadata_url_with_email`, function () {
   it(`should not edit correctly the tag`, function () {
     //Hace login
     cy.visit("http://localhost:3001/ghost/#/signin");
-    cy.wait(100);
+    cy.wait(200);
     cy.get('input[name="identification"]').type(email);
     cy.get('input[name="password"]').type(password);
     cy.get(
       'button[class="login gh-btn gh-btn-blue gh-btn-block gh-btn-icon ember-view"]'
     ).click();
-    cy.wait(100);
+    cy.wait(200);
     //Va a la pestana Tags
     cy.xpath(
       "/html/body/div[2]/div/nav[1]/section/div[1]/ul[2]/li[4]/a"
     ).click();
-    cy.wait(100);
+    cy.wait(200);
     //Da click en internal tag
     cy.xpath(
       "/html/body/div[2]/div/main/section/header/section/div/button[2]"
@@ -908,7 +908,7 @@ describe(`d23_edit_internal_tag_metadata_url_with_email`, function () {
       "/html/body/div[2]/div/main/section/form/div/div[2]/section[1]/div[1]/div[2]/button"
     ).click();
 
-    cy.wait(100);
+    cy.wait(200);
     //Edita la url de metadata con datos erroneos
     cy.xpath(
       "/html/body/div[2]/div/main/section/form/div/div[2]/section[1]/div[2]/div/div/div[1]/div[3]/input"
@@ -927,18 +927,18 @@ describe(`d24_edit_internal_tag_metadata_url_with_url`, function () {
   it(`should edit correctly the tag`, function () {
     //Hace login
     cy.visit("http://localhost:3001/ghost/#/signin");
-    cy.wait(100);
+    cy.wait(200);
     cy.get('input[name="identification"]').type(email);
     cy.get('input[name="password"]').type(password);
     cy.get(
       'button[class="login gh-btn gh-btn-blue gh-btn-block gh-btn-icon ember-view"]'
     ).click();
-    cy.wait(100);
+    cy.wait(200);
     //Va a la pestana Tags
     cy.xpath(
       "/html/body/div[2]/div/nav[1]/section/div[1]/ul[2]/li[4]/a"
     ).click();
-    cy.wait(100);
+    cy.wait(200);
     //Da click en internal tag
     cy.xpath(
       "/html/body/div[2]/div/main/section/header/section/div/button[2]"
@@ -955,7 +955,7 @@ describe(`d24_edit_internal_tag_metadata_url_with_url`, function () {
       "/html/body/div[2]/div/main/section/form/div/div[2]/section[1]/div[1]/div[2]/button"
     ).click();
 
-    cy.wait(100);
+    cy.wait(200);
     //Edita la url de metadata con datos correctos
     cy.xpath(
       "/html/body/div[2]/div/main/section/form/div/div[2]/section[1]/div[2]/div/div/div[1]/div[3]/input"
@@ -974,18 +974,18 @@ describe(`d25_edit_internal_tag_twitter_card_title`, function () {
   it(`should edit correctly the tag`, function () {
     //Hace login
     cy.visit("http://localhost:3001/ghost/#/signin");
-    cy.wait(100);
+    cy.wait(200);
     cy.get('input[name="identification"]').type(email);
     cy.get('input[name="password"]').type(password);
     cy.get(
       'button[class="login gh-btn gh-btn-blue gh-btn-block gh-btn-icon ember-view"]'
     ).click();
-    cy.wait(100);
+    cy.wait(200);
     //Va a la pestana Tags
     cy.xpath(
       "/html/body/div[2]/div/nav[1]/section/div[1]/ul[2]/li[4]/a"
     ).click();
-    cy.wait(100);
+    cy.wait(200);
     //Da click en internal tag
     cy.xpath(
       "/html/body/div[2]/div/main/section/header/section/div/button[2]"
@@ -1002,7 +1002,7 @@ describe(`d25_edit_internal_tag_twitter_card_title`, function () {
       "/html/body/div[2]/div/main/section/form/div/div[2]/section[2]/div[1]/div[2]/button"
     ).click();
 
-    cy.wait(100);
+    cy.wait(200);
     //Edita el titulo de twitter
     cy.xpath(
       "/html/body/div[2]/div/main/section/form/div/div[2]/section[2]/div[2]/div/div/div[1]/div[2]/input"
@@ -1021,18 +1021,18 @@ describe(`d26_edit_internal_tag_twitter_card_description`, function () {
   it(`should edit correctly the tag`, function () {
     //Hace login
     cy.visit("http://localhost:3001/ghost/#/signin");
-    cy.wait(100);
+    cy.wait(200);
     cy.get('input[name="identification"]').type(email);
     cy.get('input[name="password"]').type(password);
     cy.get(
       'button[class="login gh-btn gh-btn-blue gh-btn-block gh-btn-icon ember-view"]'
     ).click();
-    cy.wait(100);
+    cy.wait(200);
     //Va a la pestana Tags
     cy.xpath(
       "/html/body/div[2]/div/nav[1]/section/div[1]/ul[2]/li[4]/a"
     ).click();
-    cy.wait(100);
+    cy.wait(200);
     //Da click en internal tag
     cy.xpath(
       "/html/body/div[2]/div/main/section/header/section/div/button[2]"
@@ -1049,7 +1049,7 @@ describe(`d26_edit_internal_tag_twitter_card_description`, function () {
       "/html/body/div[2]/div/main/section/form/div/div[2]/section[2]/div[1]/div[2]/button"
     ).click();
 
-    cy.wait(100);
+    cy.wait(200);
     //Edita la descripcion de twitter
     cy.xpath(
       "/html/body/div[2]/div/main/section/form/div/div[2]/section[2]/div[2]/div/div/div[1]/div[3]/textarea"
@@ -1068,18 +1068,18 @@ describe(`d27_edit_internal_tag_facebook_card_title`, function () {
   it(`should edit correctly the tag`, function () {
     //Hace login
     cy.visit("http://localhost:3001/ghost/#/signin");
-    cy.wait(100);
+    cy.wait(200);
     cy.get('input[name="identification"]').type(email);
     cy.get('input[name="password"]').type(password);
     cy.get(
       'button[class="login gh-btn gh-btn-blue gh-btn-block gh-btn-icon ember-view"]'
     ).click();
-    cy.wait(100);
+    cy.wait(200);
     //Va a la pestana Tags
     cy.xpath(
       "/html/body/div[2]/div/nav[1]/section/div[1]/ul[2]/li[4]/a"
     ).click();
-    cy.wait(100);
+    cy.wait(200);
     //Da click en internal tag
     cy.xpath(
       "/html/body/div[2]/div/main/section/header/section/div/button[2]"
@@ -1096,7 +1096,7 @@ describe(`d27_edit_internal_tag_facebook_card_title`, function () {
       "/html/body/div[2]/div/main/section/form/div/div[2]/section[3]/div[1]/div[2]/button"
     ).click();
 
-    cy.wait(100);
+    cy.wait(200);
     //Edita el titulo de Facebook
     cy.xpath(
       "/html/body/div[2]/div/main/section/form/div/div[2]/section[3]/div[2]/div/div/div[1]/div[2]/input"
@@ -1115,18 +1115,18 @@ describe(`d28_edit_internal_tag_facebook_card_description`, function () {
   it(`should edit correctly the tag`, function () {
     //Hace login
     cy.visit("http://localhost:3001/ghost/#/signin");
-    cy.wait(100);
+    cy.wait(200);
     cy.get('input[name="identification"]').type(email);
     cy.get('input[name="password"]').type(password);
     cy.get(
       'button[class="login gh-btn gh-btn-blue gh-btn-block gh-btn-icon ember-view"]'
     ).click();
-    cy.wait(100);
+    cy.wait(200);
     //Va a la pestana Tags
     cy.xpath(
       "/html/body/div[2]/div/nav[1]/section/div[1]/ul[2]/li[4]/a"
     ).click();
-    cy.wait(100);
+    cy.wait(200);
     //Da click en internal tag
     cy.xpath(
       "/html/body/div[2]/div/main/section/header/section/div/button[2]"
@@ -1143,7 +1143,7 @@ describe(`d28_edit_internal_tag_facebook_card_description`, function () {
       "/html/body/div[2]/div/main/section/form/div/div[2]/section[3]/div[1]/div[2]/button"
     ).click();
 
-    cy.wait(100);
+    cy.wait(200);
     //Edita la descripcion de Facebook
     cy.xpath(
       "/html/body/div[2]/div/main/section/form/div/div[2]/section[3]/div[2]/div/div/div[1]/div[3]/textarea"
@@ -1162,18 +1162,18 @@ describe(`d29_edit_internal_tag_twitter_card_long_title`, function () {
   it(`should not edit correctly the tag`, function () {
     //Hace login
     cy.visit("http://localhost:3001/ghost/#/signin");
-    cy.wait(100);
+    cy.wait(200);
     cy.get('input[name="identification"]').type(email);
     cy.get('input[name="password"]').type(password);
     cy.get(
       'button[class="login gh-btn gh-btn-blue gh-btn-block gh-btn-icon ember-view"]'
     ).click();
-    cy.wait(100);
+    cy.wait(200);
     //Va a la pestana Tags
     cy.xpath(
       "/html/body/div[2]/div/nav[1]/section/div[1]/ul[2]/li[4]/a"
     ).click();
-    cy.wait(100);
+    cy.wait(200);
     //Da click en internal tag
     cy.xpath(
       "/html/body/div[2]/div/main/section/header/section/div/button[2]"
@@ -1190,7 +1190,7 @@ describe(`d29_edit_internal_tag_twitter_card_long_title`, function () {
       "/html/body/div[2]/div/main/section/form/div/div[2]/section[2]/div[1]/div[2]/button"
     ).click();
 
-    cy.wait(100);
+    cy.wait(200);
     //Edita el titulo de twitter
     cy.xpath(
       "/html/body/div[2]/div/main/section/form/div/div[2]/section[2]/div[2]/div/div/div[1]/div[2]/input"
@@ -1209,18 +1209,18 @@ describe(`d30_edit_internal_tag_facebook_card_long_title`, function () {
   it(`should not edit correctly the tag`, function () {
     //Hace login
     cy.visit("http://localhost:3001/ghost/#/signin");
-    cy.wait(100);
+    cy.wait(200);
     cy.get('input[name="identification"]').type(email);
     cy.get('input[name="password"]').type(password);
     cy.get(
       'button[class="login gh-btn gh-btn-blue gh-btn-block gh-btn-icon ember-view"]'
     ).click();
-    cy.wait(100);
+    cy.wait(200);
     //Va a la pestana Tags
     cy.xpath(
       "/html/body/div[2]/div/nav[1]/section/div[1]/ul[2]/li[4]/a"
     ).click();
-    cy.wait(100);
+    cy.wait(200);
     //Da click en internal tag
     cy.xpath(
       "/html/body/div[2]/div/main/section/header/section/div/button[2]"
@@ -1237,7 +1237,7 @@ describe(`d30_edit_internal_tag_facebook_card_long_title`, function () {
       "/html/body/div[2]/div/main/section/form/div/div[2]/section[3]/div[1]/div[2]/button"
     ).click();
 
-    cy.wait(100);
+    cy.wait(200);
     //Edita el titulo de Facebook
     cy.xpath(
       "/html/body/div[2]/div/main/section/form/div/div[2]/section[3]/div[2]/div/div/div[1]/div[2]/input"
