@@ -17,23 +17,23 @@ function printBox() {
   echo "| ${b//?/ } |
  -${b//?/-}-"
   tput sgr 0
-  sleep 2
+  sleep 5
 }
 
 function ask() {
   read -p "$1 [Y/n]: " -n 1 answer
   if [ "$answer" == 'n' ]; then
     echo
-    echo "Okay, please verify that"
+    echo "Okay, please verify that."
     sleep 1
-    exit 1
+    exit 0
   fi
   echo
   sleep 1
 }
 
 function vrtCreateRef() {
-  printBox "Creating reference images" "The browser tab that will open is not the final report" "Please skip it"
+  printBox "Creating reference images..." "We'll open a browser tab but this is not the final report," "please skip it and wait for the final report."
   npx backstop test || npx backstop approve
   sleep 3
 }
@@ -45,6 +45,8 @@ function vrtKraken() {
     npx kraken-node run &&
     echo "Removing Kraken reports..." &&
     cleanReport &&
+    printBox "Creating Backstop report for Kraken tests over Ghost 3.41.1 and 4.44.0" &&
+    sleep 2 &&
     generateBackstopJSON "Kraken" "3" &&
     vrtCreateRef &&
     generateBackstopJSON "Kraken" "4" &&
@@ -62,6 +64,8 @@ function vrtCypress() {
     mkdir --parents screenshots/cypress &&
     mv cypress/screenshots/semana6 screenshots/cypress &&
     cleanReport &&
+    printBox "Creating Backstop report for Cypress tests over Ghost 3.41.1 and 4.44.0" &&
+    sleep 2 &&
     generateBackstopJSON "Cypress" "3" &&
     vrtCreateRef &&
     generateBackstopJSON "Cypress" "4" &&
@@ -87,6 +91,7 @@ function cleanReport() {
   sleep 2
   rm -rf backstop_data/bitmaps_reference backstop_data/bitmaps_test reports/ .kraken
   echo "Successfully removed"
+  sleep 2
 }
 
 function createContainers() {
@@ -115,11 +120,13 @@ function createContainers() {
     docker container rm -f ghost_3.41.1
     sleep 2
     echo "Removed"
+    sleep 2
     echo
 
     echo "Creating container ghost_3.41.1 exposing 2368 port over host 3001 port..."
     sleep 2
     docker run -d -e url=http://localhost:3001 -p 3001:2368 --name ghost_3.41.1 ghost:3.41.1
+    echo
     echo "Created, you can use http://localhost:3001 for further inspection"
     sleep 2
 
@@ -127,6 +134,7 @@ function createContainers() {
     echo "Creating container ghost_3.41.1 exposing 2368 port over host 3001 port..."
     sleep 2
     docker run -d -e url=http://localhost:3001 -p 3001:2368 --name ghost_3.41.1 ghost:3.41.1
+    echo
     echo "Created, you can use http://localhost:3001 for further inspection"
     sleep 2
   fi
@@ -140,11 +148,13 @@ function createContainers() {
     docker container rm -f ghost_4.44.0
     sleep 2
     echo "Removed"
+    sleep 2
     echo
 
     echo "Creating container ghost_4.44.0 exposing 2368 port over host 3002 port..."
     sleep 2
     docker run -d -e url=http://localhost:3002 -p 3002:2368 --name ghost_4.44.0 ghost:4.44.0
+    echo
     echo "Created, you can use http://localhost:3002 for further inspection"
     sleep 2
 
@@ -152,6 +162,7 @@ function createContainers() {
     echo "Creating container ghost_4.44.0 exposing 2368 port over host 3002 port..."
     sleep 2
     docker run -d -e url=http://localhost:3002 -p 3002:2368 --name ghost_4.44.0 ghost:4.44.0
+    echo
     echo "Created, you can use http://localhost:3002 for further inspection"
     sleep 2
   fi
@@ -163,30 +174,46 @@ function restartContainers() {
   docker exec ghost_3.41.1 rm /var/lib/ghost/content/data/ghost.db && docker restart ghost_3.41.1
   sleep 2
   echo "Successfully restarted"
+  sleep 2
 
   echo
   echo "Deleting database and restarting ghost_4.44.0..."
   docker exec ghost_4.44.0 rm /var/lib/ghost/content/data/ghost.db && docker restart ghost_4.44.0
   sleep 2
   echo "Successfully restarted"
-
   sleep 2
 }
 
 function main() {
   printBox "Welcome to the last step of this journey" \
     "" \
+    "Members: " \
+    "Alonso Daniel Cantu Trejo: <a.cantu@uniandes.edu.co>" \
+    "Diego Fernando Eslava Lozano: <d.eslava@uniandes.edu.co>" \
+    "Camilo Andres Galvez Vidal: <c.galvezv@uniandes.edu.co>" \
+    "Luis Miguel Guzman Perez: <lm.guzmanp1@uniandes.edu.co>" \
+    "" \
     "This script will run the following tests: " \
     "" \
     "- Week 7 - Data Generation with Cypress over Ghost 3.41.1" \
     "- Week 6 - Visual Regression Testing using Backstop.js over Ghost 3.41.1 and Ghost 4.44.0 (Kraken version)" \
-    "- Week 6 - Visual Regression Testing using Backstop.js over Ghost 3.41.1 and Ghost 4.44.0 (Cypress version)"
+    "- Week 6 - Visual Regression Testing using Backstop.js over Ghost 3.41.1 and Ghost 4.44.0 (Cypress version)" \
+    "- Week 5 - E2E testing over Ghost 3.41.1 and Ghost 4.44.0 (Kraken version)" \
+    "- Week 5 - E2E testing over Ghost 3.41.1 and Ghost 4.44.0 (Cypress version)" \
+    "" \
+    "Please be patient, you'll need approximately 30 minutes." \
+    "Take a beer while we execute everything." \
+    "" \
+    "We'll be asking for confirmation to continue, so please pay attention."
 
   ask "Are you ready to start?"
   printBox "WARNING!" "Let's make sure about some things" "" "If you're not sure about the following questions please double check before continue," "otherwise everything will fail"
   echo "Did you verify that..."
-  ask "...no containers are running over ports 3001 and 3002?"
-  ask "...no http-server is running over port 8080?"
+  ask "... your machine is properly connected to the internet?"
+  ask "... you're using node v14.19.2?"
+  ask "... Docker is installed and the service is running on your machine?"
+  ask "... no containers are running over ports 3001 and 3002?"
+  ask "... no http-server is running over port 8080?"
 
   # Create containers for Ghost 3.41.1 and Ghost 4.44.0
   createContainers 3001 3002
@@ -196,27 +223,30 @@ function main() {
   sleep 2
   npx cypress run --headed --config video=false --spec "cypress/integration/semana7/*.spec.js"
 
-  # Run week 6 tests
-  # Start server for Backstop image comparison and make it run in background
-  printBox "Running - Week 6 - Visual Regression Testing using Backstop.js" "Ghost 3.41.1 and Ghost 4.44.0 (Kraken version)"
+  # Run week 5 & 6 tests
+  ask "We're about to start E2E and VRT testing, are you ready to continue?"
   sleep 2
 
+  # Start server for Backstop image comparison and make it run in background
   echo "Starting http-server to serve images for VRT..."
   sleep 2
   npx http-server -p 8080 . &
-  echo "Server started"
-
-  # Create Backstop report for Kraken - Ghost 3.41.1 & Ghost 4.44.0
-  printBox "Creating Backstop report for Kraken tests over Ghost 3.41.1 and 4.44.0"
+  echo "Server is running over http://localhost:8080"
   sleep 2
+
+  printBox "Running - Week 6 - Visual Regression Testing using Backstop.js" "Running - Week 5 - E2E testing using Kraken" "" "Ghost 3.41.1 and Ghost 4.44.0 (Kraken version)"
+  sleep 2
+
   vrtKraken
 
-  echo "Proceeding with Cypress testing will remove Backstop VRT Kraken report"
-  ask "Are you ready to continue with Backstop VRT Cypress testing?"
+  printBox "WARNING" "" "Proceeding with Cypress testing will remove Backstop VRT & E2E Kraken report." "Please make sure you finished the revision of the generated report"
+  ask "Are you ready to continue with Backstop VRT & E2E Cypress testing?"
 
-  # Create Backstop report for Cypress - Ghost 3.41.1 & Ghost 4.44.0
-  printBox "Running - Week 6 - Visual Regression Testing using Backstop.js" "Ghost 3.41.1 and Ghost 4.44.0 (Cypress version)"
+  printBox "Running - Week 6 - Visual Regression Testing using Backstop.js" "Running - Week 5 - E2E testing using Cypress" "" "Ghost 3.41.1 and Ghost 4.44.0 (Cypress version)"
+  sleep 2
   vrtCypress
+
+  echo "Successfully finished!"
 }
 
 main
