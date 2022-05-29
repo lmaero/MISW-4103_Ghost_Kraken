@@ -75,11 +75,11 @@ function vrtCypress() {
 }
 
 function randomMonkey() {
-  npx cypress run --headed --config-file "monkey-config.json" --spec "cypress/integration/semana4/monkey.js"
+  npx cypress run --headed --config video=false --config-file "monkey-config.json" --spec "cypress/integration/semana4/monkey.js"
 }
 
 function smartMonkey() {
-  npx cypress run --headed --config-file "smart-monkey-config.json" --spec "cypress/integration/semana4/smart-monkey.js"
+  npx cypress run --headed --config video=false --config-file "smart-monkey-config.json" --spec "cypress/integration/semana4/smart-monkey.js"
 }
 
 function generateBackstopJSON() {
@@ -303,7 +303,7 @@ function main() {
   sleep 2
   ask "We're about to start Data Generation testing, are you ready to continue?"
   sleep 2
-  npx cypress run --headed --spec "cypress/integration/semana7/*.spec.js"
+  npx cypress run --headed --config video=false --spec "cypress/integration/semana7/*.spec.js"
 
   # Run week 5 & 6 tests
   printBox "Week 6 - Visual Regression Testing using Backstop.js" "Week 5 - E2E testing using Kraken" "" "Ghost 3.41.1 and Ghost 4.44.0 (Kraken version)"
