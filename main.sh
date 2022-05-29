@@ -196,16 +196,17 @@ function restartContainers() {
 function initRiPuppetCoursera() {
   echo
   echo "Clonning RIPuppetCoursera git repository..."
-  git clone git@github.com:TheSoftwareDesignLab/RIPuppetCoursera.git
+  rm -rf RIPuppetCoursera && git clone git@github.com:TheSoftwareDesignLab/RIPuppetCoursera.git
   sleep 2
   echo "Installing RiPuppet Coursera node dependencies..."
   cd RIPuppetCoursera && rm -rf node_modules && rm -rf package-lock.json && npm install
   sleep 2
+  echo
   echo "Node dependencies installed successfully!!"
 }
 
 function generateConfigFile() {
-  echo
+echo
 echo "Generate RiPuppet configuration file..."
 sleep 2
 json_data=$(cat <<EOF
@@ -221,17 +222,41 @@ EOF
 )
 echo "$json_data";
 sleep 2
+echo
 echo "RiPuppet Config file JSON generated successfully!!!"
 echo "$json_data" > config.json
 }
 
 function runRiPuppetCoursera() {
+  echo
   echo "Running RiPuppet..."
   node index.js
   sleep 2
+  echo "RiPuppet finished successfully!"
+}
+
+function showRiPuppetReport() {
   echo "Starting http-server to serve Ripper results..."
   sleep 2
+  stopService 8081
   npx http-server -p 8081 results &
+  sleep 2
+  open "http://127.0.0.1:8081"
+}
+
+function stopService() {
+  touch temp.text
+  lsof -n -i4TCP:$1 | awk '{print $2}' > temp.text
+  pidToStop=`(sed '2q;d' temp.text)`
+  > temp.text
+  if [[ -n $pidToStop ]]
+  then
+    kill -9 $pidToStop
+    echo "Congrates!! $1 is stopped."
+  else
+    echo "Sorry nothing running on above port"
+  fi
+  rm temp.text
 }
 
 function main() {
@@ -328,7 +353,8 @@ function main() {
   generateConfigFile "localhost:3002"
   sleep 2
   runRiPuppetCoursera
-  sleep 2
+
+  showRiPuppetReport
   cd ..
 
   echo "Successfully finished!"
