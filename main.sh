@@ -270,13 +270,15 @@ function main() {
     "" \
     "This script will run the following tests: " \
     "" \
-    "- Week 7 - Data Generation with Cypress over Ghost 3.41.1 (Time: ~10m)" \
-    "- Week 6 - Visual Regression Testing using Backstop.js over Ghost 3.41.1 and Ghost 4.44.0 (Kraken version) (Time: ~3m)" \
+    "- Week 7 - Data Generation with Cypress over Ghost 3.41.1 (Time: ~13m)" \
+    "- Week 6 - Visual Regression Testing using Backstop.js over Ghost 3.41.1 and Ghost 4.44.0 (Kraken version) (Time: ~5m)" \
     "- Week 6 - Visual Regression Testing using Backstop.js over Ghost 3.41.1 and Ghost 4.44.0 (Cypress version) (Time: ~3m)" \
-    "- Week 5 - E2E testing over Ghost 3.41.1 and Ghost 4.44.0 (Kraken version) (Time: ~3m)" \
+    "- Week 5 - E2E testing over Ghost 3.41.1 and Ghost 4.44.0 (Kraken version) (Time: ~5m)" \
     "- Week 5 - E2E testing over Ghost 3.41.1 and Ghost 4.44.0 (Cypress version) (Time: ~3m)" \
     "- Week 4 - Random monkey (Exploratory tests) over Ghost 3.41.1 (Cypress version) (Time: ~1m)" \
     "- Week 4 - Smart monkey (Exploratory tests) over Ghost 4.44.0 (Cypress version) (Time: ~3m)" \
+    "- Week 4 - Ripper RiPuppet (Exploratory tests) over Ghost 3.41.1 (Time: ~3m)" \
+    "- Week 4 - Ripper RiPuppet (Exploratory tests) over Ghost 4.44.0 (Time: ~3m)" \
     "" \
     "Please be patient, you'll need approximately 30 minutes." \
     "Take a beer while we execute everything." \
