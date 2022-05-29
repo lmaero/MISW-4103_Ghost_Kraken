@@ -4,3 +4,11 @@ reports/
 .kraken/
 ghost-local/content/logs/
 RIPuppetCoursera/
+package-lock.json
+backstop.json
+screenshots/
+cypress/screenshots/
+cypress/videos/
+results/
+backstop_data/bitmaps_reference/
+backstop_data/bitmaps_test/
