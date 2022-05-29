@@ -298,68 +298,108 @@ function main() {
   # Create containers for Ghost 3.41.1 and Ghost 4.44.0
   createContainers 3001 3002
 
-  # Run week 7 tests
-  printBox "Week 7 - Data Generation with Cypress over Ghost 3.41.1"
-  sleep 2
-  ask "We're about to start Data Generation testing, are you ready to continue?"
-  sleep 2
-  npx cypress run --headless --config video=false --spec "cypress/integration/semana7/*.spec.js"
+  echo
+  PS3='Please select a test to run: '
+  options=(
+    "Week 7 - Data Generation with Cypress over Ghost 3.41.1"
+    "Week 6 - Visual Regression Testing using Backstop.js | Week 5 - E2E testing using Kraken"  
+    "Week 6 - Visual Regression Testing using Backstop.js | Week 5 - E2E testing using Cypress" 
+    "Week 4 - Monkey Testing - Ghost 3.41.1 (Random monkey version)" 
+    "Week 4 - Smart Monkey Testing - Ghost 4.44.0 (Smart monkey version)" 
+    "Week 4 - Ripper RiPuppet - Ghost 3.41.1" 
+    "Week 4 - Ripper RiPuppet - Ghost 4.44.0"
+    "Quit"
+  )
+  select opt in "${options[@]}"
+  do
+      case $opt in
+          "Week 7 - Data Generation with Cypress over Ghost 3.41.1")
+              echo
+              # Run week 7 tests
+              printBox "Week 7 - Data Generation with Cypress over Ghost 3.41.1"
+              sleep 2
+              ask "We're about to start Data Generation testing, are you ready to continue?"
+              sleep 2
+              npx cypress run --headless --config video=false --spec "cypress/integration/semana7/*.spec.js"
+              ;;
+          "Week 6 - Visual Regression Testing using Backstop.js | Week 5 - E2E testing using Kraken")
+              echo 
+              # Run week 5 & 6 tests
+              printBox "Week 6 - Visual Regression Testing using Backstop.js" "Week 5 - E2E testing using Kraken" "" "Ghost 3.41.1 and Ghost 4.44.0 (Kraken version)"
+              sleep 2
+              ask "We're about to start E2E and VRT testing, are you ready to continue?"
+              sleep 2
 
-  # Run week 5 & 6 tests
-  printBox "Week 6 - Visual Regression Testing using Backstop.js" "Week 5 - E2E testing using Kraken" "" "Ghost 3.41.1 and Ghost 4.44.0 (Kraken version)"
-  sleep 2
-  ask "We're about to start E2E and VRT testing, are you ready to continue?"
-  sleep 2
+              # Start server for Backstop image comparison and make it run in background
+              echo "Starting http-server to serve images for VRT..."
+              sleep 2
+              npx http-server -p 8080 . &
+              echo "Server is running over http://localhost:8080"
+              sleep 2
+              vrtKraken
 
-  # Start server for Backstop image comparison and make it run in background
-  echo "Starting http-server to serve images for VRT..."
-  sleep 2
-  npx http-server -p 8080 . &
-  echo "Server is running over http://localhost:8080"
-  sleep 2
-  vrtKraken
-
-  printBox "WARNING" "" "Proceeding with Cypress testing will remove Backstop VRT & E2E Kraken report." "Please make sure you finished the revision of the generated report"
-
-  printBox "Week 6 - Visual Regression Testing using Backstop.js" "Week 5 - E2E testing using Cypress" "" "Ghost 3.41.1 and Ghost 4.44.0 (Cypress version)"
-  sleep 2
-  ask "Are you ready to continue with Backstop VRT & E2E Cypress testing?"
-  sleep 2
-  vrtCypress
-
-  printBox "Week 4 - Monkey Testing" "" "Ghost 3.41.1 (Random monkey version)"
-  sleep 2
-  ask "Are you ready to continue with monkey testing?"
-  sleep 2
-  randomMonkey
-
-  printBox "Week 4 - Smart Monkey Testing" "" "Ghost 4.44.0 (Smart monkey version)"
-  sleep 2
-  ask "Are you ready to continue with smart monkey testing?"
-  sleep 2
-  smartMonkey
-
-  printBox "Week 4 - Ripper RiPuppet" "" "Ghost 3.41.1"
-  sleep 2
-  ask "Are you ready to continue with ripper testing?"
-  sleep 2
-  initRiPuppetCoursera
-  sleep 2
-  generateConfigFile "localhost:3001"
-  sleep 2
-  runRiPuppetCoursera
-
-  printBox "Week 4 - Ripper RiPuppet" "" "Ghost 4.44.0"
-  sleep 2
-  ask "Are you ready to continue with ripper testing?"
-  sleep 2
-  generateConfigFile "localhost:3002"
-  sleep 2
-  runRiPuppetCoursera
-
-  showRiPuppetReport
-  cd ..
-
+              printBox "WARNING" "" "Proceeding with Cypress testing will remove Backstop VRT & E2E Kraken report." "Please make sure you finished the revision of the generated report"
+              ;;
+          "Week 6 - Visual Regression Testing using Backstop.js | Week 5 - E2E testing using Cypress")
+              echo
+              printBox "Week 6 - Visual Regression Testing using Backstop.js" "Week 5 - E2E testing using Cypress" "" "Ghost 3.41.1 and Ghost 4.44.0 (Cypress version)"
+              sleep 2
+              ask "Are you ready to continue with Backstop VRT & E2E Cypress testing?"
+              sleep 2
+              vrtCypress
+              ;;
+          "Week 4 - Monkey Testing - Ghost 3.41.1 (Random monkey version)")
+              echo
+              printBox "Week 4 - Monkey Testing" "" "Ghost 3.41.1 (Random monkey version)"
+              sleep 2
+              ask "Are you ready to continue with monkey testing?"
+              sleep 2
+              randomMonkey
+              ;;
+          "Week 4 - Smart Monkey Testing - Ghost 4.44.0 (Smart monkey version)")
+              echo
+              printBox "Week 4 - Smart Monkey Testing" "" "Ghost 4.44.0 (Smart monkey version)"
+              sleep 2
+              ask "Are you ready to continue with smart monkey testing?"
+              sleep 2
+              smartMonkey
+              ;;
+          "Week 4 - Ripper RiPuppet - Ghost 3.41.1")
+              echo
+              printBox "Week 4 - Ripper RiPuppet" "" "Ghost 3.41.1"
+              sleep 2
+              ask "Are you ready to continue with ripper testing?"
+              sleep 2
+              initRiPuppetCoursera
+              sleep 2
+              generateConfigFile "localhost:3001"
+              sleep 2
+              runRiPuppetCoursera
+              sleep 2
+              showRiPuppetReport
+              cd ..
+              ;;
+          "Week 4 - Ripper RiPuppet - Ghost 4.44.0")
+              echo
+              printBox "Week 4 - Ripper RiPuppet" "" "Ghost 4.44.0"
+              sleep 2
+              ask "Are you ready to continue with ripper testing?"
+              sleep 2
+              initRiPuppetCoursera
+              sleep 2
+              generateConfigFile "localhost:3002"
+              sleep 2
+              runRiPuppetCoursera
+              sleep 2
+              showRiPuppetReport
+              cd ..
+              ;;
+          "Quit")
+              break
+              ;;
+          *) echo "invalid option $REPLY";;
+      esac
+  done
   echo "Successfully finished!"
   exit 0
 }
