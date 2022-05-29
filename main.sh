@@ -196,7 +196,7 @@ function restartContainers() {
 function initRiPuppetCoursera() {
   echo
   echo "Cloning RIPuppetCoursera repository..."
-  rm -rf RIPuppetCoursera && git clone git@github.com:TheSoftwareDesignLab/RIPuppetCoursera.git
+  rm -rf RIPuppetCoursera && git clone https://github.com/TheSoftwareDesignLab/RIPuppetCoursera.git
   sleep 2
   echo "Installing RIPuppetCoursera node dependencies..."
   cd RIPuppetCoursera && rm -rf node_modules && rm -rf package-lock.json && npm install
