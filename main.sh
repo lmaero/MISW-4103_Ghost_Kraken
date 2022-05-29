@@ -193,6 +193,47 @@ function restartContainers() {
   sleep 2
 }
 
+function initRiPuppetCoursera() {
+  echo
+  echo "Clonning RIPuppetCoursera git repository..."
+  git clone git@github.com:TheSoftwareDesignLab/RIPuppetCoursera.git
+  sleep 2
+  echo "Installing RiPuppet Coursera node dependencies..."
+  cd RIPuppetCoursera && rm -rf node_modules && rm -rf package-lock.json && npm install
+  sleep 2
+  echo "Node dependencies installed successfully!!"
+}
+
+function generateConfigFile() {
+  echo
+echo "Generate RiPuppet configuration file..."
+sleep 2
+json_data=$(cat <<EOF
+{
+    "url": "$1",
+    "headless": true,
+    "depthLevels": 1,
+    "inputValues": false,
+    "values": {},
+    "browsers": ["chromium", "firefox", "webkit"]
+}
+EOF
+)
+echo "$json_data";
+sleep 2
+echo "RiPuppet Config file JSON generated successfully!!!"
+echo "$json_data" > config.json
+}
+
+function runRiPuppetCoursera() {
+  echo "Running RiPuppet..."
+  node index.js
+  sleep 2
+  echo "Starting http-server to serve Ripper results..."
+  sleep 2
+  npx http-server -p 8081 results &
+}
+
 function main() {
   printBox "Welcome to the last step of this journey" \
     "" \
@@ -269,6 +310,26 @@ function main() {
   ask "Are you ready to continue with smart monkey testing?"
   sleep 2
   smartMonkey
+
+  printBox "Week 4 - Ripper RiPuppet" "" "Ghost 3.41.1"
+  sleep 2
+  ask "Are you ready to continue with ripper testing?"
+  sleep 2
+  initRiPuppetCoursera
+  sleep 2
+  generateConfigFile "localhost:3001"
+  sleep 2
+  runRiPuppetCoursera
+
+  printBox "Week 4 - Ripper RiPuppet" "" "Ghost 4.44.0"
+  sleep 2
+  ask "Are you ready to continue with ripper testing?"
+  sleep 2
+  generateConfigFile "localhost:3002"
+  sleep 2
+  runRiPuppetCoursera
+  sleep 2
+  cd ..
 
   echo "Successfully finished!"
 }
