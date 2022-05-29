@@ -17,11 +17,11 @@ function printBox() {
   echo "| ${b//?/ } |
  -${b//?/-}-"
   tput sgr 0
-  sleep 3
+  sleep 2
 }
 
 function ask() {
-  read -p "$1 [Y/n]: " -n 1 answer
+  read -r -p "$1 [Y/n]: " -n 1 answer
   if [ "$answer" == 'n' ]; then
     echo
     echo "Okay, please verify that."
@@ -29,7 +29,6 @@ function ask() {
     exit 0
   fi
   echo
-  sleep 1
 }
 
 function vrtCreateRef() {
@@ -195,44 +194,45 @@ function restartContainers() {
 
 function initRiPuppetCoursera() {
   echo
-  echo "Clonning RIPuppetCoursera git repository..."
+  echo "Cloning RIPuppetCoursera repository..."
   rm -rf RIPuppetCoursera && git clone git@github.com:TheSoftwareDesignLab/RIPuppetCoursera.git
   sleep 2
-  echo "Installing RiPuppet Coursera node dependencies..."
+  echo "Installing RIPuppetCoursera node dependencies..."
   cd RIPuppetCoursera && rm -rf node_modules && rm -rf package-lock.json && npm install
   sleep 2
   echo
-  echo "Node dependencies installed successfully!!"
+  echo "Node dependencies were installed successfully!"
 }
 
 function generateConfigFile() {
-echo
-echo "Generate RiPuppet configuration file..."
-sleep 2
-json_data=$(cat <<EOF
-{
-    "url": "$1",
-    "headless": true,
-    "depthLevels": 1,
-    "inputValues": false,
-    "values": {},
-    "browsers": ["chromium", "firefox", "webkit"]
-}
+  echo
+  echo "Generating RIPuppet configuration file..."
+  sleep 2
+  json_data=$(
+    cat <<-EOF
+  {
+      "url": "$1",
+      "headless": true,
+      "depthLevels": 1,
+      "inputValues": false,
+      "values": {},
+      "browsers": ["chromium", "firefox", "webkit"]
+  }
 EOF
-)
-echo "$json_data";
-sleep 2
-echo
-echo "RiPuppet Config file JSON generated successfully!!!"
-echo "$json_data" > config.json
+  )
+  echo "$json_data"
+  sleep 2
+  echo
+  echo "RIPuppet configuration file JSON generated successfully!"
+  echo "$json_data" >config.json
 }
 
 function runRiPuppetCoursera() {
   echo
-  echo "Running RiPuppet..."
+  echo "Running RIPuppet..."
   node index.js
   sleep 2
-  echo "RiPuppet finished successfully!"
+  echo "RIPuppet finished successfully!"
 }
 
 function showRiPuppetReport() {
@@ -246,15 +246,14 @@ function showRiPuppetReport() {
 
 function stopService() {
   touch temp.text
-  lsof -n -i4TCP:$1 | awk '{print $2}' > temp.text
-  pidToStop=`(sed '2q;d' temp.text)`
-  > temp.text
-  if [[ -n $pidToStop ]]
-  then
-    kill -9 $pidToStop
-    echo "Congrates!! $1 is stopped."
+  lsof -n -i4TCP:"$1" | awk '{print $2}' >temp.text
+  pidToStop=$(sed '2q;d' temp.text)
+  : >temp.text
+  if [[ -n $pidToStop ]]; then
+    kill -9 "$pidToStop"
+    echo "Congrats! $1 is stopped."
   else
-    echo "Sorry nothing running on above port"
+    echo "Sorry nothing is running on above port"
   fi
   rm temp.text
 }
@@ -270,17 +269,19 @@ function main() {
     "" \
     "This script will run the following tests: " \
     "" \
-    "- Week 7 - Data Generation with Cypress over Ghost 3.41.1 (Time: ~13m)" \
-    "- Week 6 - Visual Regression Testing using Backstop.js over Ghost 3.41.1 and Ghost 4.44.0 (Kraken version) (Time: ~5m)" \
-    "- Week 6 - Visual Regression Testing using Backstop.js over Ghost 3.41.1 and Ghost 4.44.0 (Cypress version) (Time: ~3m)" \
-    "- Week 5 - E2E testing over Ghost 3.41.1 and Ghost 4.44.0 (Kraken version) (Time: ~5m)" \
-    "- Week 5 - E2E testing over Ghost 3.41.1 and Ghost 4.44.0 (Cypress version) (Time: ~3m)" \
+    "- Preliminary steps (Time: ~2m)" \
+    "" \
+    "- Week 7 - Data Generation with Cypress over Ghost 3.41.1 (Time: ~12m)" \
+    "- Week 5 - E2E testing over Ghost 3.41.1 and Ghost 4.44.0 (Kraken version) (Time: ~9m)" \
+    "- Week 6 - Visual Regression Testing using Backstop.js over Ghost 3.41.1 and Ghost 4.44.0 (Kraken version) (Time: ~2m)" \
+    "- Week 5 - E2E testing over Ghost 3.41.1 and Ghost 4.44.0 (Cypress version) (Time: ~5m)" \
+    "- Week 6 - Visual Regression Testing using Backstop.js over Ghost 3.41.1 and Ghost 4.44.0 (Cypress version) (Time: ~2m)" \
     "- Week 4 - Random monkey (Exploratory tests) over Ghost 3.41.1 (Cypress version) (Time: ~1m)" \
     "- Week 4 - Smart monkey (Exploratory tests) over Ghost 4.44.0 (Cypress version) (Time: ~3m)" \
     "- Week 4 - Ripper RiPuppet (Exploratory tests) over Ghost 3.41.1 (Time: ~3m)" \
     "- Week 4 - Ripper RiPuppet (Exploratory tests) over Ghost 4.44.0 (Time: ~3m)" \
     "" \
-    "Please be patient, you'll need approximately 30 minutes." \
+    "Please be patient, you'll need approximately 35 minutes to complete the whole test suite." \
     "Take a beer while we execute everything." \
     "" \
     "We'll be asking for confirmation to continue, so please pay attention."
@@ -360,6 +361,7 @@ function main() {
   cd ..
 
   echo "Successfully finished!"
+  exit 0
 }
 
 main
