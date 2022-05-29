@@ -59,6 +59,7 @@ function vrtCypress() {
   restartContainers &&
     echo &&
     echo "Running Cypress tests..." &&
+    rm -rf screenshots &&
     npx cypress run --headless --spec "cypress/integration/semana6/*.spec.js" &&
     echo "Moving Cypress images..." &&
     mkdir --parents screenshots/cypress &&
@@ -279,6 +280,8 @@ function showMenu() {
       printBox "Week 7 - Data Generation with Cypress over Ghost 3.41.1"
       sleep 2
       ask "We're about to start Data Generation testing, are you ready to continue?"
+      sleep 2
+      restartContainers
       sleep 2
       npx cypress run --headless --config video=false --spec "cypress/integration/semana7/*.spec.js"
       showMenu
