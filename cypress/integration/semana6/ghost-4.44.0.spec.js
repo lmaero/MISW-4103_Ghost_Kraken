@@ -179,9 +179,11 @@ describe("Feature: Page Ghost 4.44.0", () => {
 
       // And I click in "button.settings-menu-delete-button"
       Actions.getAndClick("button.settings-menu-delete-button");
+      cy.wait(500);
 
       // And I click in "button.gh-btn-red"
       Actions.getAndClick("button.gh-btn-red");
+      cy.wait(500);
 
       // Then I navigate to page "<NEW_URL_4>"
       Actions.navigateToPage(props.NEW_URL_4);
