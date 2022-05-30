@@ -242,6 +242,8 @@ function showRiPuppetReport() {
   stopService 8081
   npx http-server -p 8081 results &
   sleep 2
+  echo "Server is running over http://localhost:8081"
+  sleep 2
   open "http://127.0.0.1:8081"
 }
 
